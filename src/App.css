@@ -1,9 +1,7 @@
-.App {
-  text-align: center;
-  color: white;
-}
+
 .header {
   background-color: white;
+  text-align: center;
 }
 .buttons {
   padding: 4px;

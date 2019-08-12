@@ -1,9 +1,10 @@
-img{
-    height: 200px;
+.cartao {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
 }
-.header {
-    padding-bottom: 5px;
+
+.media {
+    height: 140;
 }

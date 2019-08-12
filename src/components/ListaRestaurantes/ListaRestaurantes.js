@@ -1,32 +1,54 @@
-import React, {Component} from 'react';
+import React from 'react';
 // import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
+
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
+
 import Typography from '@material-ui/core/Typography';
 
-import LeBrutoImg from './../../assets/lebruto.jpg'
+import LeBrutoImg from './../../assets/lebruto.png'
+import TheDogFatherImg from './../../assets/theDogFather.jpg'
 
 // const useStyles = makeStyles({
 //   card: {
 //     maxWidth: 345,
 //   },
-//   media: {
-//     height: 140,
-//   },
 // });
-// const classes = useStyles();
-class ListaRestaurantes extends Component {
-  
-  render(){
+
+import './listaRestaurantes.css'
+
+export default function ImgMediaCard() {
+  // const classes = useStyles();
+
   return (
-    <Card >
+    <div>
+    <Card className="cartao">
       <CardActionArea>
         <CardMedia
-          
+          component="img"
+          alt="Contemplative Reptile"
+          height="10"
+          image={TheDogFatherImg}
+          title="Contemplative Reptile"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            The Dog Father
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+            O melhor em Premium Hot Dogs, cerveja gelada, Milk Shakes e muito mais. Traga a sua família e amigos para momentos de descontração garantidos! *Veja o Cardápio*
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+    <Card className="cartao">
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          alt="Contemplative Reptile"
+          height="10"
           image={LeBrutoImg}
           title="Contemplative Reptile"
         />
@@ -35,19 +57,11 @@ class ListaRestaurantes extends Component {
             Le Bruto
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-						Variedade em hambúrgueres com toque gourmet e opção em saladas e batatas, sobremesas e decoração rústica.
+          Variedade em hambúrgueres com toque gourmet e opção em saladas e batatas, sobremesas e decoração rústica. *Veja o Cardápio*
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Ver Menu!
-        </Button>
-        
-      </CardActions>
     </Card>
-	);
-	}
+    </div>
+  );
 }
-
-export default ListaRestaurantes;
