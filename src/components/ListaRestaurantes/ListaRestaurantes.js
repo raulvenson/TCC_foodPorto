@@ -5,10 +5,10 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-
 import Typography from '@material-ui/core/Typography';
+// import {Link} from 'react-router-dom'
 
-import LeBrutoImg from './../../assets/lebruto.png'
+import LeBrutoImg from './../../assets/lebruto.jpg'
 import TheDogFatherImg from './../../assets/theDogFather.jpg'
 
 // const useStyles = makeStyles({
@@ -24,6 +24,7 @@ export default function ImgMediaCard() {
 
   return (
     <div>
+    
     <Card className="cartao">
       <CardActionArea>
         <CardMedia
@@ -43,6 +44,7 @@ export default function ImgMediaCard() {
         </CardContent>
       </CardActionArea>
     </Card>
+    
     <Card className="cartao">
       <CardActionArea>
         <CardMedia
