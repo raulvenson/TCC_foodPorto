@@ -6,7 +6,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 import LeBrutoImg from './../../assets/lebruto.jpg'
 import TheDogFatherImg from './../../assets/theDogFather.jpg'
@@ -24,7 +24,7 @@ export default function ImgMediaCard() {
 
   return (
     <div>
-    
+    <Link to="/cardapioTGF">
     <Card className="cartao">
       <CardActionArea>
         <CardMedia
@@ -44,7 +44,7 @@ export default function ImgMediaCard() {
         </CardContent>
       </CardActionArea>
     </Card>
-    
+    </Link>
     <Card className="cartao">
       <CardActionArea>
         <CardMedia

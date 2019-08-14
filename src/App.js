@@ -1,17 +1,20 @@
 import React from 'react';
-
+import {HashRouter} from 'react-router-dom';
 
 import Header from './components/Header/Header'
-import ListaRestaurantes from './components/ListaRestaurantes/ListaRestaurantes'
+
 
 import './App.css';
+import Routes from './Routes';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-			<ListaRestaurantes />
-    </div>  
+    <HashRouter>
+      <div className="App">
+        <Header />
+        <Routes /> 
+      </div> 
+    </HashRouter> 
   );
 }
 
