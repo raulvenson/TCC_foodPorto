@@ -8,7 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import {Link} from 'react-router-dom'
 
-import LeBrutoImg from './../../assets/lebruto.jpg'
+import LeBrutoImg from './../../assets/lebruto.png'
 import TheDogFatherImg from './../../assets/theDogFather.jpg'
 
 // const useStyles = makeStyles({
@@ -24,7 +24,7 @@ export default function ImgMediaCard() {
 
   return (
     <div>
-    <Link to="/cardapioTGF">
+    <Link to="/cardapioTGF" style={{ textDecoration: 'none' }}>
     <Card className="cartao">
       <CardActionArea>
         <CardMedia
@@ -45,6 +45,7 @@ export default function ImgMediaCard() {
       </CardActionArea>
     </Card>
     </Link>
+    <Link to="/cardapioLB" style={{ textDecoration: 'none' }}>
     <Card className="cartao">
       <CardActionArea>
         <CardMedia
@@ -64,6 +65,7 @@ export default function ImgMediaCard() {
         </CardContent>
       </CardActionArea>
     </Card>
+    </Link>
     </div>
   );
 }
