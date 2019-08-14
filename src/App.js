@@ -1,13 +1,16 @@
 import React from 'react';
 
-import Home from './components/Home/Home'
+
+import Header from './components/Header/Header'
+import ListaRestaurantes from './components/ListaRestaurantes/ListaRestaurantes'
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Home/> 
+      <Header />
+			<ListaRestaurantes />
     </div>  
   );
 }
