@@ -24,6 +24,7 @@ export default function ImgMediaCard() {
 
   return (
     <div>
+    <div className="restaurante">
     <Link to="/cardapioTGF" style={{ textDecoration: 'none' }}>
     <Card className="cartao">
       <CardActionArea>
@@ -45,6 +46,7 @@ export default function ImgMediaCard() {
       </CardActionArea>
     </Card>
     </Link>
+    </div>
     <Link to="/cardapioLB" style={{ textDecoration: 'none' }}>
     <Card className="cartao">
       <CardActionArea>

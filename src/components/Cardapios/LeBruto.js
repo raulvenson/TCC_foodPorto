@@ -47,14 +47,14 @@ const ExpansionPanelDetails = withStyles(theme => ({
 }))(MuiExpansionPanelDetails);
 
 export default function CustomizedExpansionPanels() {
-  const [expanded, setExpanded] = React.useState('panel1');
+  const [expanded, setExpanded] = React.useState('');
 
   const handleChange = panel => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
   };
 
   return (
-    <div>
+    <div className="cardapio">
       <ExpansionPanel square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
           <Typography>Bebidas!</Typography>

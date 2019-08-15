@@ -4,6 +4,10 @@ import MuiExpansionPanel from '@material-ui/core/ExpansionPanel';
 import MuiExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import MuiExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container'
+
+import './TheDogFather.css'
+import TDFicon from './../../assets/TDFicon.jpg'
 
 const ExpansionPanel = withStyles({
   root: {
@@ -47,17 +51,20 @@ const ExpansionPanelDetails = withStyles(theme => ({
 }))(MuiExpansionPanelDetails);
 
 export default function CustomizedExpansionPanels() {
-  const [expanded, setExpanded] = React.useState('panel1');
+  const [expanded, setExpanded] = React.useState('  ');
 
   const handleChange = panel => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
   };
 
   return (
-    <div>
+    <div className="cardapio">
+      <Container className="img">
+        <img src={TDFicon} width="100px" height="100px" />
+      </Container>
       <ExpansionPanel square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>Bebidas!</Typography>
+          <Typography className="text">Bebidas!</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
@@ -85,6 +92,20 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       <ExpansionPanel square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
+          <Typography>Combos!</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            <ul>
+              <li>Hot Dog Simples + Guaraná</li>
+              <li>Hot Dog Bacon + Coca-Cola</li>
+              <li>Hot Dog Calabresa + Água</li>
+            </ul>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+        <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
           <Typography>Combos!</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>

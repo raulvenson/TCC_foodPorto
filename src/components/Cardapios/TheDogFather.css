@@ -1,0 +1,11 @@
+.cardapio {
+    width: 450px; 
+}
+.text{
+    text-align: center;
+}
+.img {
+    background-color: rgba(122, 122, 122, 0.438);
+    height: 50px;
+    justify-content: left
+}

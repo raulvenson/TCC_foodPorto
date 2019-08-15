@@ -9,9 +9,9 @@ import './header.css'
 class Header extends Component {	
 	render() {
 		return(
-			<div>
+			<div className="header">
 				<Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}>
-				<Container className="header">
+				<Container >
 					<Row>
 						<img alt="Logo do Food Park Porto" src={FoodPortoImg} />
 					</Row>
