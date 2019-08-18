@@ -25,7 +25,7 @@ export default function ImgMediaCard() {
   return (
     <div>
     <div className="restaurante">
-    <Link to="/cardapioTGF" style={{ textDecoration: 'none' }}>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Card className="cartao">
       <CardActionArea>
         <CardMedia

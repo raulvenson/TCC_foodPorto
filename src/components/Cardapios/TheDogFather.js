@@ -4,10 +4,19 @@ import MuiExpansionPanel from '@material-ui/core/ExpansionPanel';
 import MuiExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import MuiExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container'
+// import Container from '@material-ui/core/Container';
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
 
 import './TheDogFather.css'
 import TDFicon from './../../assets/TDFicon.jpg'
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    padding: theme.spacing(1.5 , 1),
+    marginBottom: 6,
+  },
+}));
 
 const ExpansionPanel = withStyles({
   root: {
@@ -51,6 +60,8 @@ const ExpansionPanelDetails = withStyles(theme => ({
 }))(MuiExpansionPanelDetails);
 
 export default function CustomizedExpansionPanels() {
+  const classes = useStyles();
+
   const [expanded, setExpanded] = React.useState('  ');
 
   const handleChange = panel => (event, newExpanded) => {
@@ -59,12 +70,19 @@ export default function CustomizedExpansionPanels() {
 
   return (
     <div className="cardapio">
-      <Container className="img">
-        <img src={TDFicon} width="100px" height="100px" />
-      </Container>
+     <Paper className={classes.root}>
+        <Typography variant="h5" component="h3">
+          <img src={TDFicon}  className="img" alt=" The Dog Father icon"/>
+          The Dog Father
+        </Typography>
+        <Typography component="p">
+          
+        </Typography>
+      </Paper>
+      
       <ExpansionPanel square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography className="text">Bebidas!</Typography>
+          <Typography>Bebidas!</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>

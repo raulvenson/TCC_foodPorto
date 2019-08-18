@@ -8,7 +8,7 @@ import LeBruto from './components/Cardapios/LeBruto'
 export default props =>
     <Switch>
         <Route exact path="/listaRestaurantes" component={ListaRestaurantes}/>
-        <Route path="/cardapioTGF" component={TheDogFather} />
+        <Route path="/cardapioTDF" component={TheDogFather} />
         <Route path="/cardapioLB" component={LeBruto} />
         <Redirect from='*' to="/listaRestaurantes" />
     </Switch>
