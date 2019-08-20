@@ -56,10 +56,10 @@ export default function ImgMediaCard() {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Contemplative Reptile"
+          alt="The DogFather logo"
           height="10"
           image={LeBrutoImg}
-          title="Contemplative Reptile"
+          title="The DogFather logo"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

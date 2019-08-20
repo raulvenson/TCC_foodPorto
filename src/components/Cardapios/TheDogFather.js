@@ -7,11 +7,13 @@ import Typography from '@material-ui/core/Typography';
 // import Container from '@material-ui/core/Container';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
+import {Link} from 'react-router-dom';
 import { FaWhatsapp } from 'react-icons/fa';
 
-import {Link} from 'react-router-dom';
 
 import { TiArrowBackOutline } from 'react-icons/ti';
+
+
 
 import './TheDogFather.css'
 import TDFicon from './../../assets/TDFicon.jpg'
@@ -113,7 +115,7 @@ export default function CustomizedExpansionPanels() {
             </Paper>
             <Paper className={classes.root}>
               <Typography variant="h6" component="h6">
-                Porção de salsicha Artesanal
+                Porção de Salsicha Artesanal
               </Typography>
               <Typography>
                 Salsicha suína e bovina artesanal berna, acompanhada de pão alemão, barbecue e mostarda amarela.
@@ -329,14 +331,17 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <div>
+      <a href="https://api.whatsapp.com/send?phone=5565999271048&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!" style={{ textDecoration: 'none' }}>
         <Paper className='wpp'>
           <Typography variant="h5" component="h3">
           
-            Peça seu lanche agora! 
-            <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><FaWhatsapp className="wpp-icon"/></Link>
+            <span className='text'>Faça seu pedido agora!&nbsp;</span> 
+            <FaWhatsapp className="icon-whatsapp"/>
           </Typography>
         </Paper>
-    </div>
+      </a> 
+      </div>
+    
     </div>
   );
 }

@@ -28,6 +28,13 @@
 
 .wpp{
     position:absolute;
-    bottom:0;
+    height: 35px;
     width:100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.icon-whatsapp {
+    width: 25px;
+    height: 25px;
+    color: rgb(1, 153, 9);  
 }
