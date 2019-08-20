@@ -1,7 +1,7 @@
 .cartao {
 
     display: block;
-    width: 450px;
+    max-width: 425px;
     padding-bottom: 10px;
     display: flex;
     flex-direction: row;
@@ -13,6 +13,6 @@
 .media {
     height: 140;
 }
-.restaurante {
-    
+.wpp {
+    position: fixed;
 }

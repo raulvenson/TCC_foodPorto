@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 // import Container from '@material-ui/core/Container';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
+import { FaWhatsapp } from 'react-icons/fa';
 
 import {Link} from 'react-router-dom';
 
@@ -327,6 +328,15 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
+      <div>
+        <Paper className='wpp'>
+          <Typography variant="h5" component="h3">
+          
+            Peça seu lanche agora! 
+            <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><FaWhatsapp className="wpp-icon"/></Link>
+          </Typography>
+        </Paper>
+    </div>
     </div>
   );
 }

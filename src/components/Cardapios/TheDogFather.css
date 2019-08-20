@@ -1,10 +1,10 @@
 .cardapio {
-    width: 450px; 
+    max-width: 425px; 
 }
 .text{
     text-align: center;
 }
-.img {
+.img {  
     background-color: rgba(122, 122, 122, 0.438);
     height: 50px;
     float: left;
@@ -24,4 +24,10 @@
     width: 35px;
     height: 35px;
     color: black;
+}
+
+.wpp{
+    position:absolute;
+    bottom:0;
+    width:100%;
 }

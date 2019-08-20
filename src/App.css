@@ -10,7 +10,16 @@
 .listaRestaurantes{
   padding: 10px 0px 0px 0px;
 }
+.App{
 
+  /* pura mágica */
+  position: absolute;
+   /* posiciona na metade da tela */
+   /* e retrocede metade da altura */
+  /* posiciona na metade da tela */
+
+   /* e retrocede metade da largura */
+}
 
 
 
