@@ -11,19 +11,21 @@ import {Link} from 'react-router-dom'
 import LeBrutoImg from './../../assets/lebruto.png'
 import TheDogFatherImg from './../../assets/theDogFather.jpg'
 
+import './listaRestaurantes.css'
+import Header from '../Header/Header';
+
 // const useStyles = makeStyles({
 //   card: {
 //     maxWidth: 345,
 //   },
 // });
 
-import './listaRestaurantes.css'
-
 export default function ImgMediaCard() {
   // const classes = useStyles();
 
   return (
     <div>
+      <Header/>
     <div className="restaurante">
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Card className="cartao">
@@ -37,7 +39,7 @@ export default function ImgMediaCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            The Dog Father
+            The DogFather
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             O melhor em Premium Hot Dogs, cerveja gelada, Milk Shakes e muito mais. Traga a sua família e amigos para momentos de descontração garantidos! *Veja o Cardápio*

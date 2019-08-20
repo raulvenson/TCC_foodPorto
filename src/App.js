@@ -1,7 +1,7 @@
 import React from 'react';
 import {HashRouter} from 'react-router-dom';
 
-import Header from './components/Header/Header'
+// import Header from './components/Header/Header'
 
 
 import './App.css';
@@ -11,7 +11,7 @@ function App() {
   return (
     <HashRouter>
       <div className="App">
-        <Header />
+        {/* <Header /> */}
         <Routes /> 
       </div> 
     </HashRouter> 
