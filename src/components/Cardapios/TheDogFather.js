@@ -8,8 +8,8 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
-import { FaWhatsapp } from 'react-icons/fa';
-
+// import { FaWhatsapp } from 'react-icons/fa';
+import Whats_qld from '../../assets/whats_qld.png';
 
 import { TiArrowBackOutline } from 'react-icons/ti';
 
@@ -330,15 +330,9 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <div>
+      <div className="wpp">
       <a href="https://api.whatsapp.com/send?phone=5565999271048&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!" style={{ textDecoration: 'none' }}>
-        <Paper className='wpp'>
-          <Typography variant="h5" component="h3">
-          
-            <span className='text'>Faça seu pedido agora!&nbsp;</span> 
-            <FaWhatsapp className="icon-whatsapp"/>
-          </Typography>
-        </Paper>
+        <img className="wpp" src={Whats_qld} alt="link para chat WhatsApp"/>
       </a> 
       </div>
     
