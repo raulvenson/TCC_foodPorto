@@ -28,7 +28,10 @@
 .wpp{
     height: 90px;
     width: auto;
-    margin-bottom: 10px;
+    
+    position: fixed;
+    bottom:0;
+    left:0;
 }
 .icon-whatsapp {
     width: 25px;
