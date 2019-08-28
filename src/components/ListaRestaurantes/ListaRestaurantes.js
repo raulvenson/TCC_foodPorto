@@ -1,77 +1,197 @@
 import React from 'react';
-// import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
 
-
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
+import Paper from '@material-ui/core/Paper';
+
 import {Link} from 'react-router-dom'
 
 
-import LeBrutoImg from './../../assets/lebruto.png'
+import LeBrutoImg from './../../assets/lebrutoMenor.png'
 import TheDogFatherImg from './../../assets/theDogFather.jpg'
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
 
-// const useStyles = makeStyles({
-//   card: {
-//     maxWidth: 345,
-//   },
-// });
+
 
 export default function ImgMediaCard() {
-  // const classes = useStyles();
+
 
   return (
     <div>
       <Header/>
     <div className="restaurante">
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Card className="cartao">
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          alt="Contemplative Reptile"
-          height="10"
-          image={TheDogFatherImg}
-          title="Contemplative Reptile"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            The DogFather
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            O melhor em Premium Hot Dogs, cerveja gelada, Milk Shakes e muito mais. Traga a sua família e amigos para momentos de descontração garantidos! *Veja o Cardápio*
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }} >
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        The DogFather
+        
+      </Typography>
+    </Paper>
     </Link>
-    </div>
     <Link to="/cardapioLB" style={{ textDecoration: 'none' }}>
-    <Card className="cartao">
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          alt="The DogFather logo"
-          height="10"
-          image={LeBrutoImg}
-          title="The DogFather logo"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Le Bruto
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-          Variedade em hambúrgueres com toque gourmet e opção em saladas e batatas, sobremesas e decoração rústica. *Veja o Cardápio*
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={LeBrutoImg}  className="img" alt=" Le Bruto icon"/>
+        Le Bruto
+      </Typography>
+    </Paper>
     </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Paper className="paper">
+      <Typography variant="h5" component="h3">
+        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        Exemplo
+      </Typography>
+    </Paper>
+    </Link>
+
+    </div>
     </div>
   );
 }
