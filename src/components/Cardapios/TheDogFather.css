@@ -1,5 +1,6 @@
 .cardapio {
-    max-width: 425px; 
+    max-width: 425px;
+    background-image: url('../../assets/background.jpg')
 }
 .text{
     text-align: center;

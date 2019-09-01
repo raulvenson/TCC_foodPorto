@@ -10,6 +10,7 @@ import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
 // import { FaWhatsapp } from 'react-icons/fa';
 import Whats_qld from '../../assets/whats_qld.png';
+import Row from 'react-bootstrap';
 
 import { TiArrowBackOutline } from 'react-icons/ti';
 
@@ -92,6 +93,8 @@ export default function CustomizedExpansionPanels() {
         <ExpansionPanelDetails>
           <Typography>
             <Paper className={classes.root}>
+              <Row>
+              <img src={TDFicon} alt="peganomeupau" height="10px"/>
               <Typography variant="h6" component="h6">
                 Fritas TDF com Bacon e Cheddar 
               </Typography>
@@ -101,6 +104,7 @@ export default function CustomizedExpansionPanels() {
               <Typography className="preco">
                 A partir de R$18,90
               </Typography>
+              </Row>
             </Paper>
             <Paper className={classes.root}>
               <Typography variant="h6" component="h6">

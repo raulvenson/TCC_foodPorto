@@ -16,3 +16,6 @@
     margin-bottom: 5px;
     max-width: 425px;
 }
+.background {
+    background-image: url('../../assets/background.jpg')
+}

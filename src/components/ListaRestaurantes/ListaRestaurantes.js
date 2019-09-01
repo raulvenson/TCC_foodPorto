@@ -6,7 +6,7 @@ import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom'
 
 
-import LeBrutoImg from './../../assets/lebrutoMenor.png'
+import LeBrutoImg from './../../assets/LeBruto.png'
 import TheDogFatherImg from './../../assets/theDogFather.jpg'
 
 import './listaRestaurantes.css'
@@ -18,7 +18,7 @@ export default function ImgMediaCard() {
 
 
   return (
-    <div>
+    <div className="background">
       <Header/>
     <div className="restaurante">
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }} >
@@ -86,111 +86,6 @@ export default function ImgMediaCard() {
       </Typography>
     </Paper>
     </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <Typography variant="h5" component="h3">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </Typography>
-    </Paper>
-    </Link>
-
     </div>
     </div>
   );
