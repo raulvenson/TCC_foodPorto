@@ -1,24 +1,11 @@
-.cartao {
-    margin-top: 10px; 
-    max-width: 425px;
-            
-}
-
-.media {
-    height: 140;
-}
-.wpp {
-    position: fixed;    
-}
 
 .paper {
     padding: 10px;
     margin-bottom: 5px;
     max-width: 425px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
 }
-.background {
-    background-image: url('../../assets/background.jpg')
-}
-.font {
-    font-family: 'Dancing Script', cursive;
-}
+
