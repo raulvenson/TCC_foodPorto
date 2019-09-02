@@ -39,3 +39,10 @@
     height: 40px;
     color: rgb(1, 153, 9);  
 }
+@font-face {
+    font-family: 'Coolvetica', cursive;
+    src: url('../../assets/fonts/coolveticacondensedrg.ttf')
+}
+.font {
+    font-family: 'Dancing Script', cursive;
+}

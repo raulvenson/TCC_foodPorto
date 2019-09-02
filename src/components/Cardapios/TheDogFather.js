@@ -10,7 +10,7 @@ import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
 // import { FaWhatsapp } from 'react-icons/fa';
 import Whats_qld from '../../assets/whats_qld.png';
-import Row from 'react-bootstrap';
+// import Row from 'react-bootstrap';
 
 import { TiArrowBackOutline } from 'react-icons/ti';
 
@@ -90,21 +90,22 @@ export default function CustomizedExpansionPanels() {
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
           <Typography>Entradas</Typography>
         </ExpansionPanelSummary>
+        <h1 className="font">TOOPP</h1>
         <ExpansionPanelDetails>
           <Typography>
             <Paper className={classes.root}>
-              <Row>
+             
               <img src={TDFicon} alt="peganomeupau" height="10px"/>
-              <Typography variant="h6" component="h6">
+              <Typography variant="h6" component="h6" className="font">
                 Fritas TDF com Bacon e Cheddar 
               </Typography>
-              <Typography>
+              <Typography className="font">
                 Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar.
               </Typography>
-              <Typography className="preco">
+              <Typography className="preco font">
                 A partir de R$18,90
               </Typography>
-              </Row>
+              
             </Paper>
             <Paper className={classes.root}>
               <Typography variant="h6" component="h6">

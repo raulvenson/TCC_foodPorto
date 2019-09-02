@@ -19,3 +19,6 @@
 .background {
     background-image: url('../../assets/background.jpg')
 }
+.font {
+    font-family: 'Dancing Script', cursive;
+}
