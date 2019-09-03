@@ -106,7 +106,7 @@ export default function CustomizedExpansionPanels() {
               <Typography className="font">
                 Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar.
               </Typography>
-              <Modal img="batata"/>
+              <Modal img="batata" h2="Fritas TDF com Bacon e Cheddar"/>
               <Typography className="preco font">
                 A partir de R$18,90
               </Typography>
@@ -119,7 +119,7 @@ export default function CustomizedExpansionPanels() {
               <Typography>
                 200g de onion rings, 200g de mussarela sticks e 300g de mini salsichas artesanais berna, acompanhadas de cheddar, barbecue e mostarda amarela.
               </Typography>
-              <Modal img="batata"/>
+              <Modal img="onionrings" h2="Mix TDF"/>
               <Typography className="preco">
                 A partir de R$38,90
               </Typography>
@@ -201,94 +201,6 @@ export default function CustomizedExpansionPanels() {
               </Paper>
               <Paper className={classes.root}>
                 <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
                   06 - Carmella
                 </Typography>
                 <Typography>
@@ -298,6 +210,95 @@ export default function CustomizedExpansionPanels() {
                   A partir de R$18,90
                 </Typography>
               </Paper>
+              <Paper className={classes.root}>
+                <Typography variant="h6" component="h6">
+                  01 - Fredo
+                </Typography>
+                <Typography>
+                  
+                </Typography>
+                <Typography className="preco">
+                  A partir de R$14,90
+                </Typography>
+              </Paper>
+              <Paper className={classes.root}>
+                <Typography variant="h6" component="h6">
+                  01 - Fredo
+                </Typography>
+                <Typography>
+                  
+                </Typography>
+                <Typography className="preco">
+                  A partir de R$14,90
+                </Typography>
+              </Paper>
+              <Paper className={classes.root}>
+                <Typography variant="h6" component="h6">
+                  01 - Fredo
+                </Typography>
+                <Typography>
+                  
+                </Typography>
+                <Typography className="preco">
+                  A partir de R$14,90
+                </Typography>
+              </Paper>
+              <Paper className={classes.root}>
+                <Typography variant="h6" component="h6">
+                  01 - Fredo
+                </Typography>
+                <Typography>
+                  
+                </Typography>
+                <Typography className="preco">
+                  A partir de R$14,90
+                </Typography>
+              </Paper>
+              <Paper className={classes.root}>
+                <Typography variant="h6" component="h6">
+                  01 - Fredo
+                </Typography>
+                <Typography>
+                  
+                </Typography>
+                <Typography className="preco">
+                  A partir de R$14,90
+                </Typography>
+              </Paper>
+              <Paper className={classes.root}>
+                <Typography variant="h6" component="h6">
+                  01 - Fredo
+                </Typography>
+                <Typography>
+                  
+                </Typography>
+                <Typography className="preco">
+                  A partir de R$14,90
+                </Typography>
+              </Paper>
+              <Paper className={classes.root}>
+                <Typography variant="h6" component="h6">
+                  01 - Fredo
+                </Typography>
+                <Typography>
+                  
+                </Typography>
+                <Typography className="preco">
+                  A partir de R$14,90
+                </Typography>
+              </Paper>
+              <Paper className={classes.root}>
+                <Typography variant="h6" component="h6">
+                  01 - Fredo
+                </Typography>
+                <Typography>
+                  
+                </Typography>
+                <Typography className="preco">
+                  A partir de R$14,90
+                </Typography>
+              </Paper>
+              
               <Paper className={classes.root}>
                 <Typography variant="h6" component="h6">
                   03 - Connie

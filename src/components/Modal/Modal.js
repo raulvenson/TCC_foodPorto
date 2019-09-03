@@ -4,7 +4,7 @@ import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 
-
+import './Modal.css'
 
 
 
@@ -37,7 +37,7 @@ export default props => {
 
   return (
     <div>
-      <button type="button" onClick={handleOpen}>
+      <button type="button" onClick={handleOpen} variant="contained" className={classes.button}>
         Visualizar prato
       </button>
       <Modal
@@ -54,7 +54,7 @@ export default props => {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <h2 id="transition-modal-title">Fritas TDF com Bacon e Cheddar</h2>
+            <h2 id="transition-modal-title">{props.h2}</h2>
             <div>{}</div>
             <img alt="foto de batata" src={require(`../../assets/cardapioTDF/${props.img}.jpg`)}/>
           </div>
