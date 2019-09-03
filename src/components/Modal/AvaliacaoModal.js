@@ -7,6 +7,8 @@ import Fade from '@material-ui/core/Fade';
 import './Modal.css'
 import { TiStarOutline } from 'react-icons/ti';
 
+import Box from '@material-ui/core/Box';
+import Rating from '@material-ui/lab/Rating';
 
 
 const useStyles = makeStyles(theme => ({
@@ -25,6 +27,7 @@ const useStyles = makeStyles(theme => ({
 
 export default props => {
   
+  const [value, setValue] = React.useState(2);
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
 
@@ -53,8 +56,19 @@ export default props => {
         }}
       >
         <Fade in={open}>
-          <div className={classes.paper}>
-            <h2 id="transition-modal-title">AVALIE O RESTAURANTE{props.h2}</h2>           
+          <div className={classes.paper}> 
+            <Box component="fieldset" mb={3} borderColor="transparent">
+              <h2 id="transition-modal-title">AVALIE O RESTAURANTE{props.h2}</h2>
+              <div id="transition-modal-title">Dê uma nota à qualidade do serviço:</div>
+              <Rating
+                className="rating"
+                name="simple-controlled"
+                value={value}
+                onChange={(event, newValue) => {
+                  setValue(newValue);
+                }}
+              />
+            </Box>          
           </div>
         </Fade>
       </Modal>
