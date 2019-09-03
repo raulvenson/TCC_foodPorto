@@ -57,7 +57,7 @@ export default props => {
       >
         <Fade in={open}>
           <div className={classes.paper}> 
-            <Box component="fieldset" mb={3} borderColor="transparent">
+            <Box component="fieldset" mb={1} borderColor="transparent">
               <h2 id="transition-modal-title">AVALIE O RESTAURANTE{props.h2}</h2>
               <div id="transition-modal-title">Dê uma nota à qualidade do serviço:</div>
               <Rating
