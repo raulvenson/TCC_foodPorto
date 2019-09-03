@@ -12,9 +12,10 @@ import {Link} from 'react-router-dom';
 import Whats_qld from '../../assets/whats_qld.png';
 // import Row from 'react-bootstrap';
 
-import { TiArrowBackOutline, TiStarOutline } from 'react-icons/ti';
+import { TiArrowBackOutline } from 'react-icons/ti';
 
 import Modal from '../Modal/Modal'
+import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 // import Batata from '../../assets/cardapioTDF/batata.jpg'
 
@@ -82,12 +83,16 @@ export default function CustomizedExpansionPanels() {
   return (
     <div className="cardapio">
      <Paper className={classes.root}>
-        <Typography variant="h5" component="h3">
+        <div className="font cabecalho">
           <img src={TDFicon}  className="img" alt=" The Dog Father icon"/>
           The DogFather
+        </div>    
+        <div className="cabecalho icones">
           <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><TiArrowBackOutline className="back-icon"/></Link>
-          <TiStarOutline className="back-icon" />
-        </Typography>
+        </div>
+        <div className="cabecalho icones">
+          <AvaliacaoModal className="avaliacao" />
+        </div>
       </Paper>
       
       <ExpansionPanel square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>

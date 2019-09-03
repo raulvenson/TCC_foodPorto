@@ -19,13 +19,6 @@
     color: rgb(1, 153, 9);
 }
 
-.back-icon {
-    float: right;
-    width: 35px;
-    height: 35px;
-    color: black;
-}
-
 .wpp{
     height: 90px;
      width: auto;
@@ -42,4 +35,25 @@
 
 .font {
     font-family: 'Coolvetica';
+}
+
+.cabecalho {
+    display: inline;
+    font-size: 30px;
+}
+.icones {
+    float: right;
+    width: 30px;
+}
+.back-icon {
+    margin-right: 0px;
+    width: 35px;
+    height: 35px;
+    color: black;
+}
+.avaliacao {
+    margin-right: 40px;
+    color: black;
+    width: 35px;
+    height: 35px;
 }
