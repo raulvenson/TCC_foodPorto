@@ -12,8 +12,11 @@ import {Link} from 'react-router-dom';
 import Whats_qld from '../../assets/whats_qld.png';
 // import Row from 'react-bootstrap';
 
-import { TiArrowBackOutline } from 'react-icons/ti';
+import { TiArrowBackOutline, TiStarOutline } from 'react-icons/ti';
 
+import Modal from '../Modal/Modal'
+
+// import Batata from '../../assets/cardapioTDF/batata.jpg'
 
 
 import './TheDogFather.css'
@@ -83,6 +86,7 @@ export default function CustomizedExpansionPanels() {
           <img src={TDFicon}  className="img" alt=" The Dog Father icon"/>
           The DogFather
           <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><TiArrowBackOutline className="back-icon"/></Link>
+          <TiStarOutline className="back-icon" />
         </Typography>
       </Paper>
       
@@ -90,18 +94,19 @@ export default function CustomizedExpansionPanels() {
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
           <Typography>Entradas</Typography>
         </ExpansionPanelSummary>
-        <h1 className="font">TOOPP</h1>
+        
         <ExpansionPanelDetails>
           <Typography>
             <Paper className={classes.root}>
              
-              <img src={TDFicon} alt="peganomeupau" height="10px"/>
+              
               <Typography variant="h6" component="h6" className="font">
-                Fritas TDF com Bacon e Cheddar 
+                Fritas TDF com Bacon e Cheddar
               </Typography>
               <Typography className="font">
                 Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar.
               </Typography>
+              <Modal img="Batata"/>
               <Typography className="preco font">
                 A partir de R$18,90
               </Typography>
@@ -114,6 +119,7 @@ export default function CustomizedExpansionPanels() {
               <Typography>
                 200g de onion rings, 200g de mussarela sticks e 300g de mini salsichas artesanais berna, acompanhadas de cheddar, barbecue e mostarda amarela.
               </Typography>
+              <Modal img="Batata"/>
               <Typography className="preco">
                 A partir de R$38,90
               </Typography>
