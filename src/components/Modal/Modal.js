@@ -4,7 +4,7 @@ import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 
-import Imagem from '../../assets/cardapioTDF/batata.jpg';
+
 
 
 
@@ -56,7 +56,7 @@ export default props => {
           <div className={classes.paper}>
             <h2 id="transition-modal-title">Fritas TDF com Bacon e Cheddar</h2>
             <div>{}</div>
-            <img alt="foto de batata" src={`../../assets/cardapioTDF/${props.img}`}/>
+            <img alt="foto de batata" src={require(`../../assets/cardapioTDF/${props.img}.jpg`)}/>
           </div>
         </Fade>
       </Modal>

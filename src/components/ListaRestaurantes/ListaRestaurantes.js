@@ -6,7 +6,7 @@ import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom'
 
 
-import LeBrutoImg from './../../assets/LeBruto.png'
+import LeBrutoImg from './../../assets/lebruto.png'
 import TheDogFatherImg from './../../assets/theDogFather.jpg'
 
 import './listaRestaurantes.css'
@@ -32,7 +32,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioLB" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font">
-        <img src={LeBrutoImg}  className="img" alt=" Le Bruto icon"/>
+        <img src={LeBrutoImg}   className="img img-lebruto" alt=" Le Bruto icon"/>
         Le Bruto
       </div>
     </Paper>

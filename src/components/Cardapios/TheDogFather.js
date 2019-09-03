@@ -106,7 +106,7 @@ export default function CustomizedExpansionPanels() {
               <Typography className="font">
                 Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar.
               </Typography>
-              <Modal img="Batata"/>
+              <Modal img="batata"/>
               <Typography className="preco font">
                 A partir de R$18,90
               </Typography>
@@ -119,7 +119,7 @@ export default function CustomizedExpansionPanels() {
               <Typography>
                 200g de onion rings, 200g de mussarela sticks e 300g de mini salsichas artesanais berna, acompanhadas de cheddar, barbecue e mostarda amarela.
               </Typography>
-              <Modal img="Batata"/>
+              <Modal img="batata"/>
               <Typography className="preco">
                 A partir de R$38,90
               </Typography>
