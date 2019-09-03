@@ -6,7 +6,7 @@ import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom'
 
 
-import LeBrutoImg from './../../assets/lebruto.png'
+import LeBrutoImg from './../../assets/lebruto.png' 
 import TheDogFatherImg from './../../assets/theDogFather.jpg'
 
 import './listaRestaurantes.css'
