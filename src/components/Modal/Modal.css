@@ -5,3 +5,14 @@ h2 {
 .rating {
     float: inherit;
 }
+.close-button {
+    text-align: end;
+    margin-bottom: -20px;
+    margin-top: -5px;
+    margin-right: -15px;
+}
+.font-modal {
+    font-family: 'Coolvetica';
+    font-size: 30px;
+    text-align: center;
+}

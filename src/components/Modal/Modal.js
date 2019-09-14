@@ -40,9 +40,12 @@ export default props => {
   return (
     <div>
     
-      <button type="button" onClick={handleOpen} variant="contained" className={classes.button}>
-        Visualizar prato
-      </button>
+      <div type="button" onClick={handleOpen} variant="contained" className={classes.button}>
+        <div className="font-title">{props.title}</div>
+        <div className="font">{props.desc}</div>
+        <div className="preco font">{props.price}</div>
+
+      </div>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
@@ -57,10 +60,11 @@ export default props => {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <h2 id="transition-modal-title">{props.h2}</h2>
+            <div className="close-button" onClick={handleClose}>&times;</div>
+            <h1 className="font-modal" id="transition-modal-title">{props.h2}</h1>
             <img alt="foto de batata" src={require(`../../assets/cardapioTDF/${props.img}.jpg`)}/>
             <hr/>
-            <div className="preco">A partir de R$18,90</div>
+            <div className="preco font">A partir de R$18,90</div>
           </div>
         </Fade>
       </Modal>

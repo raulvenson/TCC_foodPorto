@@ -17,12 +17,12 @@
 .preco {
     text-align: center;
     color: rgb(1, 153, 9);
+    font-size: 20px;
 }
 
 .wpp{
     height: 90px;
      width: auto;
-    
     position: fixed;
     bottom:0;
     left:0;
@@ -35,6 +35,11 @@
 
 .font {
     font-family: 'Coolvetica';
+    font-size: 20px;
+}
+.font-title{
+    font-family: 'Coolvetica';
+    font-size: 30px;
 }
 
 .cabecalho {

@@ -104,17 +104,13 @@ export default function CustomizedExpansionPanels() {
           <Typography>
             <Paper className={classes.root}>
              
-              
-              <Typography variant="h6" component="h6" className="font">
-                Fritas TDF com Bacon e Cheddar
-              </Typography>
-              <Typography className="font">
-                Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar.
-              </Typography>
-              <Modal img="batata" h2="Fritas TDF com Bacon e Cheddar"/>
-              <Typography className="preco font">
-                A partir de R$18,90
-              </Typography>
+            <Modal 
+              title="Fritas TDF com Bacon e Cheddar"
+              desc="Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar."
+              price="A partir de R$18,90"
+              img="batata" 
+              h2="Fritas TDF com Bacon e Cheddar"
+              />
               
             </Paper>
             <Paper className={classes.root}>
