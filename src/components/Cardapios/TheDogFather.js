@@ -82,7 +82,8 @@ export default function CustomizedExpansionPanels() {
 
   return (
     <div className="cardapio">
-     <Paper className={classes.root}>
+      <div className="header">
+      <Paper className={classes.root}>
         <div className="font cabecalho">
           <img src={TDFicon}  className="img" alt=" The Dog Father icon"/>
           The DogFather
@@ -94,7 +95,8 @@ export default function CustomizedExpansionPanels() {
           <AvaliacaoModal className="avaliacao" />
         </div>
       </Paper>
-      
+      </div>
+      <div className="content">
       <ExpansionPanel square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
           <Typography>Entradas</Typography>
@@ -343,7 +345,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <div className="wpp">
+      </div>
+      <div className="wpp footer">
       <a href="https://api.whatsapp.com/send?phone=5565999271048&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!" style={{ textDecoration: 'none' }}>
         <img className="wpp" src={Whats_qld} alt="link para chat WhatsApp"/>
       </a> 

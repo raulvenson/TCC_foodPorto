@@ -1,7 +1,24 @@
 .cardapio {
     max-width: 425px;
-    background-image: url('../../assets/background.jpg')
-}
+    
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 1000px 100px;
+    grid-template-areas: 
+      "header"
+      "content"
+      "footer"
+  }
+  .header{
+    grid-area: header; 
+  }
+  .content{
+    grid-area: content;
+  }
+  .footer{
+    grid-area: footer;
+  }
 .text{
     text-align: center;
 }
@@ -62,3 +79,4 @@
     width: 35px;
     height: 35px;
 }
+

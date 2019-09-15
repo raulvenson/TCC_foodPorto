@@ -18,12 +18,15 @@ export default function ImgMediaCard() {
 
 
   return (
-    <div className="background">
-      <Header/>
     <div className="restaurante">
+    <div className="background header">
+      <Header/>
+    </div>
+    
+    
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }} >
     <Paper className="paper">
-      <div className="font">
+      <div className="font-lista">
         <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
         The DogFather       
       </div>
@@ -31,7 +34,7 @@ export default function ImgMediaCard() {
     </Link>
     <Link to="/cardapioLB" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
-      <div variant="h5" component="h3" className="font">
+      <div variant="h5" component="h3" className="font-lista">
         <img src={LeBrutoImg}   className="img img-lebruto" alt=" Le Bruto icon"/>
         Le Bruto
       </div>
@@ -39,7 +42,7 @@ export default function ImgMediaCard() {
     </Link>
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
-      <div variant="h5" component="h3">
+      <div variant="h5" component="h3" className="font-lista">
         <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
         Exemplo
       </div>
@@ -47,7 +50,7 @@ export default function ImgMediaCard() {
     </Link>
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
-      <div variant="h5" component="h3">
+      <div variant="h5" component="h3" className="font-lista">
         <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
         Exemplo
       </div>
@@ -55,7 +58,7 @@ export default function ImgMediaCard() {
     </Link>
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
-      <div variant="h5" component="h3">
+      <div variant="h5" component="h3" className="font-lista">
         <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
         Exemplo
       </div>
@@ -63,7 +66,7 @@ export default function ImgMediaCard() {
     </Link>
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
-      <div variant="h5" component="h3">
+      <div variant="h5" component="h3" className="font-lista">
         <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
         Exemplo
       </div>
@@ -71,7 +74,7 @@ export default function ImgMediaCard() {
     </Link>
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
-      <div variant="h5" component="h3">
+      <div variant="h5" component="h3" className="font-lista">
         <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
         Exemplo
       </div>
@@ -79,13 +82,12 @@ export default function ImgMediaCard() {
     </Link>
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
-      <div variant="h5" component="h3">
+      <div variant="h5" component="h3" className="font-lista">
         <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
         Exemplo
       </div>
     </Paper>
     </Link>
-    </div>
     </div>
   );
 }
