@@ -104,16 +104,23 @@ export default function CustomizedExpansionPanels() {
         
         <ExpansionPanelDetails>
           <Typography>
-            <Paper className={classes.root}>
-             
+            <Paper className={classes.root}>            
             <Modal 
               title="Fritas TDF com Bacon e Cheddar"
               desc="Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar."
               price="A partir de R$18,90"
-              img="batata" 
+              img="batata.jpg" 
               h2="Fritas TDF com Bacon e Cheddar"
-              />
-              
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+            <Modal 
+              title="Mix TDF"
+              desc="200g de onion rings, 200g de mussarela sticks e 300g de mini salsichas artesanais berna, acompanhadas de cheddar, barbecue e mostarda amarela."
+              price="A partir de R$38,90"
+              img="semImagem.jpg" 
+              h2=""
+              /> 
             </Paper>
             <Paper className={classes.root}>
               <Typography variant="h6" component="h6">
@@ -122,7 +129,7 @@ export default function CustomizedExpansionPanels() {
               <Typography>
                 200g de onion rings, 200g de mussarela sticks e 300g de mini salsichas artesanais berna, acompanhadas de cheddar, barbecue e mostarda amarela.
               </Typography>
-              <Modal img="onionrings" h2="Mix TDF"/>
+              <Modal img="onionrings.jpg" h2="Mix TDF"/>
               <Typography className="preco">
                 A partir de R$38,90
               </Typography>
