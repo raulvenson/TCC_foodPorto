@@ -99,7 +99,7 @@ export default function CustomizedExpansionPanels() {
       <div className="content">
       <ExpansionPanel square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>Entradas</Typography>
+          <div className="font-topic">Entradas</div>
         </ExpansionPanelSummary>
         
         <ExpansionPanelDetails>
@@ -109,7 +109,7 @@ export default function CustomizedExpansionPanels() {
               title="Fritas TDF com Bacon e Cheddar"
               desc="Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar."
               price="A partir de R$18,90"
-              img="batata.jpg" 
+              img="fritas.png" 
               h2="Fritas TDF com Bacon e Cheddar"
               /> 
             </Paper>
@@ -118,215 +118,100 @@ export default function CustomizedExpansionPanels() {
               title="Mix TDF"
               desc="200g de onion rings, 200g de mussarela sticks e 300g de mini salsichas artesanais berna, acompanhadas de cheddar, barbecue e mostarda amarela."
               price="A partir de R$38,90"
-              img="semImagem.jpg" 
+              img="mix.png" 
               h2=""
               /> 
             </Paper>
-            <Paper className={classes.root}>
-              <Typography variant="h6" component="h6">
-                Mix TDF 
-              </Typography>
-              <Typography>
-                200g de onion rings, 200g de mussarela sticks e 300g de mini salsichas artesanais berna, acompanhadas de cheddar, barbecue e mostarda amarela.
-              </Typography>
-              <Modal img="onionrings.jpg" h2="Mix TDF"/>
-              <Typography className="preco">
-                A partir de R$38,90
-              </Typography>
-            </Paper>
-            <Paper className={classes.root}>
-              <Typography variant="h6" component="h6">
-                Porção de Salsicha Artesanal
-              </Typography>
-              <Typography>
-                Salsicha suína e bovina artesanal berna, acompanhada de pão alemão, barbecue e mostarda amarela.
-              </Typography>
-              <Typography className="preco">
-                A partir de R$19,90
-              </Typography>
+            <Paper className={classes.root}>            
+            <Modal 
+              title="Porção de Salsicha Artesanal"
+              desc="Salsicha suína e bovina artesanal berna, acompanhada de pão alemão, barbecue e mostarda amarela."
+              price="A partir de R$19,90"
+              img="semImagem.jpg" 
+              h2=""
+              /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>Hot Dogs Premium</Typography>
+          <div className="font-topic">Hot Dogs Premium</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  Salsicha TDF, milho e ervilha. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado. 
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  02 - Vito
-                </Typography>
-                <Typography>
-                  Salsicha TDF, chilli e Doritos. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado.
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$18,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  03 - Connie
-                </Typography>
-                <Typography>
-                  Salsicha de frango, bacon e milho. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado.
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$18,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  04 - Tom
-                </Typography>
-                <Typography>
-                  Salsicha TDF, cheddar e cebola caramelizada. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado.
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$18,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  05 - Luca 
-                </Typography>
-                <Typography>
-                  Salsicha TDF, pepperoni, sour cream e vinagrete. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado.
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$18,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  06 - Carmella
-                </Typography>
-                <Typography>
-                  Salsicha TDF, tomate, manjericão, azeite e orégano. Acompanha pão, purê de batata, molho especial, batata palha e queijo maçaricado. 
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$18,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  01 - Fredo
-                </Typography>
-                <Typography>
-                  
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$14,90
-                </Typography>
-              </Paper>
-              
-              <Paper className={classes.root}>
-                <Typography variant="h6" component="h6">
-                  03 - Connie
-                </Typography>
-                <Typography>
-                  Salsicha de frango, bacon e milho. Acompanha pão, purê de batata, molho especial, batata palha e queijo maçaricado. 
-                </Typography>
-                <Typography className="preco">
-                  A partir de R$18,90
-                </Typography>
-              </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="01 - Fredo"
+                desc="Salsicha TDF, milho e ervilha. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
+                price="A partir de R$14,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="02 - Vito"
+                desc="Salsicha TDF, chilli e Doritos. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
+                price="A partir de R$18,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="03 - Connie"
+                desc="Salsicha de frango, bacon e milho. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
+                price="A partir de R$18,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="04 - Tom"
+                desc="Salsicha TDF, cheddar e cebola caramelizada. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
+                price="A partir de R$18,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="05 - Luca "
+                desc=" Salsicha TDF, pepperoni, sour cream e vinagrete. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
+                price="A partir de R$18,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="06 - Carmella"
+                desc="Salsicha TDF, tomate, manjericão, azeite e orégano. Acompanha pão, purê de batata, molho especial, batata palha e queijo maçaricado."
+                price="A partir de R$18,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title=""
+                desc=""
+                price="A partir de R$18,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title=""
+                desc=""
+                price="A partir de R$18,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+             
             </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       
       <ExpansionPanel square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography>Combos!</Typography>
+          <div className="font-topic">Combos!</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>

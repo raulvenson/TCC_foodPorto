@@ -64,7 +64,7 @@ export default props => {
             <h1 className="font-modal" id="transition-modal-title">{props.h2}</h1>
             <img alt="foto de batata" src={require(`../../assets/cardapioTDF/${props.img}`)}/>
             <hr/>
-            <div className="preco font">A partir de R$18,90</div>
+            <div className="preco font">{props.price}</div>
           </div>
         </Fade>
       </Modal>
