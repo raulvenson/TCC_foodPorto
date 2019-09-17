@@ -61,7 +61,7 @@ export default props => {
         <Fade in={open}>
           <div className={classes.paper}>
             <div className="close-button" onClick={handleClose}>&times;</div>
-            <h1 className="font-modal" id="transition-modal-title">{props.h2}</h1>
+            <h1 className="font-modal" id="transition-modal-title">{props.title}</h1>
             <img alt="foto de batata" src={require(`../../assets/cardapioTDF/${props.img}`)}/>
             <hr/>
             <div className="preco font">{props.price}</div>
