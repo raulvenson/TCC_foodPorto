@@ -190,50 +190,152 @@ export default function CustomizedExpansionPanels() {
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title=""
-                desc=""
+                title="07 - Mike"
+                desc="Salsicha TDF, calabresa, sour cream, vinagrete e barbecue. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
                 price="A partir de R$18,90"
                 img="semImagem.jpg" 
                 h2=""/> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title=""
-                desc=""
+                title="08 - Corleone"
+                desc="Salsicha TDF envelopada no bacon e cheddar. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
+                price="A partir de R$19,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="09 - Salvatore"
+                desc="Salsicha de frango e frango grelhado em tiras ao molho cream cheese, mostarda e mel. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
                 price="A partir de R$18,90"
                 img="semImagem.jpg" 
                 h2=""/> 
             </Paper>
-             
+            <Paper className={classes.root}>            
+              <Modal 
+                title="10 - Virgil"
+                desc="Salsicha vegetal, abobrinha grelhada em rodelas, pimentões e cebola roxa, refogados com molho oriental. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
+                price="A partir de R$18,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="11 - Moe"
+                desc="Salsicha TDF, costelinha de porco ao molho barbecue e toque de maionese de limão. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
+                price="A partir de R$19,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="12 - Rocco"
+                desc="Salsicha TDF, chilli, bacon em cubos, cheddar e pimenta biquinho. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
+                price="A partir de R$23,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="13 - Jack"
+                desc="Salsicha TDF, costela suína desfiada, barbecue, bacon em cubos, onion rings e maionese com limão. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
+                price="A partir de R$23,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="14 - Double Corleone"
+                desc="Salsicha TDF, muito bacon e dobro de cheddar. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
+                price="A partir de R$23,90"
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
             </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       
       <ExpansionPanel square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
-          <div className="font-topic">Combos!</div>
+          <div className="font-topic">Porções</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            <ul>
-              <li>Hot Dog Simples + Guaraná</li>
-              <li>Hot Dog Bacon + Coca-Cola</li>
-              <li>Hot Dog Calabresa + Água</li>
-            </ul>
+          <Paper className={classes.root}>            
+              <Modal 
+                title="Linguicinhas TDF"
+                desc="400g de linguicinha artesanal berna recheada de queijo provolone, acompanhada de pão alemão, chimichurri e mostarda escura."
+                price="R$36,90" 
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
         <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
-          <Typography>Combos!</Typography>
+        <div className="font-topic">Bebidas</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            <ul>
-              <li>Hot Dog Simples + Guaraná</li>
-              <li>Hot Dog Bacon + Coca-Cola</li>
-              <li>Hot Dog Calabresa + Água</li>
-            </ul>
+          <Paper className={classes.root}>            
+              <Modal 
+                title="Água mineral"
+                desc="500 ml."
+                price="R$4,90" 
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Refrigerantes "
+                desc="Lata (350 ml) - Coca-cola, Coca-cola Zero, Fanta Guaraná, Fanta Laranja, Fanta Uva, Sprite."
+                price="R$5,90" 
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Refrigerantes "
+                desc="Lata (350 ml) - Coca-cola, Coca-cola Zero, Fanta Guaraná, Fanta Laranja, Fanta Uva, Sprite."
+                price="R$5,90" 
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Soda Italiana"
+                desc="Soda Italiana Monin (400 ml) - Maçã verde, Morango, Tangerina, Cramberry."
+                price="R$7,90" 
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Sucos"
+                desc="Dell Valle (300 ml) - Laranja, Uva."
+                price="R$6,90" 
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+        <div className="font-topic">Sobremesa</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+          <Paper className={classes.root}>            
+              <Modal 
+                title="Häagen-Dazs"
+                desc="(100ml) - Cookies, Morango, Macadâmia, Doce de Leite, Chocolate Belga."
+                price="R$13,90" 
+                img="semImagem.jpg" 
+                h2=""/> 
+            </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
