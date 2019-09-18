@@ -52,7 +52,7 @@
 }
 
 .font {
-    font-family: 'Coolvetica';
+    font-family: 'Kalam', cursive;
     font-size: 20px;
 }
 .font-title{
@@ -60,9 +60,9 @@
     font-size: 30px;
 }
 .font-topic {
-    font-family: 'Amatic SC', cursive;
-    font-size: 30px;
-    font-weight: bold;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
+    /* font-weight: bold; */
 }
 
 .cabecalho {

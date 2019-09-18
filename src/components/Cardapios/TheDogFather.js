@@ -84,7 +84,7 @@ export default function CustomizedExpansionPanels() {
     <div className="cardapio">
       <div className="header">
       <Paper className={classes.root}>
-        <div className="font cabecalho">
+        <div className="font-lista cabecalho">
           <img src={TDFicon}  className="img" alt=" The Dog Father icon"/>
           The DogFather
         </div>    
