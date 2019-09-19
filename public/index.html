@@ -17,10 +17,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" >
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
     <script defer src="/__/firebase/6.3.5/firebase-app.js"></script>
    
@@ -31,10 +31,31 @@
  
     <script defer src="/__/firebase/init.js"></script>
 
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
+
   </head>
 
   <body style="background-color: rgb(202, 202, 202)">   
-      <div id="root"></div>      
+      <div id="root"></div>
+      
+      <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyASD8iaxtiAPSSKV9xQ5vktAUC8npR54tQ",
+          authDomain: "foodportotcc.firebaseapp.com",
+          databaseURL: "https://foodportotcc.firebaseio.com",
+          projectId: "foodportotcc",
+          storageBucket: "foodportotcc.appspot.com",
+          messagingSenderId: "518604574406",
+          appId: "1:518604574406:web:ce292dbedfac5eed"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        db.settings({ timestampInSnapshots: true });
+      </script>
+
   </body>
   
 </html>
