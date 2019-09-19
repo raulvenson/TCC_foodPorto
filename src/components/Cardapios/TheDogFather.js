@@ -4,21 +4,13 @@ import MuiExpansionPanel from '@material-ui/core/ExpansionPanel';
 import MuiExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import MuiExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
-// import Container from '@material-ui/core/Container';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
-// import { FaWhatsapp } from 'react-icons/fa';
 import Whats_qld from '../../assets/whats_qld.png';
-// import Row from 'react-bootstrap';
-
 import { TiArrowBackOutline } from 'react-icons/ti';
-
 import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
-
-// import Batata from '../../assets/cardapioTDF/batata.jpg'
-
 
 import './TheDogFather.css'
 import TDFicon from './../../assets/TDFicon.jpg'

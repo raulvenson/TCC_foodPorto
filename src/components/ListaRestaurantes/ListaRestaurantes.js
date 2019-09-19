@@ -34,7 +34,7 @@ export default function ImgMediaCard() {
     </Link>
     <Link to="/cardapioLB" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
-      <div variant="h5" component="h3" className="font-lista">
+      <div className="font-lista">
         <img src={LeBrutoImg}   className="img img-lebruto" alt=" Le Bruto icon"/>
         Le Bruto
       </div>
