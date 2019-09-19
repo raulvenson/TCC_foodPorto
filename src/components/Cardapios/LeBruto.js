@@ -91,35 +91,116 @@ export default function CustomizedExpansionPanels() {
       <div className="content">
       <ExpansionPanel square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-          <div className="font-topic">Entradas</div>
+          <div className="font-topic">Hambúrgueres Artesanais</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
             <Paper className={classes.root}>            
             <Modal 
-              title="Fritas TDF com Bacon e Cheddar"
-              desc="Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar."
-              price="A partir de R$18,90"
-              img="fritas.png" 
-              
+              title="9 Horas"
+              desc="O básico delicioso, versão kids!/Hambúrguer de blend especial de carne bovina, preparado na brasa, como churrasco, pão branco da casa, molho clássico Le Bruto, molho de tomate estilo ketchup e queijo mozarela. Acompanha batata frita."
+              price="A partir de R$20,00"
+              img="semImagem.jpg"
+              path="cardapioLeBruto"         
               /> 
             </Paper>
             <Paper className={classes.root}>            
             <Modal 
-              title="Mix TDF"
-              desc="200g de onion rings, 200g de mussarela sticks e 300g de mini salsichas artesanais berna, acompanhadas de cheddar, barbecue e mostarda amarela."
-              price="A partir de R$38,90"
-              img="mix.png" 
-              
+              title="Herbívoro "
+              desc="Nada de carnes por aqui/ Pão branco crocante, creme lemon Le Bruto, rúcula, tomate cereja e um apetitoso queijo coalho na brasa. Obs: estamos temporariamente sem o pão branco crocante, será com o pão da casa."
+              price="A partir de R$22,00"
+              img="semImagem.jpg"
+              path="cardapioLeBruto"            
               /> 
             </Paper>
             <Paper className={classes.root}>            
             <Modal 
-              title="Porção de Salsicha Artesanal"
-              desc="Salsicha suína e bovina artesanal berna, acompanhada de pão alemão, barbecue e mostarda amarela."
-              price="A partir de R$19,90"
-              img="porcaoSalsicha.png" 
-              
+              title="Chancho "
+              desc="Saboroso hambúrguer de carne suína/ Hambúrguer de suíno especial Le Bruto (preparado na brasa, como churrasco), pão branco rústico da casa, molho especial LB, cebola caramelizada, tomate e queijo mozarela. Acompanha Geléia de abacaxi com pimenta."
+              price="A partir de R$24,00"
+              img="semImagem.jpg"
+              path="cardapioLeBruto" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+            <Modal 
+              title="Gringo"
+              desc="Ingredientes de excelente qualidade, em generosas medidas, por um ótimo preço/ Hambúrguer com 200g de um delicioso blend de carne bovina (preparado na brasa, como churrasco), pão branco da casa (maior tamanho), bacon, alface, tomate, queijo cheddar e um creme lemon da Le Bruto."
+              price="A partir de R$24,00"
+              img="semImagem.jpg"
+              path="cardapioLeBruto" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+            <Modal 
+              title="Salada Hamburguesa"
+              desc="Salada + hambúrguer/Hambúrguer clássico (preparado na brasa, como churrasco) + queijo mussarela, mescla de alfaces, rúcula, palmito, tomate cereja e um delicioso queijo emental. Acompanha molho barbecue."
+              price="A partir de R$24,00"
+              img="semImagem.jpg"
+              path="cardapioLeBruto" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+            <Modal 
+              title="Le Brutinho"
+              desc="Mini Burger + Fritas + Brinquedo Colecionável + Mini Refri (Coca-cola/Fanta) "
+              price="A partir de R$25,00"
+              img="semImagem.jpg"
+              path="cardapioLeBruto" 
+              /> 
+            </Paper>     
+            <Paper className={classes.root}>            
+            <Modal 
+              title="Le Bruto"
+              desc="O bruto sofisticado!/ Hambúrguer de blend especial de carne bovina, preparado na brasa, como churrasco, pão branco da casa, molho Le Bruto, bacon, presunto, mescla de alfaces, tomate cereja, picles, molho de tomate estilo ketchup e o delicioso queijo emental."
+              price="A partir de R$26,00"
+              img="semImagem.jpg"
+              path="cardapioLeBruto" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+            <Modal 
+              title="Sofisticado"
+              desc="Nem salgado, nem doce: agridoce/ Hambúrguer de blend especial de carne bovina (preparado na brasa, como churrasco), pão rústico rosado Le Bruto, cebola caramelizada, molho barbecue LB, presunto especial espanhol e um apetitoso queijo emental."
+              price="A partir de R$26,00"
+              img="semImagem.jpg"
+              path="cardapioLeBruto" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+            <Modal 
+              title="Brutamontes"
+              desc="Tudo de bom, em generosas medidas/ Hambúrguer com 200g de um delicioso blend especial de carne bovina (preparado na brasa, como churrasco), recheado com queijo cheddar, pão branco da casa, molho lemon LB, bacon, mescla de alfaces, tomate cereja, cebola roxa, molho de tomate estilo ketchup e queijo mozarela."
+              price="A partir de R$28,00"
+              img="semImagem.jpg"
+              path="cardapioLeBruto" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+            <Modal 
+              title="Churrascada"
+              desc="Hambúrguer 180g de Costela, mozzarella de búfala, cebola tostada, maionese Le Bruto, alface e pão australiano."
+              price="A partir de R$28,00"
+              img="semImagem.jpg"
+              path="cardapioLeBruto" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+            <Modal 
+              title="Churrascada - Pão Tradicional da Casa"
+              desc="Hambúrguer 180g de Costela, mozzarella de búfala, cebola tostada, maionese Le Bruto, alface e pão australiano."
+              price="A partir de R$28,00"
+              img="semImagem.jpg"
+              path="cardapioLeBruto" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+            <Modal 
+              title="Picanha"
+              desc="Aquela loucura de moer uma picanha para fazer hambúrguer/ Hambúrguer com 150g de pura picanha, preparado na brasa, como churrasco, pão branco crocante, creme lemon Le Bruto, bacon, tomate, mescla de alfaces e um ótimo queijo gouda."
+              price="A partir de R$32,00"
+              img="semImagem.jpg"
+              path="cardapioLeBruto" 
               /> 
             </Paper>
           </Typography>
@@ -127,120 +208,35 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       <ExpansionPanel square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
-          <div className="font-topic">Hot Dogs Premium</div>
+          <div className="font-topic">Adicionais</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
             <Paper className={classes.root}>            
               <Modal 
-                title="01 - Fredo"
-                desc="Salsicha TDF, milho e ervilha. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$14,90"
-                img="fredo.png" 
+                title="Batata Frita"
+                desc=""
+                price="R$5,00"
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
                 /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="02 - Vito"
-                desc="Salsicha TDF, chilli e Doritos. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="vito.png" 
+                title="Batata Rústica"
+                desc="Assada no forno e finalizada na churrasqueira."
+                price="R$5,00"
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
                 /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="03 - Connie"
-                desc="Salsicha de frango, bacon e milho. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="connie.png" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="04 - Tom"
-                desc="Salsicha TDF, cheddar e cebola caramelizada. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="tom.png" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="05 - Luca "
-                desc=" Salsicha TDF, pepperoni, sour cream e vinagrete. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="luca.png" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="06 - Carmella"
-                desc="Salsicha TDF, tomate, manjericão, azeite e orégano. Acompanha pão, purê de batata, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="carmella.png" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="07 - Mike"
-                desc="Salsicha TDF, calabresa, sour cream, vinagrete e barbecue. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="mike.png" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="08 - Corleone"
-                desc="Salsicha TDF envelopada no bacon e cheddar. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$19,90"
-                img="corleone.png" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="09 - Salvatore"
-                desc="Salsicha de frango e frango grelhado em tiras ao molho cream cheese, mostarda e mel. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="salvatore.png" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="10 - Virgil"
-                desc="Salsicha vegetal, abobrinha grelhada em rodelas, pimentões e cebola roxa, refogados com molho oriental. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="virgil.png" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="11 - Moe"
-                desc="Salsicha TDF, costelinha de porco ao molho barbecue e toque de maionese de limão. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$19,90"
-                img="moe.png" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="12 - Rocco"
-                desc="Salsicha TDF, chilli, bacon em cubos, cheddar e pimenta biquinho. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$23,90"
-                img="rocco.png" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="13 - Jack"
-                desc="Salsicha TDF, costela suína desfiada, barbecue, bacon em cubos, onion rings e maionese com limão. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$23,90"
-                img="jack.png" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="14 - Double Corleone"
-                desc="Salsicha TDF, muito bacon e dobro de cheddar. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$23,90"
-                img="doubleCorleone.png" 
+                title="Batata Canoa"
+                desc=""
+                price="R$7,00"
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
                 /> 
             </Paper>
             </Typography>
@@ -249,16 +245,17 @@ export default function CustomizedExpansionPanels() {
       
       <ExpansionPanel square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
-          <div className="font-topic">Porções</div>
+          <div className="font-topic">Panquecas</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
           <Paper className={classes.root}>            
               <Modal 
-                title="Linguicinhas TDF"
-                desc="400g de linguicinha artesanal berna recheada de queijo provolone, acompanhada de pão alemão, chimichurri e mostarda escura."
-                price="R$36,90" 
-                img="linguicinha.png" 
+                title="Panqueca"
+                desc="Deliciosa massa de panqueca da casa, recheada com frango (ou blend de carne bovina assada na brasa), molho LB, cream cheese, queijo mozarela, tomate milho e ervilha."
+                price="R$23,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
                 /> 
             </Paper>
           </Typography>
@@ -272,34 +269,137 @@ export default function CustomizedExpansionPanels() {
           <Typography>
           <Paper className={classes.root}>            
               <Modal 
-                title="Água mineral"
-                desc="500 ml."
-                price="R$4,90" 
-                img="agua.png" 
+                title="Água com gás"
+                desc="Garrafa de 350 ml"
+                price="R$4,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Água sem gás"
+                desc="Garrafa de 350 ml"
+                price="R$3,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Aquarius Fresh Limão"
+                desc="Garrafa de 510 ml"
+                price="R$6,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
                 /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
                 title="Refrigerantes "
-                desc="Lata (350 ml) - Coca-cola, Coca-cola Zero, Fanta Guaraná, Fanta Laranja, Fanta Uva, Sprite."
-                price="R$5,90" 
-                img="refri.png" 
+                desc="Coca-cola, Coca-cola Sem Açucar, Fanta Uva, Schweppes Citrus, Guaraná Antarctica."
+                price="R$4,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
                 /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="Soda Italiana"
-                desc="Soda Italiana Monin (400 ml) - Maçã verde, Morango, Tangerina, Cramberry."
-                price="R$7,90" 
-                img="soda.png" 
+                title="Brahma 0,0 Long Neck"
+                desc="355 ml (Venda apenas para maiores de idade) (Beba com moderação)"
+                price="R$7,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
                 /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="Sucos"
-                desc="Dell Valle (300 ml) - Laranja, Uva."
-                price="R$6,90" 
-                img="sucos.png" 
+                title="Eisenbahn Long Neck"
+                desc="355 ml (Venda apenas para maiores de idade) (Beba com moderação)"
+                price="R$7,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Skol Long Neck"
+                desc="355 ml (Venda apenas para maiores de idade) (Beba com moderação)"
+                price="R$6,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Louvada American Pale Ale-APA"
+                desc="500 ml (Venda apenas para maiores de idade) (Beba com moderação)"
+                price="R$22,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Louvada Hop Lager"
+                desc="500 ml (Venda apenas para maiores de idade) (Beba com moderação)"
+                price="R$20,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Louvada India Pale Ale - IPA"
+                desc="500 ml (Venda apenas para maiores de idade) (Beba com moderação)"
+                price="R$23,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Louvada Pilsen"
+                desc="600 ml (Venda apenas para maiores de idade) (Beba com moderação)"
+                price="R$20,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Louvada Vienna"
+                desc="500 ml (Venda apenas para maiores de idade) (Beba com moderação)"
+                price="R$20,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Louvada Weiss"
+                desc="500 ml (Venda apenas para maiores de idade) (Beba com moderação)"
+                price="R$20,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Patricia (Uruguaia)"
+                desc="960 ml (Venda apenas para maiores de idade) (Beba com moderação)"
+                price="R$30,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Petra Aurum"
+                desc="500 ml (Venda apenas para maiores de idade) (Beba com moderação)"
+                price="R$22,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
                 /> 
             </Paper>
           </Typography>
@@ -312,11 +412,48 @@ export default function CustomizedExpansionPanels() {
         <ExpansionPanelDetails>
           <Typography>
           <Paper className={classes.root}>            
+            <Modal 
+              title="Brownie"
+              desc="Bolo de chocolate com cobertura + sorvete de creme e chantily/ Delicioso bolinho de chocolate, com crocante cobertura de chocolate acompanhado de sorvete de creme e chantilly."
+              price="R$17,00" 
+              img="semImagem.jpg"
+              path="cardapioLeBruto" 
+              /> 
+          </Paper>
+          <Paper className={classes.root}>            
+            <Modal 
+              title="Petit Gateau"
+              desc="Bolo de chocolate recheado + sorvete de creme/ Delicioso bolinho de chocolate, com casca crocante e recheio cremoso de chocolate, servido acompanhado de sorvete de creme."
+              price="R$13,90" 
+              img="semImagem.jpg"
+              path="cardapioLeBruto" 
+              /> 
+          </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel square expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+        <ExpansionPanelSummary aria-controls="panel6d-content" id="panel6d-header">
+          <div className="font-topic">Combos!</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+          <Paper className={classes.root}>            
               <Modal 
-                title="Häagen-Dazs"
-                desc="(100ml) - Cookies, Morango, Macadâmia, Doce de Leite, Chocolate Belga."
-                price="R$13,90" 
-                img="haagen.png" 
+                title="Brutamontes+Fritas+Coca-Lata 310ml"
+                desc="Combo Coca-Cola - Brutamontes+Fritas+Coca-Lata 310ml por apenas R$ 35,00. Aproveite! Tudo de bom, em generosas medidas/ Hambúrguer com 200g de um delicioso blend especial de carne bovina (preparado na brasa, como churrasco), recheado com queijo cheddar, pão branco da casa, molho lemon LB, bacon, mescla de alfaces, tomate cereja, cebola roxa, molho de tomate estilo ketchup e queijo mozarela."
+                price="A partir de R$35,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Gringo+Fritas+Coca-Cola Lata 310ml"
+                desc="Combo Coca-Cola - Gringo+Fritas+Coca-Cola Lata 310ml por apenas R$ 32,00! Aproveite! Ingredientes de excelente qualidade, em generosas medidas, por um ótimo preço/ Hambúrguer com 200g de um delicioso blend de carne bovina (preparado na brasa, como churrasco), pão branco da casa (maior tamanho), bacon, alface, tomate, queijo cheddar e um creme lemon da Le Bruto."
+                price="A partir de R$32,00" 
+                img="semImagem.jpg"
+                path="cardapioLeBruto" 
                 /> 
             </Paper>
           </Typography>
