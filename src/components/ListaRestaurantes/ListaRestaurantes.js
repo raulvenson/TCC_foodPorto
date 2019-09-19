@@ -8,6 +8,7 @@ import {Link} from 'react-router-dom'
 
 import LeBrutoImg from './../../assets/lebruto.png' 
 import TheDogFatherImg from './../../assets/theDogFather.jpg'
+import SemImagem from './../../assets/semImagem.jpg'
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
@@ -43,7 +44,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
         Exemplo
       </div>
     </Paper>
@@ -51,7 +52,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
         Exemplo
       </div>
     </Paper>
@@ -59,7 +60,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
         Exemplo
       </div>
     </Paper>
@@ -67,7 +68,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
         Exemplo
       </div>
     </Paper>
@@ -75,7 +76,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
         Exemplo
       </div>
     </Paper>
@@ -83,7 +84,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
-        <img src={TheDogFatherImg}  className="img" alt=" The Dog Father icon"/>
+        <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
         Exemplo
       </div>
     </Paper>
