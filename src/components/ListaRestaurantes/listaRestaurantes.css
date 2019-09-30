@@ -1,5 +1,8 @@
-
+.restaurante {
+    background-color: black !important;
+}
 .paper {
+    background-color: #ffc025  !important;
     padding: 10px;
     margin: 5px;
     /* max-width: 425px; */
@@ -7,6 +10,10 @@
     text-align: center;
     line-height: 30px;
     font-size: 30px;
+    box-shadow: 
+        0px 1px 3px 0px rgba(255, 255, 255, 0.8), 
+        2px 1px 3px 0px rgba(249, 249, 249, 0.6), 
+        0px 2px 1px -1px rgba(0,0,0,0.12) !important;
 }
 
 .img-lebruto {

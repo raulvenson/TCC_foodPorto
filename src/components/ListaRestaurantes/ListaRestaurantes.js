@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 
 
 import LeBrutoImg from './../../assets/lebruto.png' 
-import TheDogFatherImg from './../../assets/theDogFather.jpg'
+import TheDogFatherImg from './../../assets/thedog.png'
 import SemImagem from './../../assets/semImagem.jpg'
 
 import './listaRestaurantes.css'
@@ -17,12 +17,13 @@ import Header from '../Header/Header';
 
 export default function ImgMediaCard() {
 
+  
 
   return (
     <div className="restaurante">
-    <div className="background header">
+    
       <Header/>
-    </div>
+    
     
     
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }} >
@@ -69,7 +70,7 @@ export default function ImgMediaCard() {
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
         <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
-        Tio Luigi - Pizzaria
+        Tio Luigi 
       </div>
     </Paper>
     </Link>
@@ -77,7 +78,7 @@ export default function ImgMediaCard() {
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
         <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
+        Akio Japa
       </div>
     </Paper>
     </Link>

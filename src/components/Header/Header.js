@@ -10,7 +10,7 @@ import './header.css'
 
 export default props => {	
 	return(
-		<div className="header">
+		<div className="header-home">
 			
 			<Container >
 				<Row>
