@@ -24,6 +24,15 @@
 .text{
     text-align: center;
 }
+.img-header {  
+    height: 50px;
+    float: right;
+    position: relative; 
+	left: -1px;  
+    top: -9px;
+    margin-right: 5px;
+}
+
 .img {  
     height: 50px;
     float: left;
@@ -74,7 +83,7 @@
     font-size: 30px;
 }
 .icones {
-    float: right;
+    float: left;
     width: 30px;
 }
 .back-icon {

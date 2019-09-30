@@ -1,5 +1,5 @@
 import React from 'react'
-import FoodPortoImg from './../../assets/foodPortoImg.jpg'
+import onMenu from './../../assets/onMenu.png'
 import {Row} from 'react-bootstrap';
 import Container from '@material-ui/core/Container';
 
@@ -14,7 +14,7 @@ export default props => {
 			
 			<Container >
 				<Row>
-					<img alt="Logo do Food Park Porto" src={FoodPortoImg} />
+					<img alt="Logo do Food Park Porto" src={onMenu} />
 				</Row>
 			</Container>
 		</div>
