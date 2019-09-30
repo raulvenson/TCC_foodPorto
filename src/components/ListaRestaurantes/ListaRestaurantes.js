@@ -41,35 +41,35 @@ export default function ImgMediaCard() {
       </div>
     </Paper>
     </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Link to="/cardapioCnB" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
         <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
+        Churrasco na Brasa
       </div>
     </Paper>
     </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Link to="/cardapioGM" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
         <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
+        General Mex
       </div>
     </Paper>
     </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Link to="/cardapioFS" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
         <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
+        Fino Sabor
       </div>
     </Paper>
     </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
+    <Link to="/cardapioTL" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
         <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
+        Tio Luigi - Pizzaria
       </div>
     </Paper>
     </Link>
