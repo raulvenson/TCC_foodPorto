@@ -13,7 +13,7 @@ import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
-import TDFicon from './../../assets/TDFicon.jpg'
+import TDFicon from './../../assets/thedog.png'
 
 import Grid from '@material-ui/core/Grid';
 
@@ -21,6 +21,7 @@ const useStyles = makeStyles(theme => ({
   root: {
     padding: theme.spacing(1.5 , 1),
     marginBottom: 6,
+    backgroundColor: '#ffc025',
   },
 }));
 
@@ -91,12 +92,12 @@ export default function CustomizedExpansionPanels() {
       </Paper>
       </div>
       <div className="content">
-      <ExpansionPanel square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
           <div className="font-topic">Entradas</div>
         </ExpansionPanelSummary>
         
-        <ExpansionPanelDetails>
+        <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
             <Modal 
@@ -131,11 +132,11 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
           <div className="font-topic">Hot Dogs Premium</div>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
+        <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
               <Modal 
@@ -267,11 +268,11 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelDetails>
       </ExpansionPanel>
       
-      <ExpansionPanel square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
           <div className="font-topic">Porções</div>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
+        <ExpansionPanelDetails className="details">
           <Typography>
           <Paper className={classes.root}>            
               <Modal 
@@ -285,11 +286,11 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
         <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
         <div className="font-topic">Bebidas</div>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
+        <ExpansionPanelDetails className="details">
           <Typography>
           <Paper className={classes.root}>            
               <Modal 
@@ -330,11 +331,11 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
         <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
         <div className="font-topic">Sobremesa</div>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
+        <ExpansionPanelDetails className="details">
           <Typography>
           <Paper className={classes.root}>            
               <Modal 

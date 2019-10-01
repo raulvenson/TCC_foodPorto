@@ -11,8 +11,11 @@
       "footer" */
       background-color: black;
   }
+  .paper-root {
+      background-color: #ffc025  !important;
+  }
   .details {
-      background-color: black !important;
+      background-color: rgba(59, 54, 54, 0.637) !important;
   }
   .header{
     grid-area: header; 
