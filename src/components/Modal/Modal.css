@@ -1,7 +1,10 @@
 h2 {
     text-align: center;
 }
-
+hr {
+    color: black;
+    background-color: black;
+}
 .rating {
     float: inherit;
 }

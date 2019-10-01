@@ -13,7 +13,7 @@ import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
-import TDFicon from './../../assets/thedog.png'
+import SemImagem from './../../assets/semImagem.jpg'
 
 import Grid from '@material-ui/core/Grid';
 
@@ -80,8 +80,8 @@ export default function CustomizedExpansionPanels() {
       <div className="header">
       <Paper className={classes.root}>
         <div className="font-lista cabecalho">
-          <img src={TDFicon}  className="img-header" alt=" The Dog Father icon"/>
-          The DogFather
+          <img src={SemImagem}  className="img-header" alt="Churrasco na Brasa icon"/>
+          Churrasco na Brasa
         </div>    
         <div className="cabecalho icones">
           <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><TiArrowBackOutline className="back-icon"/></Link>
@@ -94,175 +94,136 @@ export default function CustomizedExpansionPanels() {
       <div className="content">
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-          <div className="font-topic">Entradas</div>
+          <div className="font-topic">Espetinhos</div>
         </ExpansionPanelSummary>
         
         <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Fritas TDF com Bacon e Cheddar"
-              desc="Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar."
-              price="A partir de R$18,90"
-              img="fritas.png"
-              path="cardapioTDF" 
-              
-              /> 
+              <Modal 
+                title="Espetinho de Carne (Fraldinha)"
+                desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
+                price="Simples R$10,00 - Completo R$18,00"
+                img="semImagem.jpg"
+                path="cardapioCnB"              
+                /> 
             </Paper>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Mix TDF"
-              desc="200g de onion rings, 200g de mussarela sticks e 300g de mini salsichas artesanais berna, acompanhadas de cheddar, barbecue e mostarda amarela."
-              price="A partir de R$38,90"
-              img="mix.png"
-              path="cardapioTDF" 
-              
-              /> 
+              <Modal 
+                title="Espetinho de Frango"
+                desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
+                price="Simples R$10,00 - Completo R$18,00"
+                img="semImagem.jpg"
+                path="cardapioCnB"                
+                /> 
             </Paper>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Porção de Salsicha Artesanal"
-              desc="Salsicha suína e bovina artesanal berna, acompanhada de pão alemão, barbecue e mostarda amarela."
-              price="A partir de R$19,90"
-              img="porcaoSalsicha.png"
-              path="cardapioTDF" 
-              
-              /> 
+              <Modal 
+                title="Espetinho de Frango com Bacon"
+                desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
+                price="Simples R$10,00 - Completo R$18,00"
+                img="semImagem.jpg"
+                path="cardapioCnB"             
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Espetinho de Cupim Mexicano"
+                desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
+                price="Simples R$10,00 - Completo R$18,00"
+                img="semImagem.jpg"
+                path="cardapioCnB"                
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Espetinho de Picanha"
+                desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
+                price="Simples R$20,00 - Completo R$28,00"
+                img="semImagem.jpg"
+                path="cardapioCnB"                
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Espetinho de Frango"
+                desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
+                price="Simples R$10,00 - Completo R$18,00"
+                img="semImagem.jpg"
+                path="cardapioCnB"                
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Espetinho de Queijo"
+                desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
+                price="Simples R$10,00 - Completo R$18,00"
+                img="semImagem.jpg"
+                path="cardapioCnB"                
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Espetinho de Calabresa"
+                desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
+                price="Simples R$10,00 - Completo R$18,00"
+                img="semImagem.jpg"
+                path="cardapioCnB"                
+                /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
-          <div className="font-topic">Hot Dogs Premium</div>
+          <div className="font-topic">Porções</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
               <Modal 
-                title="01 - Fredo"
-                desc="Salsicha TDF, milho e ervilha. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$14,90"
-                img="fredo.png"
-                path="cardapioTDF" 
-                /> 
+                title="Porção de Picanha (450g)"
+                desc="Picanha acebolado com mandioca cozida."
+                price="R$55,00"
+                img="semImagem.jpg"
+                path="cardapioCnB" 
+              /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="02 - Vito"
-                desc="Salsicha TDF, chilli e Doritos. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="vito.png"
-                path="cardapioTDF" 
-                /> 
+                title="Porção de Filé Mignon (450g)"
+                desc="Filé Mignon acebolado com mandioca cozida."
+                price="R$55,00"
+                img="semImagem.jpg"
+                path="cardapioCnB" 
+              /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="03 - Connie"
-                desc="Salsicha de frango, bacon e milho. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="connie.png"
-                path="cardapioTDF" 
-                /> 
+                title="Porção de Alcatra (450g)"
+                desc="Alcatra acebolado com mandioca cozida."
+                price="R$40,00"
+                img="semImagem.jpg"
+                path="cardapioCnB" 
+              /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="04 - Tom"
-                desc="Salsicha TDF, cheddar e cebola caramelizada. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="tom.png"
-                path="cardapioTDF" 
-                /> 
+                title="Porção de Mandioca Frita (450g)"
+                desc=""
+                price="R$15,00"
+                img="semImagem.jpg"
+                path="cardapioCnB" 
+              /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="05 - Luca "
-                desc=" Salsicha TDF, pepperoni, sour cream e vinagrete. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="luca.png"
-                path="cardapioTDF" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="06 - Carmella"
-                desc="Salsicha TDF, tomate, manjericão, azeite e orégano. Acompanha pão, purê de batata, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="carmella.png"
-                path="cardapioTDF" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="07 - Mike"
-                desc="Salsicha TDF, calabresa, sour cream, vinagrete e barbecue. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="mike.png"
-                path="cardapioTDF" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="08 - Corleone"
-                desc="Salsicha TDF envelopada no bacon e cheddar. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$19,90"
-                img="corleone.png"
-                path="cardapioTDF" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="09 - Salvatore"
-                desc="Salsicha de frango e frango grelhado em tiras ao molho cream cheese, mostarda e mel. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="salvatore.png"
-                path="cardapioTDF" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="10 - Virgil"
-                desc="Salsicha vegetal, abobrinha grelhada em rodelas, pimentões e cebola roxa, refogados com molho oriental. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$18,90"
-                img="virgil.png"
-                path="cardapioTDF" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="11 - Moe"
-                desc="Salsicha TDF, costelinha de porco ao molho barbecue e toque de maionese de limão. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$19,90"
-                img="moe.png"
-                path="cardapioTDF" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="12 - Rocco"
-                desc="Salsicha TDF, chilli, bacon em cubos, cheddar e pimenta biquinho. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$23,90"
-                img="rocco.png"
-                path="cardapioTDF" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="13 - Jack"
-                desc="Salsicha TDF, costela suína desfiada, barbecue, bacon em cubos, onion rings e maionese com limão. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$23,90"
-                img="jack.png"
-                path="cardapioTDF" 
-                /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="14 - Double Corleone"
-                desc="Salsicha TDF, muito bacon e dobro de cheddar. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$23,90"
-                img="doubleCorleone.png"
-                path="cardapioTDF" 
-                /> 
+                title="Porção de Calabresa (450g)"
+                desc="Calabresa acebolada"
+                price="R$25,00"
+                img="semImagem.jpg"
+                path="cardapioCnB" 
+              /> 
             </Paper>
             </Typography>
         </ExpansionPanelDetails>
@@ -270,81 +231,54 @@ export default function CustomizedExpansionPanels() {
       
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
-          <div className="font-topic">Porções</div>
+          <div className="font-topic">Bebidas</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
-          <Paper className={classes.root}>            
+            <Paper className={classes.root}>            
               <Modal 
-                title="Linguicinhas TDF"
-                desc="400g de linguicinha artesanal berna recheada de queijo provolone, acompanhada de pão alemão, chimichurri e mostarda escura."
-                price="R$36,90" 
-                img="linguicinha.png"
-                path="cardapioTDF" 
-                /> 
-            </Paper>
-          </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-        <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
-        <div className="font-topic">Bebidas</div>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails className="details">
-          <Typography>
-          <Paper className={classes.root}>            
-              <Modal 
-                title="Água mineral"
-                desc="500 ml."
-                price="R$4,90" 
-                img="agua.png"
-                path="cardapioTDF" 
-                /> 
+                title="Refrigerante Lata"
+                desc=""
+                price="R$4,00"
+                img="semImagem.jpg"
+                path="cardapioCnB" 
+              /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="Refrigerantes "
-                desc="Lata (350 ml) - Coca-cola, Coca-cola Zero, Fanta Guaraná, Fanta Laranja, Fanta Uva, Sprite."
-                price="R$5,90" 
-                img="refri.png"
-                path="cardapioTDF" 
-                /> 
+                title="Água Mineral"
+                desc=""
+                price="R$4,00"
+                img="semImagem.jpg"
+                path="cardapioCnB" 
+              /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="Soda Italiana"
-                desc="Soda Italiana Monin (400 ml) - Maçã verde, Morango, Tangerina, Cramberry."
-                price="R$7,90" 
-                img="soda.png"
-                path="cardapioTDF" 
-                /> 
+                title="Água Mineral com Gás"
+                desc=""
+                price="R$4,00"
+                img="semImagem.jpg"
+                path="cardapioCnB" 
+              /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="Sucos"
-                desc="Dell Valle (300 ml) - Laranja, Uva."
-                price="R$6,90" 
-                img="sucos.png"
-                path="cardapioTDF" 
-                /> 
+                title="Suco lata (Del Valle)"
+                desc=""
+                price="R$4,00"
+                img="semImagem.jpg"
+                path="cardapioCnB" 
+              /> 
             </Paper>
-          </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
-        <div className="font-topic">Sobremesa</div>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails className="details">
-          <Typography>
-          <Paper className={classes.root}>            
+            <Paper className={classes.root}>            
               <Modal 
-                title="Häagen-Dazs"
-                desc="(100ml) - Cookies, Morango, Macadâmia, Doce de Leite, Chocolate Belga."
-                price="R$13,90" 
-                img="haagen.png"
-                path="cardapioTDF" 
-                /> 
+                title="Aquárius Fresh"
+                desc=""
+                price="R$5,00"
+                img="semImagem.jpg"
+                path="cardapioCnB" 
+              /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
