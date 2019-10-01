@@ -9,6 +9,8 @@
   src: url('./assets/fonts/coolveticacondensedrg.ttf')
 }
 
-
+html {
+  background-color: black;
+}
 
 

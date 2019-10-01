@@ -9,6 +9,7 @@ import GeneralMex from './components/Cardapios/GeneralMex';
 import FinoSabor from './components/Cardapios/FinoSabor';
 import TioLuigi from './components/Cardapios/TioLuigi';
 import AkioJapa from './components/Cardapios/AkioJapa';
+import IceRozo from './components/Cardapios/IceRozo';
 
 export default props =>
     <Switch>
@@ -20,5 +21,6 @@ export default props =>
         <Route path="/cardapioFS" component={FinoSabor} />
         <Route path="/cardapioTL" component={TioLuigi} />
         <Route path="/cardapioAJ" component={AkioJapa} />
+        <Route path="/cardapioIR" component={IceRozo} />
         <Redirect from='*' to="/" />
     </Switch>

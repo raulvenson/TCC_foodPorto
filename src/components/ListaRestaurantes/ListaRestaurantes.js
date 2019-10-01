@@ -9,6 +9,7 @@ import {Link} from 'react-router-dom'
 import LeBrutoImg from './../../assets/lebruto.png' 
 import TheDogFatherImg from './../../assets/thedog.png'
 import SemImagem from './../../assets/semImagem.jpg'
+import IceRozo from './../../assets/iceRozo.png'
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
@@ -42,6 +43,14 @@ export default function ImgMediaCard() {
       </div>
     </Paper>
     </Link>
+    <Link to="/cardapioIR" style={{ textDecoration: 'none' }}>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={IceRozo}  className="img" alt=" The Dog Father icon"/>
+          Ice Rozo
+        </div>
+      </Paper>
+    </Link>
     <Link to="/cardapioCnB" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
@@ -51,45 +60,39 @@ export default function ImgMediaCard() {
     </Paper>
     </Link>
     <Link to="/cardapioGM" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <div variant="h5" component="h3" className="font-lista">
-        <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
-        General Mex
-      </div>
-    </Paper>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
+          General Mex
+        </div>
+      </Paper>
     </Link>
     <Link to="/cardapioFS" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <div variant="h5" component="h3" className="font-lista">
-        <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
-        Fino Sabor
-      </div>
-    </Paper>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
+          Fino Sabor
+        </div>
+      </Paper>
     </Link>
     <Link to="/cardapioTL" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <div variant="h5" component="h3" className="font-lista">
-        <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
-        Tio Luigi 
-      </div>
-    </Paper>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
+          Tio Luigi 
+        </div>
+      </Paper>
     </Link>
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <div variant="h5" component="h3" className="font-lista">
-        <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
-        Akio Japa
-      </div>
-    </Paper>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
+          Akio Japa
+        </div>
+      </Paper>
     </Link>
-    <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
-    <Paper className="paper">
-      <div variant="h5" component="h3" className="font-lista">
-        <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
-        Exemplo
-      </div>
-    </Paper>
-    </Link>
+    
+     
     </div>
   );
 }

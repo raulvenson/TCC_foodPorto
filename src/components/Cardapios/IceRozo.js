@@ -13,7 +13,7 @@ import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
-import TDFicon from './../../assets/thedog.png'
+import TDFicon from './../../assets/TDFicon.jpg'
 
 import Grid from '@material-ui/core/Grid';
 
@@ -21,7 +21,6 @@ const useStyles = makeStyles(theme => ({
   root: {
     padding: theme.spacing(1.5 , 1),
     marginBottom: 6,
-    backgroundColor: '#ffc025',
   },
 }));
 
@@ -97,7 +96,7 @@ export default function CustomizedExpansionPanels() {
           <div className="font-topic">Entradas</div>
         </ExpansionPanelSummary>
         
-        <ExpansionPanelDetails className="details">
+        <ExpansionPanelDetails>
           <Typography>
             <Paper className={classes.root}>            
             <Modal 
@@ -136,7 +135,7 @@ export default function CustomizedExpansionPanels() {
         <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
           <div className="font-topic">Hot Dogs Premium</div>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails className="details">
+        <ExpansionPanelDetails>
           <Typography>
             <Paper className={classes.root}>            
               <Modal 
