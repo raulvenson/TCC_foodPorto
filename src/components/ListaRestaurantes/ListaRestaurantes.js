@@ -10,6 +10,7 @@ import LeBrutoImg from './../../assets/lebruto.png'
 import TheDogFatherImg from './../../assets/thedog.png'
 import SemImagem from './../../assets/semImagem.jpg'
 import IceRozo from './../../assets/iceRozo.png'
+import GeneralMexLogo from './../../assets/cardapioGM/GeneralMexLogo.png'
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
@@ -55,7 +56,7 @@ export default function ImgMediaCard() {
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
           <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
-          Bar & Choperia
+          O Convés Bar
         </div>
       </Paper>
     </Link>
@@ -70,7 +71,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioGM" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
+          <img src={GeneralMexLogo}  className="img" alt=" The Dog Father icon"/>
           General Mex
         </div>
       </Paper>
@@ -96,6 +97,14 @@ export default function ImgMediaCard() {
         <div variant="h5" component="h3" className="font-lista">
           <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
           Akio Japa
+        </div>
+      </Paper>
+    </Link>
+    <Link to="/cardapioITA" style={{ textDecoration: 'none' }}>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
+          Italian Massas e Sucos
         </div>
       </Paper>
     </Link>

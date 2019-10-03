@@ -11,6 +11,7 @@ import TioLuigi from './components/Cardapios/TioLuigi';
 import AkioJapa from './components/Cardapios/AkioJapa';
 import IceRozo from './components/Cardapios/IceRozo';
 import BarChoperia from './components/Cardapios/BarChoperia';
+import Italian from './components/Cardapios/Italian';
 
 export default props =>
     <Switch>
@@ -24,5 +25,6 @@ export default props =>
         <Route path="/cardapioAJ" component={AkioJapa} />
         <Route path="/cardapioIR" component={IceRozo} />
         <Route path="/cardapioBC" component={BarChoperia} />
+        <Route path="/cardapioITA" component={Italian} />
         <Redirect from='*' to="/" />
     </Switch>
