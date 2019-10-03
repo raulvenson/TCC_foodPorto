@@ -13,7 +13,8 @@ import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
-import SemImagem from './../../assets/semImagem.jpg'
+
+import IceRozoLogo from './../../assets/iceRozo.png'
 
 import Grid from '@material-ui/core/Grid';
 
@@ -80,8 +81,8 @@ export default function CustomizedExpansionPanels() {
       <div className="header">
       <Paper className={classes.root}>
         <div className="font-lista cabecalho">
-          <img src={SemImagem}  className="img-header" alt="General Mex logo"/>
-          General Mex
+          <img src={IceRozoLogo}  className="img-header" alt="General Mex logo"/>
+          Ice Rozo
         </div>    
         <div className="cabecalho icones">
           <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><TiArrowBackOutline className="back-icon"/></Link>
@@ -94,39 +95,54 @@ export default function CustomizedExpansionPanels() {
       <div className="content">
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-          <div className="font-topic">Entradas</div>
+          <div className="font-topic">Super Taças</div>
         </ExpansionPanelSummary>
         
         <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Fritas TDF com Bacon e Cheddar"
-              desc="Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar."
-              price="A partir de R$18,90"
-              img="semImagem.jpg"
-              path="cardapioGM" 
-              
+              <Modal 
+                title="Taça Suja com Churros"
+                desc=""
+                price=""
+                img="semImagem.jpg"
+                path="cardapioIR" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Mix TDF"
-              desc="200g de onion rings, 200g de mussarela sticks e 300g de mini salsichas artesanais berna, acompanhadas de cheddar, barbecue e mostarda amarela."
-              price="A partir de R$38,90"
-              img="semImagem.jpg"
-              path="cardapioGM" 
-              
+              <Modal 
+                title="Taça Sorvete Quente"
+                desc=""
+                price=""
+                img="semImagem.jpg"
+                path="cardapioIR" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Porção de Salsicha Artesanal"
-              desc="Salsicha suína e bovina artesanal berna, acompanhada de pão alemão, barbecue e mostarda amarela."
-              price="A partir de R$19,90"
-              img="semImagem.jpg"
-              path="cardapioGM" 
-              
+              <Modal 
+                title="Taça Decorada Mix Chocolates"
+                desc=""
+                price=""
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Taça Decorada Mix Frutas"
+                desc=""
+                price=""
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Taça Decorada com churros"
+                desc=""
+                price=""
+                img="semImagem.jpg"
+                path="cardapioIR" 
               /> 
             </Paper>
           </Typography>
@@ -134,74 +150,352 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
-          <div className="font-topic">Hot Dogs Premium</div>
+          <div className="font-topic">Sorvete Thailandês</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
               <Modal 
-                title="01 - Fredo"
-                desc="Salsicha TDF, milho e ervilha. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$14,90"
+                title="Sorvete na Chapa"
+                desc="Escolha até 2 sabores: Morango, Maracujá, Leitinho (pó), Ovo Maltine, Leite Condensado, Açaí, Capuccino, Banana, Sonho de Valsa, Oreo/Negresco, Bis, Kiwi, Doce de Leite, Amendoin, Goiabada, Queijo com Goiabada, Prestigio, Flocos, Cacau 50% e Côco"
+                price=""
                 img="semImagem.jpg"
-                path="cardapioGM" 
-                /> 
+                path="cardapioIR" 
+              /> 
             </Paper>
-           
             </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
-          <div className="font-topic">Porções</div>
+          <div className="font-topic">Açaí no Copo</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
-          <Paper className={classes.root}>            
+            <Paper className={classes.root}>            
               <Modal 
-                title="Linguicinhas TDF"
-                desc="400g de linguicinha artesanal berna recheada de queijo provolone, acompanhada de pão alemão, chimichurri e mostarda escura."
-                price="R$36,90" 
+                title="300ML - 2 adicionais"
+                desc="Adicionais Extras = R$2,00 (Morango, Banana, Kiwi, Leite em Pó, Leite condensado, Ovo Maltine, Nutella, Granola, Côco, Granulado, Confete, Mel, Gotas de Chocolate, Doce de Leite, Bis e Chantilli)"
+                price="" 
                 img="semImagem.jpg"
                 path="cardapioGM" 
-                /> 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="500ML - 3 adicionais"
+                desc="Adicionais Extras = R$2,00 (Morango, Banana, Kiwi, Leite em Pó, Leite condensado, Ovo Maltine, Nutella, Granola, Côco, Granulado, Confete, Mel, Gotas de Chocolate, Doce de Leite, Bis e Chantilli)"
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
         <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
-        <div className="font-topic">Bebidas</div>
+          <div className="font-topic">Especiais</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
-          <Paper className={classes.root}>            
+            <Paper className={classes.root}>            
               <Modal 
-                title="Água mineral"
-                desc="500 ml."
-                price="R$4,90" 
+                title="Vaca Preta"
+                desc=""
+                price="" 
                 img="semImagem.jpg"
-                path="cardapioGM" 
-                /> 
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Sorvete Assado"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Feijoada Ice"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Banana Split"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Burritos Candy"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Grand Gateau"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
         <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
-        <div className="font-topic">Sobremesa</div>
+        <div className="font-topic">Churritos no Cone</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
-          <Paper className={classes.root}>            
+            <Paper className={classes.root}>            
               <Modal 
-                title="Häagen-Dazs"
-                desc="(100ml) - Cookies, Morango, Macadâmia, Doce de Leite, Chocolate Belga."
-                price="R$13,90" 
+                title="Doce de Leite"
+                desc=""
+                price="" 
                 img="semImagem.jpg"
-                path="cardapioGM" 
-                /> 
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Chocolate"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Misto"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Nutella"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+        <ExpansionPanelSummary aria-controls="panel6d-content" id="panel6d-header">
+        <div className="font-topic">Churritos no Prato (Porção Grande)</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Doce de Leite"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Chocolate"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Misto 3 Sabores"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Nutella"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+        <ExpansionPanelSummary aria-controls="panel7d-content" id="panel7d-header">
+        <div className="font-topic">Churros</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Doce de Leite ou Chocolate"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Combo de 3 unidades"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Especial de Nutella"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>  
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
+        <ExpansionPanelSummary aria-controls="panel8d-content" id="panel8d-header">
+        <div className="font-topic">Churros Gourmet</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Recheio"
+                desc="Chocolate ou Doce de Leite"
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Cobertura"
+                desc="Doce de Leite, Chocolate, Nutella, Beijinho, Brigadeiro e Goiabada."
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Confeito"
+                desc="Morango, Kiwi, Leitinho (pó), Côco, Granulado, Amendoin, Banana e Confete."
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>  
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel9'} onChange={handleChange('panel9')}>
+        <ExpansionPanelSummary aria-controls="panel9d-content" id="panel9d-header">
+        <div className="font-topic">Milk Shake</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="300ML"
+                desc="Morango, Kiwi, Banana ou Marshmellow"
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="500ML"
+                desc="Morango, Kiwi, Banana, Marshmellow"
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel10'} onChange={handleChange('panel10')}>
+        <ExpansionPanelSummary aria-controls="panel10d-content" id="panel10d-header">
+        <div className="font-topic">Fondue de Chocolate</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Pequeno"
+                desc="Sabores: Ovomaltine, Morango, Oreo, Amendoin ou Leitinho"
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Grande"
+                desc="Sabores: Ovomaltine, Morango, Oreo, Amendoin ou Leitinho"
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel11'} onChange={handleChange('panel11')}>
+        <ExpansionPanelSummary aria-controls="panel11d-content" id="panel11d-header">
+        <div className="font-topic">Cestinha Waffer</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Simples"
+                desc="Sabores de Sorvete no Painel"
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Trufada"
+                desc="Sabores de Sorvete no Painel "
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioIR" 
+              /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>

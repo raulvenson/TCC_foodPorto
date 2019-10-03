@@ -51,6 +51,14 @@ export default function ImgMediaCard() {
         </div>
       </Paper>
     </Link>
+    <Link to="/cardapioBC" style={{ textDecoration: 'none' }}>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
+          Bar & Choperia
+        </div>
+      </Paper>
+    </Link>
     <Link to="/cardapioCnB" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">

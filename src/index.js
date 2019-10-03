@@ -10,3 +10,17 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.register();
+
+// const admin = require('firebase-admin');const functions = require('firebase-functions');
+
+// admin.initializeApp(functions.config().firebase);
+
+// let db = admin.firestore();
+
+// let docRef = db.collection('users').doc('alovelace');
+
+// let setAda = docRef.set({
+//   first: 'Ada',
+//   last: 'Lovelace',
+//   born: 1815
+// });

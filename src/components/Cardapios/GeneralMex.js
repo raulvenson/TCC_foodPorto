@@ -94,39 +94,54 @@ export default function CustomizedExpansionPanels() {
       <div className="content">
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-          <div className="font-topic">Entradas</div>
+          <div className="font-topic">Burritos</div>
         </ExpansionPanelSummary>
         
         <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Fritas TDF com Bacon e Cheddar"
-              desc="Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar."
-              price="A partir de R$18,90"
-              img="semImagem.jpg"
-              path="cardapioGM" 
-              
+              <Modal 
+                title="Carne de Panela"
+                desc="Carne de Panela Desfiada, Fina Massa Mexicana de Trigo, Tomate Seco e Rúcula, Frijoles, Queijo mozzarella e Molho Guadalajara. (SEM PICÂNCIA)/ 400g/ Acompanha Guacamole e Barbecue Artesanal."
+                price="R$26,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Mix TDF"
-              desc="200g de onion rings, 200g de mussarela sticks e 300g de mini salsichas artesanais berna, acompanhadas de cheddar, barbecue e mostarda amarela."
-              price="A partir de R$38,90"
-              img="semImagem.jpg"
-              path="cardapioGM" 
-              
+              <Modal 
+                title="Frango"
+                desc="Frango Mex, Fina Massa Mexicana de Trigo, Tomate, Queijo mozzarella, Frijoles, Cheddar e Azeitonas. (SEM PICÂNCIA)/ 400g/ Acompanha Guacamole e Barbecue Artesanal."
+                price="R$23,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Porção de Salsicha Artesanal"
-              desc="Salsicha suína e bovina artesanal berna, acompanhada de pão alemão, barbecue e mostarda amarela."
-              price="A partir de R$19,90"
-              img="semImagem.jpg"
-              path="cardapioGM" 
-              
+              <Modal 
+                title="Pernil Suíno"
+                desc="Pernil suíno desfiado, Fina Massa Mexicana de Trigo, Tomate, Frijoles, Queijo mozzarella e Barbecue Artesanal. (SEM PICÂNCIA)/ 400g/ Acompanha Guacamole e Barbecue Artesanal."
+                price="R$25,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Alcatra"
+                desc="Alcatra em Cubos, Fina Massa Mexicana de Trigo, Tomate, Frijoles, Molho Texano e Queijo Mozzarella. (SEM PICÂNCIA)/ 400g/ Acompanha Guacamole e Barbecue Artesanal."
+                price="R$28,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Surf and Turf"
+                desc="Deliciosa Combinação de Pernil Suíno e Camarão, Fina Massa Mexicana de Trigo, Molho Teriyaki de Laranja, Frijoles, Tomate e Queijo Mozzarella. (SEM PICÂNCIA)/ 400g/ Acompanha Guacamole e Barbecue Artesanal."
+                price="R$28,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
               /> 
             </Paper>
           </Typography>
@@ -134,35 +149,79 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
-          <div className="font-topic">Hot Dogs Premium</div>
+          <div className="font-topic">Quesadilla</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
               <Modal 
-                title="01 - Fredo"
-                desc="Salsicha TDF, milho e ervilha. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$14,90"
+                title="Filé Mignon"
+                desc="Filé Mignon em Cubos ao Barbecue Artesanal, Fina Massa Mexicana de Trigo, Queijo Mozzarella e Frijoles. (SEM PICÂNCIA)/ 360g/ Acompanha Guacamole e Barbecue Artesanal."
+                price="R$26,00"
                 img="semImagem.jpg"
                 path="cardapioGM" 
-                /> 
+              /> 
             </Paper>
-           
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Frango"
+                desc="Frango Mex, Fina Massa Mexicana de Trigo, Frijoles, Cebola Roxa, Cheddar e Queijo Mozzarela.(SEM PICÂNCIA)/ 360g/ Acompanha Guacamole e Barbecue Artesanal."
+                price="R$22,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Pernil Suíno"
+                desc="Pernil Suíno Desfiado, Fina Massa Mexicana de Trigo, Frijoles, Molho Agridoce de Abacaxi com Gengibre e Queijo Mozzarela. (SEM PICÂNCIA)/ 360g/ Acompanha Guacamole e Barbecue Artesanal."
+                price="R$22,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Mix de Queijos"
+                desc="Mozzarela, Prato, Cream Cheese e Fina Massa Mexicana de Trigo. (SEM PICÂNCIA)/ 360g/ Acompanha Guacamole e Barbecue Artesanal."
+                price="R$24,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Tomate Seco e Rúcula (Vegetariana)"
+                desc="Tomate Seco e Rúcula, Frijoles, Queijo Mozzarela e Fina Massa Mexicana de Trigo. (SEM PICÂNCIA)/ 340g/ Acompanha Guacamole e Barbecue Artesanal."
+                price="R$20,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
             </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
-          <div className="font-topic">Porções</div>
+          <div className="font-topic">Nachos</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
-          <Paper className={classes.root}>            
+            <Paper className={classes.root}>            
               <Modal 
-                title="Linguicinhas TDF"
-                desc="400g de linguicinha artesanal berna recheada de queijo provolone, acompanhada de pão alemão, chimichurri e mostarda escura."
-                price="R$36,90" 
+                title="Bacon BBQ"
+                desc="Chips de Milho Crocante (Original-Importado do México), Chilli com Carne, Barbecue Artesanal, Bacon, Queijo Mozzarela e Prato, Azeitonas e Cebolinha. (LEVE PICÂNCIA)/ Acompanha Guacamole e Sour Cream."
+                price="R$28,00" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+                /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Super Nachos"
+                desc="Queridinho em Todos os Restaurantes e Bares de Temática Mexicana, Esse Clássico Leva em Sua Composição, Chips de Milho Crocante (Original-Importado do México), Chilli com Carne,Queijo Mozzarela e Prato, Cheddar, Azeitonas, Pimentão Amarelo e Vermelho em Cubos, Rodelas de Pimenta Jalapeño em Conserva e Cebolinha. (LEVE PICÂNCIA)"
+                price="R$42,00" 
                 img="semImagem.jpg"
                 path="cardapioGM" 
                 /> 
@@ -172,36 +231,63 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
         <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
-        <div className="font-topic">Bebidas</div>
+        <div className="font-topic">Pork Ribs</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
-          <Paper className={classes.root}>            
+            <Paper className={classes.root}>            
               <Modal 
-                title="Água mineral"
-                desc="500 ml."
-                price="R$4,90" 
+                title="Pork Ribs & Batata Rústica (Uma Pessoa)"
+                desc="Costela Suína com Barbecue Artesanal (400g). Acompanha Batata Rústica (250g) e Cinnamon Apple (80g)."
+                price="R$32,00" 
                 img="semImagem.jpg"
                 path="cardapioGM" 
-                /> 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Pork Ribs & Batata Rústica (Duas Pessoa)"
+                desc="Costela Suína com Barbecue Artesanal (400g). Acompanha Batata Rústica (250g) e Cinnamon Apple (80g)."
+                price="R$58,00" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
         <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
-        <div className="font-topic">Sobremesa</div>
+        <div className="font-topic">Sandwich</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
-          <Paper className={classes.root}>            
+            <Paper className={classes.root}>            
               <Modal 
-                title="Häagen-Dazs"
-                desc="(100ml) - Cookies, Morango, Macadâmia, Doce de Leite, Chocolate Belga."
-                price="R$13,90" 
+                title="Torta (Sandwich)"
+                desc="Tradicional Sanduíche de Pernil Suíno Desfiado no Pão Baguette, Grelhado com Barbecue Artesanal, Cebola Roxa e Queijo Mozzarela. (SEM PICÂNCIA) 500g. Acompanha Batata Rústica e Creme Aioli."
+                price="R$25,00" 
                 img="semImagem.jpg"
                 path="cardapioGM" 
-                /> 
+              /> 
+            </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+        <ExpansionPanelSummary aria-controls="panel6d-content" id="panel6d-header">
+        <div className="font-topic">Chips & Salsa</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Chips & Salsa"
+                desc="Cesto com Tortillas (Chips) de Milho Crocante (Original-Importado do México) 140g. Ideal para servir como entrada ou para acompanhar cerveja/chopp. Acompanha os molhos, Guacamole, Sour Cream, Barbecue e Salsa Roja. (Todos os Molhos Artesanais)"
+                price="R$24,00" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>

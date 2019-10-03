@@ -81,7 +81,7 @@ export default function CustomizedExpansionPanels() {
       <Paper className={classes.root}>
         <div className="font-lista cabecalho">
           <img src={SemImagem}  className="img-header" alt="General Mex logo"/>
-          General Mex
+          Tio Luigi
         </div>    
         <div className="cabecalho icones">
           <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><TiArrowBackOutline className="back-icon"/></Link>
@@ -94,96 +94,351 @@ export default function CustomizedExpansionPanels() {
       <div className="content">
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-          <div className="font-topic">Entradas</div>
+          <div className="font-topic">Tamanhos</div>
         </ExpansionPanelSummary>
-        
         <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Fritas TDF com Bacon e Cheddar"
-              desc="Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar."
-              price="A partir de R$18,90"
-              img="semImagem.jpg"
-              path="cardapioGM" 
-              
-              /> 
+              <Modal 
+                title="Pequena (P)"
+                desc="X Pedaços e X Sabores"
+                price="A partir de R$25,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
+               /> 
             </Paper>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Mix TDF"
-              desc="200g de onion rings, 200g de mussarela sticks e 300g de mini salsichas artesanais berna, acompanhadas de cheddar, barbecue e mostarda amarela."
-              price="A partir de R$38,90"
-              img="semImagem.jpg"
-              path="cardapioGM" 
-              
-              /> 
+              <Modal 
+                title="Média (M)"
+                desc="X Pedaços e X Sabores"
+                price="A partir de R$38,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
+               /> 
             </Paper>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Porção de Salsicha Artesanal"
-              desc="Salsicha suína e bovina artesanal berna, acompanhada de pão alemão, barbecue e mostarda amarela."
-              price="A partir de R$19,90"
-              img="semImagem.jpg"
-              path="cardapioGM" 
-              
-              /> 
+              <Modal 
+                title="Grande (G)"
+                desc="X Pedaços e X Sabores"
+                price="A partir de R$45,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
+               /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Extra Grande (GG)"
+                desc="X Pedaços e X Sabores"
+                price="A partir de R$60,00"
+                img="semImagem.jpg"
+                path="cardapioGM" 
+               /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
-          <div className="font-topic">Hot Dogs Premium</div>
+          <div className="font-topic">Pizzas</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
               <Modal 
-                title="01 - Fredo"
-                desc="Salsicha TDF, milho e ervilha. Acompanha pão, purê de batata, salsicha, molho especial, batata palha e queijo maçaricado."
-                price="A partir de R$14,90"
+                title="Portuguesa"
+                desc="Molho de Tomate, Muçarela, Presunto, Ovo, Tomate, Cebola, Palmito, Azeitona e Orégano."
+                price=""
                 img="semImagem.jpg"
                 path="cardapioGM" 
-                /> 
+              /> 
             </Paper>
-           
-            </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-      
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
-          <div className="font-topic">Porções</div>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails className="details">
-          <Typography>
-          <Paper className={classes.root}>            
+            <Paper className={classes.root}>            
               <Modal 
-                title="Linguicinhas TDF"
-                desc="400g de linguicinha artesanal berna recheada de queijo provolone, acompanhada de pão alemão, chimichurri e mostarda escura."
-                price="R$36,90" 
+                title="Strogonoff de Carne"
+                desc="Molho de Tomate, Muçarela, Strogonoff, Azeitona, Orégano e Batata Palha."
+                price=""
                 img="semImagem.jpg"
                 path="cardapioGM" 
-                /> 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Picanha"
+                desc="Molho de Tomate, Muçarela, Picanha, Cebola, Azeitona e Orégano."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Nordestina"
+                desc="Molho de Tomate, Muçarela, Carne de Sol, Azeitona, Orégano e Abacaxi."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Calabresa"
+                desc="Molho de Tomate, Muçarela, Calabresa, Cebola, Azeitona e Orégano."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Frango com Catupiry"
+                desc="Molho de Tomate, Muçarela, Frango Desfiado, Catupiri, Azeitona e Orégano."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Parmegiana de Carne"
+                desc="Molho de Tomate, Muçarela, Filé de Carne, Tomate, Creme de Leite, Azeitona e Orégano."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Marguerita"
+                desc="Molho de Tomate, Muçarela, Tomate, Manjericão e Azeitona."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Rúcula com Tomate Seco"
+                desc="Molho de Tomate, Muçarela, Rúcula, Tomate Seco e Azeitona."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="A Moda da Casa"
+                desc="Molho de Tomate, Muçarela, Frango, Bacon, Champignon, Calabresa, Presunto, Milho, Tomate, Creme de Leite, Azeitona e Orégano."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Moda do Chefe"
+                desc="Molho de Tomate, Muçarela, Milho, Bacon, Calabresa, Cebola, Azeitona e Orégano."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Atum"
+                desc="Molho de Tomate, Muçarela, Atum, Cebola, Azeitona e Orégano."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Atum com Rúcula e Tomate Seco"
+                desc="Molho de Tomate, Muçarela, Atum, Rúcula, Tomate Seco, Cebola, Azeitona e Orégano."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Tio Luigi"
+                desc="Molho de Tomate, Muçarela, Presunto, Ovos, Milho, Tomate, Palmito e Orégano."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="4 Queijos"
+                desc="Molho de Tomate, Muçarela, Catupiry, Provolone, Gorgonzola, Azeitona e Orégano."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="3 Queijos"
+                desc="Molho de Tomate, Muçarela, Parmesão, Gorgonzola, Azeitona e Orégano."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Mexicana"
+                desc="Molho de Tomate, Muçarela, Frango, Tomate, Calabresa, Pimenta Calabresa e Orégano."
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
+          <div className="font-topic">Pizzas Doces</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Banana com Canela"
+                desc=""
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Prestígio"
+                desc=""
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Chocolate"
+                desc=""
+                price=""
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
         <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
+          <div className="font-topic">Bordas Recheadas</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Catupiry"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Cheddar"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Chocolate"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Philadelphia"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
         <div className="font-topic">Bebidas</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
-          <Paper className={classes.root}>            
+            <Paper className={classes.root}>            
               <Modal 
-                title="Água mineral"
-                desc="500 ml."
-                price="R$4,90" 
+                title="Água s/ Gás"
+                desc=""
+                price="" 
                 img="semImagem.jpg"
                 path="cardapioGM" 
-                /> 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Água c/ Gás"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Coca Cola Lata"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>  
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Fanta Lata"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Coca Cola Litro"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
+            </Paper> 
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Fanta Litro"
+                desc=""
+                price="" 
+                img="semImagem.jpg"
+                path="cardapioGM" 
+              /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
