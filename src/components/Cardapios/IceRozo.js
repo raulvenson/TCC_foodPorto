@@ -104,7 +104,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Taça Suja com Churros"
                 desc=""
-                price=""
+                price="R$25,00"
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -113,7 +113,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Taça Sorvete Quente"
                 desc=""
-                price=""
+                price="R$22,00"
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -122,7 +122,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Taça Decorada Mix Chocolates"
                 desc=""
-                price=""
+                price="R$22,00"
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -131,7 +131,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Taça Decorada Mix Frutas"
                 desc=""
-                price=""
+                price="R$22,00"
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -140,7 +140,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Taça Decorada com churros"
                 desc=""
-                price=""
+                price="R$28,00"
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -158,7 +158,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Sorvete na Chapa"
                 desc="Escolha até 2 sabores: Morango, Maracujá, Leitinho (pó), Ovo Maltine, Leite Condensado, Açaí, Capuccino, Banana, Sonho de Valsa, Oreo/Negresco, Bis, Kiwi, Doce de Leite, Amendoin, Goiabada, Queijo com Goiabada, Prestigio, Flocos, Cacau 50% e Côco"
-                price=""
+                price="R$13,00"
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -177,7 +177,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="300ML - 2 adicionais"
                 desc="Adicionais Extras = R$2,00 (Morango, Banana, Kiwi, Leite em Pó, Leite condensado, Ovo Maltine, Nutella, Granola, Côco, Granulado, Confete, Mel, Gotas de Chocolate, Doce de Leite, Bis e Chantilli)"
-                price="" 
+                price="R$12,00" 
                 img="semImagem.jpg"
                 path="cardapioGM" 
               /> 
@@ -186,7 +186,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="500ML - 3 adicionais"
                 desc="Adicionais Extras = R$2,00 (Morango, Banana, Kiwi, Leite em Pó, Leite condensado, Ovo Maltine, Nutella, Granola, Côco, Granulado, Confete, Mel, Gotas de Chocolate, Doce de Leite, Bis e Chantilli)"
-                price="" 
+                price="R$17,00" 
                 img="semImagem.jpg"
                 path="cardapioGM" 
               /> 
@@ -204,7 +204,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Vaca Preta"
                 desc=""
-                price="" 
+                price="R$18,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -213,7 +213,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Sorvete Assado"
                 desc=""
-                price="" 
+                price="R$18,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -222,7 +222,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Feijoada Ice"
                 desc=""
-                price="" 
+                price="R$18,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -231,7 +231,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Banana Split"
                 desc=""
-                price="" 
+                price="R$18,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -240,7 +240,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Burritos Candy"
                 desc=""
-                price="" 
+                price="R$18,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -249,7 +249,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Grand Gateau"
                 desc=""
-                price="" 
+                price="R$20,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -267,7 +267,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Doce de Leite"
                 desc=""
-                price="" 
+                price="R$16,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -276,7 +276,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Chocolate"
                 desc=""
-                price="" 
+                price="R$16,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -285,7 +285,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Misto"
                 desc=""
-                price="" 
+                price="R$16,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -294,7 +294,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Nutella"
                 desc=""
-                price="" 
+                price="R$16,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -312,7 +312,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Doce de Leite"
                 desc=""
-                price="" 
+                price="R$25,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -321,7 +321,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Chocolate"
                 desc=""
-                price="" 
+                price="R$25,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -330,7 +330,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Misto 3 Sabores"
                 desc=""
-                price="" 
+                price="R$26,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -339,7 +339,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Nutella"
                 desc=""
-                price="" 
+                price="R$26,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -357,7 +357,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Doce de Leite ou Chocolate"
                 desc=""
-                price="" 
+                price="R$5,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -366,7 +366,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Combo de 3 unidades"
                 desc=""
-                price="" 
+                price="R$13,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -375,7 +375,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Especial de Nutella"
                 desc=""
-                price="" 
+                price="R$7,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -385,7 +385,7 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
         <ExpansionPanelSummary aria-controls="panel8d-content" id="panel8d-header">
-        <div className="font-topic">Churros Gourmet</div>
+        <div className="font-topic">Churros Gourmet - R$8,00</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
@@ -429,7 +429,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="300ML"
                 desc="Morango, Kiwi, Banana ou Marshmellow"
-                price="" 
+                price="R$10,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -438,7 +438,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="500ML"
                 desc="Morango, Kiwi, Banana, Marshmellow"
-                price="" 
+                price="R$14,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -456,7 +456,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Pequeno"
                 desc="Sabores: Ovomaltine, Morango, Oreo, Amendoin ou Leitinho"
-                price="" 
+                price="R$25,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -465,7 +465,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Grande"
                 desc="Sabores: Ovomaltine, Morango, Oreo, Amendoin ou Leitinho"
-                price="" 
+                price="R$335,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -483,7 +483,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Simples"
                 desc="Sabores de Sorvete no Painel"
-                price="" 
+                price="R$12,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
@@ -492,7 +492,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Trufada"
                 desc="Sabores de Sorvete no Painel "
-                price="" 
+                price="R$14,00" 
                 img="semImagem.jpg"
                 path="cardapioIR" 
               /> 
