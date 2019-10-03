@@ -102,29 +102,11 @@ export default function CustomizedExpansionPanels() {
             <Modal 
               title="9 Horas"
               desc="O básico delicioso, versão kids!/Hambúrguer de blend especial de carne bovina, preparado na brasa, como churrasco, pão branco da casa, molho clássico Le Bruto, molho de tomate estilo ketchup e queijo mozarela. Acompanha batata frita."
-              price="A partir de R$20,00"
+              price="A partir de R$17,00"
               img="semImagem.jpg"
               path="cardapioLeBruto"         
               /> 
-            </Paper>
-            <Paper className={classes.root}>            
-            <Modal 
-              title="Herbívoro "
-              desc="Nada de carnes por aqui/ Pão branco crocante, creme lemon Le Bruto, rúcula, tomate cereja e um apetitoso queijo coalho na brasa. Obs: estamos temporariamente sem o pão branco crocante, será com o pão da casa."
-              price="A partir de R$22,00"
-              img="semImagem.jpg"
-              path="cardapioLeBruto"            
-              /> 
-            </Paper>
-            <Paper className={classes.root}>            
-            <Modal 
-              title="Chancho "
-              desc="Saboroso hambúrguer de carne suína/ Hambúrguer de suíno especial Le Bruto (preparado na brasa, como churrasco), pão branco rústico da casa, molho especial LB, cebola caramelizada, tomate e queijo mozarela. Acompanha Geléia de abacaxi com pimenta."
-              price="A partir de R$24,00"
-              img="semImagem.jpg"
-              path="cardapioLeBruto" 
-              /> 
-            </Paper>
+            </Paper>  
             <Paper className={classes.root}>            
             <Modal 
               title="Gringo"
@@ -133,25 +115,7 @@ export default function CustomizedExpansionPanels() {
               img="semImagem.jpg"
               path="cardapioLeBruto" 
               /> 
-            </Paper>
-            <Paper className={classes.root}>            
-            <Modal 
-              title="Salada Hamburguesa"
-              desc="Salada + hambúrguer/Hambúrguer clássico (preparado na brasa, como churrasco) + queijo mussarela, mescla de alfaces, rúcula, palmito, tomate cereja e um delicioso queijo emental. Acompanha molho barbecue."
-              price="A partir de R$24,00"
-              img="semImagem.jpg"
-              path="cardapioLeBruto" 
-              /> 
-            </Paper>
-            <Paper className={classes.root}>            
-            <Modal 
-              title="Le Brutinho"
-              desc="Mini Burger + Fritas + Brinquedo Colecionável + Mini Refri (Coca-cola/Fanta) "
-              price="A partir de R$25,00"
-              img="semImagem.jpg"
-              path="cardapioLeBruto" 
-              /> 
-            </Paper>     
+            </Paper>               
             <Paper className={classes.root}>            
             <Modal 
               title="Le Bruto"
@@ -184,24 +148,6 @@ export default function CustomizedExpansionPanels() {
               title="Churrascada"
               desc="Hambúrguer 180g de Costela, mozzarella de búfala, cebola tostada, maionese Le Bruto, alface e pão australiano."
               price="A partir de R$28,00"
-              img="semImagem.jpg"
-              path="cardapioLeBruto" 
-              /> 
-            </Paper>
-            <Paper className={classes.root}>            
-            <Modal 
-              title="Churrascada - Pão Tradicional da Casa"
-              desc="Hambúrguer 180g de Costela, mozzarella de búfala, cebola tostada, maionese Le Bruto, alface e pão australiano."
-              price="A partir de R$28,00"
-              img="semImagem.jpg"
-              path="cardapioLeBruto" 
-              /> 
-            </Paper>
-            <Paper className={classes.root}>            
-            <Modal 
-              title="Picanha"
-              desc="Aquela loucura de moer uma picanha para fazer hambúrguer/ Hambúrguer com 150g de pura picanha, preparado na brasa, como churrasco, pão branco crocante, creme lemon Le Bruto, bacon, tomate, mescla de alfaces e um ótimo queijo gouda."
-              price="A partir de R$32,00"
               img="semImagem.jpg"
               path="cardapioLeBruto" 
               /> 
