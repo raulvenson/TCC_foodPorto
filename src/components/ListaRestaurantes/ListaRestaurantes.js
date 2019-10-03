@@ -14,6 +14,7 @@ import GeneralMexLogo from './../../assets/cardapioGM/GeneralMexLogo.png'
 import Bar from './../../assets/cardapioBC/bar.png'
 import CnBlogo from './../../assets/cardapioCnB/NaBrasaLogo.png'
 import FinoSaborLogo from './../../assets/cardapioFS/finoSaborLogo.png'
+import ParqueAlegria from './../../assets/parqueAlegria/ParqueAlegriaLogo.png'
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
@@ -111,8 +112,15 @@ export default function ImgMediaCard() {
         </div>
       </Paper>
     </Link>
+    <Link to="/parqueAlegria" style={{ textDecoration: 'none' }}>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={ParqueAlegria}  className="img" alt=" The Dog Father icon"/>
+          Parque da Alegria
+        </div>
+      </Paper>
+    </Link>
     
-     
     </div>
   );
 }

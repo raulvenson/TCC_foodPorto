@@ -12,6 +12,7 @@ import AkioJapa from './components/Cardapios/AkioJapa';
 import IceRozo from './components/Cardapios/IceRozo';
 import BarChoperia from './components/Cardapios/BarChoperia';
 import Italian from './components/Cardapios/Italian';
+import ParqueAlegria from './components/Cardapios/ParqueAlegria';
 
 export default props =>
     <Switch>
@@ -26,5 +27,6 @@ export default props =>
         <Route path="/cardapioIR" component={IceRozo} />
         <Route path="/cardapioBC" component={BarChoperia} />
         <Route path="/cardapioITA" component={Italian} />
+        <Route path="/parqueAlegria" component={ParqueAlegria} />
         <Redirect from='*' to="/" />
     </Switch>
