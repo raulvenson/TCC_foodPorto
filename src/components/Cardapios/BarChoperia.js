@@ -13,7 +13,7 @@ import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
-import SemImagem from './../../assets/semImagem.jpg'
+import Bar from './../../assets/cardapioBC/bar.png'
 
 import Grid from '@material-ui/core/Grid';
 
@@ -80,7 +80,7 @@ export default function CustomizedExpansionPanels() {
       <div className="header">
       <Paper className={classes.root}>
         <div className="font-lista cabecalho">
-          <img src={SemImagem}  className="img-header" alt="Churrasco na Brasa icon"/>
+          <img src={Bar}  className="img-header" alt="Churrasco na Brasa icon"/>
           O Convés Bar
         </div>    
         <div className="cabecalho icones">

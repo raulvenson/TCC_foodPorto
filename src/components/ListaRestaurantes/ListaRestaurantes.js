@@ -11,6 +11,7 @@ import TheDogFatherImg from './../../assets/thedog.png'
 import SemImagem from './../../assets/semImagem.jpg'
 import IceRozo from './../../assets/iceRozo.png'
 import GeneralMexLogo from './../../assets/cardapioGM/GeneralMexLogo.png'
+import Bar from './../../assets/cardapioBC/bar.png'
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
@@ -55,7 +56,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioBC" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
+          <img src={Bar}  className="img" alt=" The Dog Father icon"/>
           O Convés Bar
         </div>
       </Paper>
