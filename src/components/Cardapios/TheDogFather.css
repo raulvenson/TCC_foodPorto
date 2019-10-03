@@ -27,7 +27,7 @@
   }
   .footer{
     grid-area: footer;
-    background-color: white;
+    background-color: black;
   }
 .text{
     text-align: center;

@@ -15,6 +15,7 @@ import Bar from './../../assets/cardapioBC/bar.png'
 import CnBlogo from './../../assets/cardapioCnB/NaBrasaLogo.png'
 import FinoSaborLogo from './../../assets/cardapioFS/finoSaborLogo.png'
 import ParqueAlegria from './../../assets/parqueAlegria/ParqueAlegriaLogo.png'
+import AkioJapaLogo from './../../assets/cardapioAJ/AkioJapaLogo.png'
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
@@ -99,7 +100,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={SemImagem}  className="img" alt=" The Dog Father icon"/>
+          <img src={AkioJapaLogo}  className="img" alt="AkioJapaLogo"/>
           Akio Japa
         </div>
       </Paper>

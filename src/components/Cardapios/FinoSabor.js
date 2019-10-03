@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
-import Whats_qld from '../../assets/whats_qld.png';
+import Whats_qld from '../../assets/whats_.png';
 import { TiArrowBackOutline } from 'react-icons/ti';
 import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'

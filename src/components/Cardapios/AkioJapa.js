@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
-import Whats_qld from '../../assets/whats_qld.png';
+import Whats_qld from '../../assets/whats_.png';
 import { TiArrowBackOutline } from 'react-icons/ti';
 import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
@@ -100,13 +100,12 @@ export default function CustomizedExpansionPanels() {
         <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
-            <Modal 
-              title="Fritas TDF com Bacon e Cheddar"
-              desc="Porção de 400g de batatas fritas sequinhas com bacon e muito cheddar."
-              price="A partir de R$18,90"
-              img="semImagem.jpg"
-              path="cardapioGM" 
-              
+              <Modal 
+                title="07 - Joe Salmão"
+                desc="Enrolado de salmão, cream cheese, cebolinha e salmão batido."
+                price="A partir de R$6,90"
+                img="semImagem.jpg"
+                path="cardapioGM"               
               /> 
             </Paper>
             <Paper className={classes.root}>            
