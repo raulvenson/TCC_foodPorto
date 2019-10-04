@@ -14,7 +14,7 @@ import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
 
-import GeneralMexLogo from './../../assets/cardapioGM/GeneralMexLogo.jpeg'
+import ItalianLogo from './../../assets/cardapioITA/ItalianLogo.png'
 
 
 import Grid from '@material-ui/core/Grid';
@@ -82,7 +82,7 @@ export default function CustomizedExpansionPanels() {
       <div className="header">
       <Paper className={classes.root}>
         <div className="font-lista cabecalho">
-          <img src={GeneralMexLogo}  className="img-header" alt="General Mex logo"/>
+          <img src={ItalianLogo}  className="img-header" alt="General Mex logo"/>
           Italian Massas e Sucos
         </div>    
         <div className="cabecalho icones">
