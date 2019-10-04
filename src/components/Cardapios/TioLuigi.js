@@ -13,7 +13,7 @@ import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
-import SemImagem from './../../assets/semImagem.jpg'
+import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.jpeg'
 
 import Grid from '@material-ui/core/Grid';
 
@@ -80,7 +80,7 @@ export default function CustomizedExpansionPanels() {
       <div className="header">
       <Paper className={classes.root}>
         <div className="font-lista cabecalho">
-          <img src={SemImagem}  className="img-header" alt="General Mex logo"/>
+          <img src={TioLuigiLogo}  className="img-header" alt="General Mex logo"/>
           Tio Luigi
         </div>    
         <div className="cabecalho icones">
