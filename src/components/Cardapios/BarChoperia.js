@@ -94,7 +94,7 @@ export default function CustomizedExpansionPanels() {
       <div className="content">
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-          <div className="font-topic">Chopp</div>
+          <div className="font-topic">Chopp Louvada</div>
         </ExpansionPanelSummary>
         
         <ExpansionPanelDetails className="details">
@@ -171,13 +171,22 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
+          <Paper className={classes.root}>            
+              <Modal 
+                title="Corona Long"
+                desc=""
+                price="R$10,00"
+                img="Heineken.PNG"
+                path="cardapioBC"              
+              /> 
+            </Paper>
 						<Paper className={classes.root}>            
               <Modal 
                 title="Heineken Long"
                 desc=""
                 price="R$8,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Heineken.PNG"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -185,8 +194,8 @@ export default function CustomizedExpansionPanels() {
                 title="Cacildis Long"
                 desc=""
                 price="R$8,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Cacilds.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -194,8 +203,8 @@ export default function CustomizedExpansionPanels() {
                 title="Budweiser Long"
                 desc=""
                 price="R$7,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="budweiser.jpg"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            

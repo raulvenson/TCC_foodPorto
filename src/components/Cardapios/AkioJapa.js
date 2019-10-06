@@ -94,7 +94,7 @@ export default function CustomizedExpansionPanels() {
       <div className="content">
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-          <div className="font-topic">(Verificar)</div>
+          <div className="font-topic">Entradas</div>
         </ExpansionPanelSummary>
         
         <ExpansionPanelDetails className="details">
