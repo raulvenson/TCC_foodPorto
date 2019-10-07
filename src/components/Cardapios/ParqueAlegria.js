@@ -9,12 +9,18 @@ import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
 // import Whats_qld from '../../assets/whats_qld.png';
 import { TiArrowBackOutline } from 'react-icons/ti';
-import Modal from '../Modal/Modal'
+// import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
 
-import ParqueAlegriaLogo from './../../assets/parqueAlegria/ParqueAlegriaLogo.png'
+import ParqueAlegriaLogo from './../../assets/parqueAlegria/ParqueAlegriaLogo.png';
+import Img01 from './../../assets/parqueAlegria/Img01.jpg';
+import Img02 from './../../assets/parqueAlegria/Img02.jpg';
+import Img03 from './../../assets/parqueAlegria/Img03.jpg';
+import Img04 from './../../assets/parqueAlegria/Img04.jpg';
+import Img05 from './../../assets/parqueAlegria/Img05.jpg';
+
 
 
 // import Grid from '@material-ui/core/Grid';
@@ -102,13 +108,23 @@ export default function CustomizedExpansionPanels() {
         <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
-              <Modal 
-                title="Parque e Espaço de Festas"
-                desc="Para mais informações entre em contato (65) xxxxx-xxxx"
-                price=""
-                img="semImagem.jpg"
-                path="cardapioCnB" 
-              /> 
+              <h1>Playground e Espaço de Festas</h1>
+              <h2>Informações para reserva do Espaço de Festas - WhatsApp (65)99939-0805</h2>
+            </Paper>
+            <Paper className={classes.root}>            
+              <img width="380px" alt="img01" src={Img01}/>
+            </Paper>
+            <Paper className={classes.root}>            
+              <img width="380px" alt="img02" src={Img02}/>
+            </Paper>
+            <Paper className={classes.root}>            
+              <img width="380px" alt="img03" src={Img03}/>
+            </Paper>
+            <Paper className={classes.root}>            
+              <img width="380px" alt="img04" src={Img04}/>
+            </Paper>
+            <Paper className={classes.root}>            
+              <img width="380px" alt="img05" src={Img05}/>
             </Paper>
           </Typography>
         </ExpansionPanelDetails>

@@ -296,7 +296,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Água mineral"
                 desc="500 ml."
-                price="R$4,90" 
+                price="R$4,00" 
                 img="agua.png"
                 path="cardapioTDF" 
                 /> 
@@ -305,7 +305,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Refrigerantes "
                 desc="Lata (350 ml) - Coca-cola, Coca-cola Zero, Fanta Guaraná, Fanta Laranja, Fanta Uva, Sprite."
-                price="R$5,90" 
+                price="R$4,00" 
                 img="refri.png"
                 path="cardapioTDF" 
                 /> 

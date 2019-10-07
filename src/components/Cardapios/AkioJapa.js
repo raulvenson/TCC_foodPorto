@@ -271,6 +271,15 @@ export default function CustomizedExpansionPanels() {
                 path="cardapioGM"     
               /> 
             </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+        <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
+          <div className="font-topic">Hossomaki (08 UN)</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
             <Paper className={classes.root}>            
               <Modal 
                 title="18 – Hossomaki Skin"
@@ -413,6 +422,141 @@ export default function CustomizedExpansionPanels() {
                 price="A partir de R$16,90"
                 img="semImagem.jpg"
                 path="cardapioGM"
+              /> 
+            </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+        <div className="font-topic">Temakis</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="33 – Filadélfia"
+                desc="Sushi em formato de cone, com recheio de salmão, cream cheese e cebolinha."
+                price="A partir de R$18,90"
+                img="semImagem.jpg"
+                path="cardapioGM"   
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="34 – Salmão"
+                desc="Sushi em formato de cone, recheado com arroz e salmão."
+                price="A partir de R$12,90"
+                img="semImagem.jpg"
+                path="cardapioGM"   
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="35 – Furai"
+                desc="Sushi em formato de cone, alga, arroz e cream cheese."
+                price="A partir de R$18,50"
+                img="semImagem.jpg"
+                path="cardapioGM"   
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="36 – Hot"
+                desc="Sushi em formato de cone, recheado de salmão empanado e frito."
+                price="A partir de R$22,90"
+                img="semImagem.jpg"
+                path="cardapioGM"   
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="37 – Skin"
+                desc="Sushi em formato de cone, skin empanado, tarê, cream cheese, cebolinha e gergelim."
+                price="A partir de R$17,90"
+                img="semImagem.jpg"
+                path="cardapioGM"   
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="38 – Alaska"
+                desc="Sushi em formato de cone, recheado de arroz, cream cheese, pepino e salmão."
+                price="A partir de R$18,90"
+                img="semImagem.jpg"
+                path="cardapioGM"   
+              /> 
+            </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+        <div className="font-topic">Hot Roll (10 UN)</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="39 – Hot Roll"
+                desc="Enrolado de arroz com alga empanada com farinha panko e frito, recheio de salmão."
+                price="A partir de R$17,90"
+                img="semImagem.jpg"
+                path="cardapioGM"   
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="40 – Hot Roll Filadélfia"
+                desc="Enrolado de arroz com alga empanada com farinha panko e frito, recheio de salmão, cream cheese e cebolinha."
+                price="A partir de R$18,90"
+                img="semImagem.jpg"
+                path="cardapioGM"   
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="41 – Hot Morango"
+                desc="Enrolado de arroz com alga empanada com farinha panko e frito, recheio de morango cream chesese e chocolate."
+                price="A partir de R$20,90"
+                img="semImagem.jpg"
+                path="cardapioGM"   
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="42 – Hot Banana"
+                desc="Enrolado de arroz com alga empanada com farinha panko e frito, recheio de banana com doce de leite, calda de chocolate e leite condensado"
+                price="A partir de R$17,90"
+                img="semImagem.jpg"
+                path="cardapioGM"   
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="43 – Hot Nutella"
+                desc="Enrolado de arroz com alga empanada com farinha panko e frito, morango e nutella."
+                price="A partir de R$20,90"
+                img="semImagem.jpg"
+                path="cardapioGM"   
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="44 – Hot Nani"
+                desc="Enrolado de arroz com alga empanada com farinha panko e frito, recheio de kani, cream chesse, cebolinha e gergilim."
+                price="A partir de R$17,90"
+                img="semImagem.jpg"
+                path="cardapioGM"   
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="45 – Hot Camarão"
+                desc="Enrolado de arroz com alga empanada com farinha panko e frito, recheio de camarão, cream cheese, cebolinha e gergilim."
+                price="A partir de R$23,90"
+                img="semImagem.jpg"
+                path="cardapioGM"   
               /> 
             </Paper>
           </Typography>
@@ -703,6 +847,15 @@ export default function CustomizedExpansionPanels() {
                 path="cardapioGM"   
               /> 
             </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+          <div className="font-topic">Sashimis Especiais</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
             <Paper className={classes.root}>            
               <Modal 
                 title="71 – Salmão tostado (10 unidades)"
@@ -788,7 +941,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Água mineral sem gás"
                 desc="Água mineral."
-                price="A partir de R$3,50"
+                price="A partir de R$4,00"
                 img="semImagem.jpg"
                 path="cardapioGM"        
               /> 

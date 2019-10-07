@@ -76,6 +76,16 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
 }
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Coolvetica';
+    font-size: 20px;
+    text-align: center;
+}
 .font-title{
     font-family: 'Coolvetica';
     font-size: 30px;
