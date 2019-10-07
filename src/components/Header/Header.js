@@ -12,7 +12,7 @@ import './header.css'
 
 export default props => {	
 	return(
-		<img  alt="Logo do Food Park Porto" src={onMenu} />
+		<img width="320px" alt="Logo do Food Park Porto" src={onMenu} />
 		// <Grid container direction="row">			
 		// 	<Grid item justify="center"><img height="250px" alt="Logo do Food Park Porto" src={onMenu} /></Grid >
 		// 	<Grid item justify="end"><img height="150px" alt="Logo do Food Park Porto" src={canto} /></Grid>
