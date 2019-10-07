@@ -96,7 +96,6 @@ export default function CustomizedExpansionPanels() {
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
           <div className="font-topic">Entradas</div>
         </ExpansionPanelSummary>
-        
         <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
@@ -209,8 +208,7 @@ export default function CustomizedExpansionPanels() {
             </Paper>
             </Typography>
         </ExpansionPanelDetails>
-      </ExpansionPanel>
-      
+      </ExpansionPanel> 
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
           <div className="font-topic">JOE ESPECIAIS (08 UN)</div>
@@ -328,8 +326,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-        <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
         <div className="font-topic">Uramaki (10 UN)</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
@@ -427,8 +425,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+        <ExpansionPanelSummary aria-controls="panel6d-content" id="panel6d-header">
         <div className="font-topic">Temakis</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
@@ -490,8 +488,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+        <ExpansionPanelSummary aria-controls="panel7d-content" id="panel7d-header">
         <div className="font-topic">Hot Roll (10 UN)</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
@@ -562,8 +560,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
+        <ExpansionPanelSummary aria-controls="panel8d-content" id="panel8d-header">
         <div className="font-topic">Nigiri (02 un)</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
@@ -625,8 +623,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel9'} onChange={handleChange('panel9')}>
+        <ExpansionPanelSummary aria-controls="panel9d-content" id="panel9d-header">
         <div className="font-topic">Yakissoba</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
@@ -688,8 +686,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel10'} onChange={handleChange('panel10')}>
+        <ExpansionPanelSummary aria-controls="panel10d-content" id="panel10d-header">
         <div className="font-topic">Tempura</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
@@ -733,8 +731,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel11'} onChange={handleChange('panel11')}>
+        <ExpansionPanelSummary aria-controls="panel11d-content" id="panel11d-header">
         <div className="font-topic">Tempanhaky</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
@@ -760,8 +758,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel12'} onChange={handleChange('panel12')}>
+        <ExpansionPanelSummary aria-controls="panel12d-content" id="panel12d-header">
         <div className="font-topic">Combinados</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
@@ -814,8 +812,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel13'} onChange={handleChange('panel13')}>
+        <ExpansionPanelSummary aria-controls="panel13d-content" id="panel13d-header">
         <div className="font-topic">Sashimis</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
@@ -850,8 +848,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel14'} onChange={handleChange('panel14')}>
+        <ExpansionPanelSummary aria-controls="panel14d-content" id="panel14d-header">
           <div className="font-topic">Sashimis Especiais</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
@@ -895,8 +893,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel15'} onChange={handleChange('panel15')}>
+        <ExpansionPanelSummary aria-controls="panel15d-content" id="panel15d-header">
         <div className="font-topic">Bebidas</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
