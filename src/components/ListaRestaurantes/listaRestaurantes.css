@@ -15,7 +15,11 @@
         2px 1px 3px 0px rgba(249, 249, 249, 0.6), 
         0px 2px 1px -1px rgba(0,0,0,0.12) !important;
 }
-
+.marca-dagua{
+    color: #ffc025;
+    font-size:12px;
+    text-align: center;
+}
 .img-lebruto {
     margin-left: 6px;
 }

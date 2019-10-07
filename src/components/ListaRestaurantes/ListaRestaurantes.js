@@ -34,7 +34,8 @@ export default function ImgMediaCard() {
       <Header/>
     
     
-    
+    <div className="marca-dagua">Projeto acadêmico desenvolvido por alunos da Faculdade La Salle Lucas</div>
+    <div className="marca-dagua">Versão 0.0.1</div>
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }} >
     <Paper className="paper">
       <div className="font-lista">
