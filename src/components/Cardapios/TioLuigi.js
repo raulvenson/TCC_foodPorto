@@ -13,7 +13,7 @@ import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
-import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.jpeg'
+import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.png'
 
 import Grid from '@material-ui/core/Grid';
 
