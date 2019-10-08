@@ -16,6 +16,7 @@ import './TheDogFather.css'
 
 import IceRozoLogo from './../../assets/iceRozo.png'
 
+
 import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles(theme => ({
@@ -114,7 +115,7 @@ export default function CustomizedExpansionPanels() {
                 title="Taça Sorvete Quente"
                 desc=""
                 price="R$22,00"
-                img="semImagem.jpg"
+                img="SorveteQuente.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -214,7 +215,7 @@ export default function CustomizedExpansionPanels() {
                 title="Sorvete Assado"
                 desc=""
                 price="R$18,00" 
-                img="semImagem.jpg"
+                img="SorveteAssado.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -223,7 +224,7 @@ export default function CustomizedExpansionPanels() {
                 title="Feijoada Ice"
                 desc=""
                 price="R$18,00" 
-                img="semImagem.jpg"
+                img="Feijoada.png"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -241,7 +242,7 @@ export default function CustomizedExpansionPanels() {
                 title="Burritos Candy"
                 desc=""
                 price="R$18,00" 
-                img="semImagem.jpg"
+                img="BurritosCandy.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -268,7 +269,7 @@ export default function CustomizedExpansionPanels() {
                 title="Doce de Leite"
                 desc=""
                 price="R$16,00" 
-                img="semImagem.jpg"
+                img="ChurritosNoCone.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -277,7 +278,7 @@ export default function CustomizedExpansionPanels() {
                 title="Chocolate"
                 desc=""
                 price="R$16,00" 
-                img="semImagem.jpg"
+                img="ChurritosNoCone.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -286,7 +287,7 @@ export default function CustomizedExpansionPanels() {
                 title="Misto"
                 desc=""
                 price="R$16,00" 
-                img="semImagem.jpg"
+                img="ChurritosNoCone.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -295,7 +296,7 @@ export default function CustomizedExpansionPanels() {
                 title="Nutella"
                 desc=""
                 price="R$16,00" 
-                img="semImagem.jpg"
+                img="ChurritosNoCone.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -313,7 +314,7 @@ export default function CustomizedExpansionPanels() {
                 title="Doce de Leite"
                 desc=""
                 price="R$25,00" 
-                img="semImagem.jpg"
+                img="ChurritosNoPrato.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -322,7 +323,7 @@ export default function CustomizedExpansionPanels() {
                 title="Chocolate"
                 desc=""
                 price="R$25,00" 
-                img="semImagem.jpg"
+                img="ChurritosNoPrato.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -331,7 +332,7 @@ export default function CustomizedExpansionPanels() {
                 title="Misto 3 Sabores"
                 desc=""
                 price="R$26,00" 
-                img="semImagem.jpg"
+                img="ChurritosNoPrato.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -385,7 +386,7 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
         <ExpansionPanelSummary aria-controls="panel8d-content" id="panel8d-header">
-        <div className="font-topic">Churros Gourmet - R$8,00</div>
+        <div className="font-topic">Churros Gourmet</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
@@ -430,7 +431,7 @@ export default function CustomizedExpansionPanels() {
                 title="300ML"
                 desc="Morango, Kiwi, Banana ou Marshmellow"
                 price="R$10,00" 
-                img="semImagem.jpg"
+                img="MilkShake1.png"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -439,7 +440,7 @@ export default function CustomizedExpansionPanels() {
                 title="500ML"
                 desc="Morango, Kiwi, Banana, Marshmellow"
                 price="R$14,00" 
-                img="semImagem.jpg"
+                img="MilkShake2.png"
                 path="cardapioIR" 
               /> 
             </Paper>
