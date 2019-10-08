@@ -106,7 +106,7 @@ export default function CustomizedExpansionPanels() {
                 title="Taça Suja com Churros"
                 desc=""
                 price="R$25,00"
-                img="semImagem.jpg"
+                img="TacaSuja.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -124,7 +124,7 @@ export default function CustomizedExpansionPanels() {
                 title="Taça Decorada Mix Chocolates"
                 desc=""
                 price="R$22,00"
-                img="semImagem.jpg"
+                img="TacaSuja.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -133,7 +133,7 @@ export default function CustomizedExpansionPanels() {
                 title="Taça Decorada Mix Frutas"
                 desc=""
                 price="R$22,00"
-                img="semImagem.jpg"
+                img="TacaSuja2.png"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -142,7 +142,7 @@ export default function CustomizedExpansionPanels() {
                 title="Taça Decorada com churros"
                 desc=""
                 price="R$28,00"
-                img="semImagem.jpg"
+                img="TacaSuja2.png"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -158,12 +158,17 @@ export default function CustomizedExpansionPanels() {
             <Paper className={classes.root}>            
               <Modal 
                 title="Sorvete na Chapa"
-                desc="Escolha até 2 sabores: Morango, Maracujá, Leitinho (pó), Ovo Maltine, Leite Condensado, Açaí, Capuccino, Banana, Sonho de Valsa, Oreo/Negresco, Bis, Kiwi, Doce de Leite, Amendoin, Goiabada, Queijo com Goiabada, Prestigio, Flocos, Cacau 50% e Côco"
+                desc=""
                 price="R$13,00"
-                img="semImagem.jpg"
+                img="SorveteThailandes.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
+            <Paper className={classes.root}>            
+              <h1>Escolha até 2 sabores:</h1>
+              <h2>Morango<br/>Maracujá<br/>Leitinho (pó)<br/>Ovo Maltine<br/>Leite Condensado<br/>Açaí<br/>Capuccino<br/>Banana<br/>Sonho de Valsa<br/>Oreo/Negresco<br/>Bis<br/>Kiwi<br/>Doce de Leite<br/>Amendoin<br/>Goiabada<br/>Queijo com Goiabada<br/>Prestigio<br/>Flocos<br/>Cacau 50%<br/>Côco</h2> 
+            </Paper>
+            
             </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -179,8 +184,8 @@ export default function CustomizedExpansionPanels() {
                 title="300ML - 2 adicionais"
                 desc="Adicionais Extras = R$2,00 (Morango, Banana, Kiwi, Leite em Pó, Leite condensado, Ovo Maltine, Nutella, Granola, Côco, Granulado, Confete, Mel, Gotas de Chocolate, Doce de Leite, Bis e Chantilli)"
                 price="R$12,00" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="TacaSuja2.png"
+                path="cardapioIR" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -188,8 +193,8 @@ export default function CustomizedExpansionPanels() {
                 title="500ML - 3 adicionais"
                 desc="Adicionais Extras = R$2,00 (Morango, Banana, Kiwi, Leite em Pó, Leite condensado, Ovo Maltine, Nutella, Granola, Côco, Granulado, Confete, Mel, Gotas de Chocolate, Doce de Leite, Bis e Chantilli)"
                 price="R$17,00" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="TacaSuja2.png"
+                path="cardapioIR" 
               /> 
             </Paper>
           </Typography>
@@ -233,7 +238,7 @@ export default function CustomizedExpansionPanels() {
                 title="Banana Split"
                 desc=""
                 price="R$18,00" 
-                img="semImagem.jpg"
+                img="BananaSplit.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -359,7 +364,7 @@ export default function CustomizedExpansionPanels() {
                 title="Doce de Leite ou Chocolate"
                 desc=""
                 price="R$5,00" 
-                img="semImagem.jpg"
+                img="Churros.jpeg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -368,7 +373,7 @@ export default function CustomizedExpansionPanels() {
                 title="Combo de 3 unidades"
                 desc=""
                 price="R$13,00" 
-                img="semImagem.jpg"
+                img="Churros.jpeg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -377,7 +382,7 @@ export default function CustomizedExpansionPanels() {
                 title="Especial de Nutella"
                 desc=""
                 price="R$7,00" 
-                img="semImagem.jpg"
+                img="Churros.jpeg"
                 path="cardapioIR" 
               /> 
             </Paper>  
@@ -390,33 +395,23 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
-            <Paper className={classes.root}>            
+          <Paper className={classes.root}>            
               <Modal 
-                title="Recheio"
-                desc="Chocolate ou Doce de Leite"
-                price="" 
-                img="semImagem.jpg"
+                title="Churros Gourmet"
+                desc=""
+                price="R$8,00" 
+                img="ChurrosGourmet2.png"
                 path="cardapioIR" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
-              <Modal 
-                title="Cobertura"
-                desc="Doce de Leite, Chocolate, Nutella, Beijinho, Brigadeiro e Goiabada."
-                price="" 
-                img="semImagem.jpg"
-                path="cardapioIR" 
-              /> 
+              <h1>Recheio</h1>
+              <h2>Chocolate ou Doce de Leite</h2>
+              <h1>Cobertura</h1>
+              <h2>Doce de Leite, Chocolate, Nutella, Beijinho, Brigadeiro e Goiabada.</h2>
+              <h1>Confeito</h1>
+              <h2>Morango, Kiwi, Leitinho (pó), Côco, Granulado, Amendoin, Banana e Confete.</h2>
             </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="Confeito"
-                desc="Morango, Kiwi, Leitinho (pó), Côco, Granulado, Amendoin, Banana e Confete."
-                price="" 
-                img="semImagem.jpg"
-                path="cardapioIR" 
-              /> 
-            </Paper>  
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -458,7 +453,7 @@ export default function CustomizedExpansionPanels() {
                 title="Pequeno"
                 desc="Sabores: Ovomaltine, Morango, Oreo, Amendoin ou Leitinho"
                 price="R$25,00" 
-                img="semImagem.jpg"
+                img="Fondue.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
@@ -466,8 +461,8 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Grande"
                 desc="Sabores: Ovomaltine, Morango, Oreo, Amendoin ou Leitinho"
-                price="R$335,00" 
-                img="semImagem.jpg"
+                price="R$35,00" 
+                img="Fondue.jpg"
                 path="cardapioIR" 
               /> 
             </Paper>
