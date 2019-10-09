@@ -176,7 +176,7 @@ export default function CustomizedExpansionPanels() {
                 title="Corona Long"
                 desc=""
                 price="R$10,00"
-                img="Heineken.PNG"
+                img="Corona.png"
                 path="cardapioBC"              
               /> 
             </Paper>
@@ -230,8 +230,8 @@ export default function CustomizedExpansionPanels() {
                 title="Itaipava Go Draft Long"
                 desc=""
                 price="R$6,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Itaipava.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -239,8 +239,8 @@ export default function CustomizedExpansionPanels() {
                 title="Itaipava Premium Long"
                 desc=""
                 price="R$6,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="ItaipavaP.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -248,8 +248,8 @@ export default function CustomizedExpansionPanels() {
                 title="Petra"
                 desc=""
                 price="R$6,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Petra.jpg"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -257,8 +257,8 @@ export default function CustomizedExpansionPanels() {
                 title="Itaipava Malzbier"
                 desc=""
                 price="R$6,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="ItaipavaM.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -266,8 +266,8 @@ export default function CustomizedExpansionPanels() {
                 title="Skol Lata"
                 desc=""
                 price="R$4,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="SkolLata.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -275,8 +275,8 @@ export default function CustomizedExpansionPanels() {
                 title="Amstel Lata"
                 desc=""
                 price="R$4,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Amstel.png"
+                path="cardapioBC"              
               /> 
             </Paper>
             </Typography>
@@ -294,8 +294,8 @@ export default function CustomizedExpansionPanels() {
                 title="Old Par"
                 desc=""
                 price="Dose R$20,00 / Litro R$220,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="OldPar.png"
+                path="cardapioBC"              
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -303,8 +303,8 @@ export default function CustomizedExpansionPanels() {
                 title="Jack Daniel's"
                 desc=""
                 price="Dose R$20,00 / Litro R$220,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="JackDaniels.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -312,8 +312,8 @@ export default function CustomizedExpansionPanels() {
                 title="Absolut"
                 desc=""
                 price="Dose R$15,00 / Litro R$180,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Absolut.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -321,8 +321,8 @@ export default function CustomizedExpansionPanels() {
                 title="Gin"
                 desc=""
                 price="Dose R$15,00 / Litro R$180,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Gin.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -330,8 +330,8 @@ export default function CustomizedExpansionPanels() {
                 title="Smirnoff"
                 desc=""
                 price="Dose R$10,00 / Litro R$80,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Smirnoff.png"
+                path="cardapioBC"              
               /> 
             </Paper>
           </Typography>
@@ -348,8 +348,8 @@ export default function CustomizedExpansionPanels() {
                 title="RedBull Energético"
                 desc=""
                 price="R$12,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="RedBull.png"
+                path="cardapioBC"              
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -357,8 +357,8 @@ export default function CustomizedExpansionPanels() {
                 title="TNT Energético"
                 desc=""
                 price="R$10,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Tnt.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -366,8 +366,8 @@ export default function CustomizedExpansionPanels() {
                 title="Água de Côco 1L"
                 desc=""
                 price="R$10,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="AguaCoco.jpg"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -375,8 +375,8 @@ export default function CustomizedExpansionPanels() {
                 title="Schweppes Tônica e Citrus"
                 desc=""
                 price="R$5,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Scheweppes.jpg"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -384,8 +384,8 @@ export default function CustomizedExpansionPanels() {
                 title="Aquarius Fresh"
                 desc=""
                 price="R$5,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="AquariusFresh.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -393,8 +393,8 @@ export default function CustomizedExpansionPanels() {
                 title="Refrigerante Lata"
                 desc=""
                 price="R$4,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Refrigerantes.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -402,8 +402,8 @@ export default function CustomizedExpansionPanels() {
                 title="Água com Gás / sem Gás"
                 desc=""
                 price="R$4,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="agua.png"
+                path="cardapioBC"              
               /> 
             </Paper>
           </Typography>
