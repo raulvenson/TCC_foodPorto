@@ -101,7 +101,7 @@ export default function CustomizedExpansionPanels() {
             <Paper className={classes.root}>            
               <Modal 
                 title="Pequena (P)"
-                desc="X Pedaços e X Sabores"
+                desc="4 Pedaços e 2 Sabores"
                 price="A partir de R$25,00"
                 img="semImagem.jpg"
                 path="cardapioGM" 
@@ -110,7 +110,7 @@ export default function CustomizedExpansionPanels() {
             <Paper className={classes.root}>            
               <Modal 
                 title="Média (M)"
-                desc="X Pedaços e X Sabores"
+                desc="8 Pedaços e 2 Sabores"
                 price="A partir de R$38,00"
                 img="semImagem.jpg"
                 path="cardapioGM" 
@@ -119,7 +119,7 @@ export default function CustomizedExpansionPanels() {
             <Paper className={classes.root}>            
               <Modal 
                 title="Grande (G)"
-                desc="X Pedaços e X Sabores"
+                desc="12 Pedaços e 3 Sabores"
                 price="A partir de R$45,00"
                 img="semImagem.jpg"
                 path="cardapioGM" 
@@ -128,7 +128,7 @@ export default function CustomizedExpansionPanels() {
             <Paper className={classes.root}>            
               <Modal 
                 title="Extra Grande (GG)"
-                desc="X Pedaços e X Sabores"
+                desc="26 Pedaços e 4 Sabores"
                 price="A partir de R$60,00"
                 img="semImagem.jpg"
                 path="cardapioGM" 
