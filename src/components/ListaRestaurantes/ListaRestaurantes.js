@@ -34,8 +34,7 @@ export default function ImgMediaCard() {
       <Header/>
     
     
-    <div className="marca-dagua">Projeto acadêmico desenvolvido por alunos da Faculdade La Salle Lucas</div>
-    <div className="marca-dagua">Versão 0.0.1</div>
+
     <Link to="/cardapioBC" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
@@ -112,7 +111,7 @@ export default function ImgMediaCard() {
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
           <img src={ItalianLogo}  className="img" alt=" The Dog Father icon"/>
-          Italian Massas e Sucos
+          Italian
         </div>
       </Paper>
     </Link>

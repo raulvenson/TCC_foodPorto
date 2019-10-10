@@ -345,10 +345,10 @@ export default function CustomizedExpansionPanels() {
           <Typography>
             <Paper className={classes.root}>            
               <Modal 
-                title="Refrigerante"
+                title="Refrigerantes"
                 desc=""
                 price=""
-                img="semImagem.jpg"
+                img="Refrigerantes.png"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -357,7 +357,7 @@ export default function CustomizedExpansionPanels() {
                 title="Água"
                 desc=""
                 price=""
-                img="semImagem.jpg"
+                img="agua.png"
                 path="cardapioFS" 
               />  
             </Paper>

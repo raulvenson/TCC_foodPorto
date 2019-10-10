@@ -54,7 +54,7 @@
 .preco {
     text-align: center;
     color: rgb(1, 153, 9);
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bolder;
 }
 
@@ -65,6 +65,16 @@
 }
 .wpp{
     height: 90px;
+}
+@media only screen and (max-width: 375px) {
+    .wpp{
+        width: 375px;
+    }
+}
+@media only screen and (max-width: 321px) {
+    .wpp{
+        width: 320px;
+    }
 }
 .icon-whatsapp {
     width: 25px;

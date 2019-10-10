@@ -240,7 +240,7 @@ export default function CustomizedExpansionPanels() {
                 title="Refrigerante Lata"
                 desc=""
                 price="R$4,00"
-                img="semImagem.jpg"
+                img="Refrigerantes.png"
                 path="cardapioCnB" 
               /> 
             </Paper>
@@ -249,7 +249,7 @@ export default function CustomizedExpansionPanels() {
                 title="Água Mineral"
                 desc=""
                 price="R$4,00"
-                img="semImagem.jpg"
+                img="agua.png"
                 path="cardapioCnB" 
               /> 
             </Paper>
@@ -258,7 +258,7 @@ export default function CustomizedExpansionPanels() {
                 title="Água Mineral com Gás"
                 desc=""
                 price="R$4,00"
-                img="semImagem.jpg"
+                img="agua.png"
                 path="cardapioCnB" 
               /> 
             </Paper>
@@ -267,7 +267,7 @@ export default function CustomizedExpansionPanels() {
                 title="Suco lata (Del Valle)"
                 desc=""
                 price="R$4,00"
-                img="semImagem.jpg"
+                img="DelValle.jpg"
                 path="cardapioCnB" 
               /> 
             </Paper>
@@ -276,7 +276,7 @@ export default function CustomizedExpansionPanels() {
                 title="Aquárius Fresh"
                 desc=""
                 price="R$5,00"
-                img="semImagem.jpg"
+                img="AquariusFresh.png"
                 path="cardapioCnB" 
               /> 
             </Paper>

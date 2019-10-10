@@ -904,8 +904,8 @@ export default function CustomizedExpansionPanels() {
                 title="Refrigerante lata (310ml)"
                 desc="Coca-cola, Coca-cola zero, Fanta, Kuat ou Sprite."
                 price="A partir de R$4,00"
-                img="semImagem.jpg"
-                path="cardapioGM"           
+                img="Refrigerantes.png"
+                path="cardapioBC"          
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -913,8 +913,8 @@ export default function CustomizedExpansionPanels() {
                 title="Refrigerante ks (290ml)"
                 desc="Coca-cola ks."
                 price="A partir de R$4,00"
-                img="semImagem.jpg"
-                path="cardapioGM"     
+                img="Refrigerantes.png"
+                path="cardapioBC"     
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -922,8 +922,8 @@ export default function CustomizedExpansionPanels() {
                 title="Refrigerante pet (500ml)"
                 desc="Coca-cola, Coca-cola Zero, Fanta, Sprite."
                 price="A partir de R$4,00"
-                img="semImagem.jpg"
-                path="cardapioGM"  
+                img="Refrigerantes.png"
+                path="cardapioBC"  
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -931,8 +931,8 @@ export default function CustomizedExpansionPanels() {
                 title="Água mineral com gás"
                 desc="Água mineral."
                 price="A partir de R$4,00"
-                img="semImagem.jpg"
-                path="cardapioGM"           
+                img="agua.png"
+                path="cardapioTDF"           
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -940,8 +940,8 @@ export default function CustomizedExpansionPanels() {
                 title="Água mineral sem gás"
                 desc="Água mineral."
                 price="A partir de R$4,00"
-                img="semImagem.jpg"
-                path="cardapioGM"        
+                img="agua.png"
+                path="cardapioTDF"        
               /> 
             </Paper>
             <Paper className={classes.root}>            
