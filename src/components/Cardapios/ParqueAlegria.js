@@ -112,19 +112,19 @@ export default function CustomizedExpansionPanels() {
               <h2>Informações para reserva do Espaço de Festas - WhatsApp (65)99939-0805</h2>
             </Paper>
             <Paper className={classes.root}>            
-              <img width="380px" alt="img01" src={Img01}/>
+              <img className="img-parque" alt="img01" src={Img01}/>
             </Paper>
             <Paper className={classes.root}>            
-              <img width="380px" alt="img02" src={Img02}/>
+              <img className="img-parque" alt="img02" src={Img02}/>
             </Paper>
             <Paper className={classes.root}>            
-              <img width="380px" alt="img03" src={Img03}/>
+              <img className="img-parque" alt="img03" src={Img03}/>
             </Paper>
             <Paper className={classes.root}>            
-              <img width="380px" alt="img04" src={Img04}/>
+              <img className="img-parque" alt="img04" src={Img04}/>
             </Paper>
             <Paper className={classes.root}>            
-              <img width="380px" alt="img05" src={Img05}/>
+              <img className="img-parque" alt="img05" src={Img05}/>
             </Paper>
           </Typography>
         </ExpansionPanelDetails>

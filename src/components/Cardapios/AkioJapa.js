@@ -949,8 +949,8 @@ export default function CustomizedExpansionPanels() {
                 title="Schweppes Citrus (310ml)"
                 desc="Schweppes CItrus lata."
                 price="A partir de R$5,00"
-                img="semImagem.jpg"
-                path="cardapioGM"          
+                img="Scheweppes.jpg"
+                path="cardapioBC"          
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -958,8 +958,8 @@ export default function CustomizedExpansionPanels() {
                 title="Suco Del Valle (200ml)"
                 desc="Del Valle Nutri Uva."
                 price="A partir de R$5,00"
-                img="semImagem.jpg"
-                path="cardapioGM"           
+                img="DelValle.jpg"
+                path="cardapioCnB"           
               /> 
             </Paper>
           </Typography>

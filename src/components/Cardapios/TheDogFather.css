@@ -71,9 +71,30 @@
         width: 375px;
     }
 }
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 320px) {
     .wpp{
         width: 320px;
+    }
+}
+.img-parque{
+    max-width: 420px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media only screen and (max-width: 425px) {
+    .img-parque {
+        max-width: 380px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .img-parque {
+        max-width: 320px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .img-parque {
+        max-width: 270px;
     }
 }
 .icon-whatsapp {
