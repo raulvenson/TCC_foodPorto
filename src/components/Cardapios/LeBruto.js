@@ -112,7 +112,7 @@ export default function CustomizedExpansionPanels() {
               title="Gringo"
               desc="Ingredientes de excelente qualidade, em generosas medidas, por um ótimo preço/ Hambúrguer com 200g de um delicioso blend de carne bovina (preparado na brasa, como churrasco), pão branco da casa (maior tamanho), bacon, alface, tomate, queijo cheddar e um creme lemon da Le Bruto."
               price="A partir de R$24,00"
-              img="semImagem.jpg"
+              img="Gringo.jpeg"
               path="cardapioLeBruto" 
               /> 
             </Paper>               
@@ -121,7 +121,7 @@ export default function CustomizedExpansionPanels() {
               title="Le Bruto"
               desc="O bruto sofisticado!/ Hambúrguer de blend especial de carne bovina, preparado na brasa, como churrasco, pão branco da casa, molho Le Bruto, bacon, presunto, mescla de alfaces, tomate cereja, picles, molho de tomate estilo ketchup e o delicioso queijo emental."
               price="A partir de R$26,00"
-              img="semImagem.jpg"
+              img="LeBruto.jpeg"
               path="cardapioLeBruto" 
               /> 
             </Paper>
@@ -130,7 +130,7 @@ export default function CustomizedExpansionPanels() {
               title="Sofisticado"
               desc="Nem salgado, nem doce: agridoce/ Hambúrguer de blend especial de carne bovina (preparado na brasa, como churrasco), pão rústico rosado Le Bruto, cebola caramelizada, molho barbecue LB, presunto especial espanhol e um apetitoso queijo emental."
               price="A partir de R$26,00"
-              img="semImagem.jpg"
+              img="Sofisticado.jpeg"
               path="cardapioLeBruto" 
               /> 
             </Paper>
@@ -139,7 +139,7 @@ export default function CustomizedExpansionPanels() {
               title="Brutamontes"
               desc="Tudo de bom, em generosas medidas/ Hambúrguer com 200g de um delicioso blend especial de carne bovina (preparado na brasa, como churrasco), recheado com queijo cheddar, pão branco da casa, molho lemon LB, bacon, mescla de alfaces, tomate cereja, cebola roxa, molho de tomate estilo ketchup e queijo mozarela."
               price="A partir de R$28,00"
-              img="semImagem.jpg"
+              img="Brutamontes2.jpeg"
               path="cardapioLeBruto" 
               /> 
             </Paper>
@@ -148,7 +148,7 @@ export default function CustomizedExpansionPanels() {
               title="Churrascada"
               desc="Hambúrguer 180g de Costela, mozzarella de búfala, cebola tostada, maionese Le Bruto, alface e pão australiano."
               price="A partir de R$28,00"
-              img="semImagem.jpg"
+              img="Churrascada.jpeg"
               path="cardapioLeBruto" 
               /> 
             </Paper>
@@ -165,8 +165,8 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Batata Frita + Refrigerante Lata"
                 desc=""
-                price="R$7,00" 
-                img="semImagem.jpg"
+                price="R$7,00"
+                img="Churrascada.jpeg"
                 path="cardapioLeBruto" 
                 /> 
             </Paper>
@@ -175,7 +175,7 @@ export default function CustomizedExpansionPanels() {
                 title="Batata Frita"
                 desc=""
                 price="R$5,00" 
-                img="semImagem.jpg"
+                img="Batata.jpeg"
                 path="cardapioLeBruto" 
                 /> 
             </Paper>

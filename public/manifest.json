@@ -1,5 +1,5 @@
 {
-  "short_name": "Food Park Porto",
+  "short_name": "OnMenu - Food Park Porto",
   "name": "Cardápio Unificado",
   "icons": [
     {
@@ -21,5 +21,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#000000"
 }

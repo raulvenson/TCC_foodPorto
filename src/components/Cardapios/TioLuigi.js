@@ -418,24 +418,6 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
-        <div className="font-topic">Sobremesa</div>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails className="details">
-          <Typography>
-          <Paper className={classes.root}>            
-              <Modal 
-                title="Häagen-Dazs"
-                desc="(100ml) - Cookies, Morango, Macadâmia, Doce de Leite, Chocolate Belga."
-                price="R$13,90" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
-                /> 
-            </Paper>
-          </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
       </div>
       <Grid container justify={"center"} className="footer">
         <a href="https://api.whatsapp.com/send?phone=5565999271048&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!" >
