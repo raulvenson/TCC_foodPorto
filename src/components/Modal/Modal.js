@@ -63,7 +63,7 @@ export default props => {
           <div className={classes.paper}>
             <div className="close-button" onClick={handleClose}>&times;</div>
             <h1 className="font-modal" id="transition-modal-title">{props.title}</h1>
-            <img alt="foto de batata" src={require(`../../assets/${props.path}/${props.img}`)}/>
+            <img className="img-modal" alt="foto de batata" src={require(`../../assets/${props.path}/${props.img}`)}/>
             <hr/>
             <div className="preco font">{props.price}</div>
           </div>

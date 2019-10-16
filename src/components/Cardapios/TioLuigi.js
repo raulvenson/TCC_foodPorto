@@ -13,7 +13,7 @@ import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
-import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.jpeg'
+import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.png'
 
 import Grid from '@material-ui/core/Grid';
 
@@ -97,42 +97,26 @@ export default function CustomizedExpansionPanels() {
           <div className="font-topic">Tamanhos</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
-          <Typography>
+          <Typography>    
             <Paper className={classes.root}>            
-              <Modal 
-                title="Pequena (P)"
-                desc="X Pedaços e X Sabores"
-                price="A partir de R$25,00"
-                img="semImagem.jpg"
-                path="cardapioGM" 
-               /> 
+              <div className="font-modal">Pequena (P)</div>
+              <h2>4 Pedaços e 2 Sabores</h2>
+              <div className="preco">R$25,00</div>
             </Paper>
             <Paper className={classes.root}>            
-              <Modal 
-                title="Média (M)"
-                desc="X Pedaços e X Sabores"
-                price="A partir de R$38,00"
-                img="semImagem.jpg"
-                path="cardapioGM" 
-               /> 
+              <div className="font-modal">Média (M)</div>
+              <h2>8 Pedaços e 2 Sabores</h2>
+              <div className="preco">R$38,00</div>
             </Paper>
             <Paper className={classes.root}>            
-              <Modal 
-                title="Grande (G)"
-                desc="X Pedaços e X Sabores"
-                price="A partir de R$45,00"
-                img="semImagem.jpg"
-                path="cardapioGM" 
-               /> 
+              <div className="font-modal">Grande (G)</div>
+              <h2>12 Pedaços e 3 Sabores</h2>
+              <div className="preco">R$45,00</div>
             </Paper>
             <Paper className={classes.root}>            
-              <Modal 
-                title="Extra Grande (GG)"
-                desc="X Pedaços e X Sabores"
-                price="A partir de R$60,00"
-                img="semImagem.jpg"
-                path="cardapioGM" 
-               /> 
+              <div className="font-modal">Extra Grande (GG)</div>
+              <h2>26 Pedaços e 4 Sabores</h2>
+              <div className="preco">R$60,00</div>
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
@@ -391,8 +375,8 @@ export default function CustomizedExpansionPanels() {
                 title="Água s/ Gás"
                 desc=""
                 price="" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="agua.png"
+                path="cardapioTDF" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -400,35 +384,26 @@ export default function CustomizedExpansionPanels() {
                 title="Água c/ Gás"
                 desc=""
                 price="" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="agua.png"
+                path="cardapioTDF" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="Coca Cola Lata"
+                title="Refrigerantes"
                 desc=""
                 price="" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Refrigerantes.png"
+                path="cardapioBC" 
               /> 
-            </Paper>  
-            <Paper className={classes.root}>            
-              <Modal 
-                title="Fanta Lata"
-                desc=""
-                price="" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
-              /> 
-            </Paper>
+            </Paper>          
             <Paper className={classes.root}>            
               <Modal 
                 title="Coca Cola Litro"
                 desc=""
                 price="" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="CocaLitro.png"
+                path="cardapioTL" 
               /> 
             </Paper> 
             <Paper className={classes.root}>            
@@ -436,27 +411,9 @@ export default function CustomizedExpansionPanels() {
                 title="Fanta Litro"
                 desc=""
                 price="" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="FantaLitro.png"
+                path="cardapioTL" 
               /> 
-            </Paper>
-          </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
-        <div className="font-topic">Sobremesa</div>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails className="details">
-          <Typography>
-          <Paper className={classes.root}>            
-              <Modal 
-                title="Häagen-Dazs"
-                desc="(100ml) - Cookies, Morango, Macadâmia, Doce de Leite, Chocolate Belga."
-                price="R$13,90" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
-                /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>

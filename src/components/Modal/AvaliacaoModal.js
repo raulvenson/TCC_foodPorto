@@ -3,6 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
+import Typography from '@material-ui/core/Typography';
+import Tooltip from '@material-ui/core/Tooltip';
+import PropTypes from 'prop-types';
 
 import './Modal.css'
 import { TiStarOutline } from 'react-icons/ti';
@@ -23,11 +26,43 @@ const useStyles = makeStyles(theme => ({
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
   },
+  rating1: {
+    width: 200,
+    display: 'flex',
+    alignItems: 'center',
+  },
 }));
+
+const labels = {
+  0.5: 'Péssimo',
+  1: 'Péssimo+',
+  1.5: 'Ruim',
+  2: 'Ruim+',
+  2.5: 'Regular',
+  3: 'Regular+',
+  3.5: 'Bom',
+  4: 'Bom+',
+  4.5: 'Ótimo',
+  5: 'Ótimo+',
+};
+
+function IconContainer(props) {
+  const { value, ...other } = props;
+  return (
+    <Tooltip title={labels[value] || ''}>
+      <div {...other} />
+    </Tooltip>
+  );
+}
+IconContainer.propTypes = {
+  value: PropTypes.number.isRequired,
+};
+
 
 export default props => {
   
-  const [value, setValue] = React.useState(2);
+  const value = 2;
+  
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
 
@@ -38,6 +73,13 @@ export default props => {
   const handleClose = () => {
     setOpen(false);
   };
+
+  // const updateInput = e => {
+  //   this.setState({
+  //     [e.target.name]: e.target.value
+  //   });
+  // }
+  
 
   return (
     <div>
@@ -57,18 +99,22 @@ export default props => {
       >
         <Fade in={open}>
           <div className={classes.paper}> 
-            <Box component="fieldset" mb={1} borderColor="transparent">
-              <h2 id="transition-modal-title">AVALIE O RESTAURANTE{props.h2}</h2>
-              <div id="transition-modal-title">Dê uma nota à qualidade do serviço:</div>
+            <Box component="fieldset" mb={3} borderColor="transparent">
+            <Typography component="legend">Avalie o Restaurante!</Typography>
               <Rating
-                className="rating"
-                name="simple-controlled"
+                name="hover-tooltip"
                 value={value}
-                onChange={(event, newValue) => {
-                  setValue(newValue);
-                }}
+                precision={0.5}
+                IconContainerComponent={IconContainer}
               />
-            </Box>          
+              <input
+                type="text"
+                name="obs"
+                placeholder="Dê sua opinião !"
+                
+              />
+              <button>Enviar</button>
+            </Box>         
           </div>
         </Fade>
       </Modal>

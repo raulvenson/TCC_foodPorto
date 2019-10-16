@@ -17,7 +17,7 @@ import FinoSaborLogo from './../../assets/cardapioFS/finoSaborLogo.png'
 import ParqueAlegria from './../../assets/parqueAlegria/ParqueAlegriaLogo.png'
 import AkioJapaLogo from './../../assets/cardapioAJ/AkioJapaLogo.png'
 import ItalianLogo from './../../assets/cardapioITA/ItalianLogo.png'
-import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.jpeg'
+import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.png'
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
@@ -34,8 +34,15 @@ export default function ImgMediaCard() {
       <Header/>
     
     
-    <div className="marca-dagua">Projeto acadêmico desenvolvido por alunos da Faculdade La Salle Lucas</div>
-    <div className="marca-dagua">Versão 0.0.1</div>
+
+    <Link to="/cardapioBC" style={{ textDecoration: 'none' }}>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={Bar}  className="img" alt=" The Dog Father icon"/>
+          O Convés Bar
+        </div>
+      </Paper>
+    </Link>
     <Link to="/cardapioTDF" style={{ textDecoration: 'none' }} >
     <Paper className="paper">
       <div className="font-lista">
@@ -57,14 +64,6 @@ export default function ImgMediaCard() {
         <div variant="h5" component="h3" className="font-lista">
           <img src={IceRozo}  className="img" alt=" The Dog Father icon"/>
           Ice Rozo
-        </div>
-      </Paper>
-    </Link>
-    <Link to="/cardapioBC" style={{ textDecoration: 'none' }}>
-      <Paper className="paper">
-        <div variant="h5" component="h3" className="font-lista">
-          <img src={Bar}  className="img" alt=" The Dog Father icon"/>
-          O Convés Bar
         </div>
       </Paper>
     </Link>
@@ -111,8 +110,16 @@ export default function ImgMediaCard() {
     <Link to="/cardapioITA" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
+          <img src={ItalianLogo}  className="img" alt="Italian icon"/>
+          Italian
+        </div>
+      </Paper>
+    </Link>
+    <Link to="/cardapioPdP" style={{ textDecoration: 'none' }}>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
           <img src={ItalianLogo}  className="img" alt=" The Dog Father icon"/>
-          Italian Massas e Sucos
+          Portal do Peixe
         </div>
       </Paper>
     </Link>
