@@ -112,21 +112,6 @@ export default function CustomizedExpansionPanels() {
               <h2>Informações para reserva do Espaço de Festas - WhatsApp (65)99939-0805</h2>
             </Paper>
             <Paper className={classes.root}>            
-<<<<<<< HEAD
-              <img width="280px" alt="img01" src={Img01}/>
-            </Paper>
-            <Paper className={classes.root}>            
-              <img width="280px" alt="img02" src={Img02}/>
-            </Paper>
-            <Paper className={classes.root}>            
-              <img width="280px" alt="img03" src={Img03}/>
-            </Paper>
-            <Paper className={classes.root}>            
-              <img width="280px" alt="img04" src={Img04}/>
-            </Paper>
-            <Paper className={classes.root}>            
-              <img width="280px" alt="img05" src={Img05}/>
-=======
               <img className="img-parque" alt="img01" src={Img01}/>
             </Paper>
             <Paper className={classes.root}>            
@@ -140,7 +125,7 @@ export default function CustomizedExpansionPanels() {
             </Paper>
             <Paper className={classes.root}>            
               <img className="img-parque" alt="img05" src={Img05}/>
->>>>>>> 1031645c0a86ff054a03a2270d5d36f555f234b0
+
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
