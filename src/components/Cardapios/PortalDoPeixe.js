@@ -83,7 +83,7 @@ export default function CustomizedExpansionPanels() {
       <Paper className={classes.root}>
         <div className="font-lista cabecalho">
           <img src={ItalianLogo}  className="img-header" alt="General Mex logo"/>
-          Italian
+          Portal do Peixe
         </div>    
         <div className="cabecalho icones">
           <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><TiArrowBackOutline className="back-icon"/></Link>
