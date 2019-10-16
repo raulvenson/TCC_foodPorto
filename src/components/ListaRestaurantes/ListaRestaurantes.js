@@ -110,8 +110,16 @@ export default function ImgMediaCard() {
     <Link to="/cardapioITA" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={ItalianLogo}  className="img" alt=" The Dog Father icon"/>
+          <img src={ItalianLogo}  className="img" alt="Italian icon"/>
           Italian
+        </div>
+      </Paper>
+    </Link>
+    <Link to="/cardapioPdP" style={{ textDecoration: 'none' }}>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={ItalianLogo}  className="img" alt=" The Dog Father icon"/>
+          Portal do Peixe
         </div>
       </Paper>
     </Link>
