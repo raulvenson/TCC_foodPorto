@@ -121,15 +121,6 @@ export default function CustomizedExpansionPanels() {
               <h1>Caldo</h1>
               <img className="img-parque" alt="Caldo" src={Caldo}/>
             </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="Panqueca"
-                desc="Monte você mesmo com mais de 30 opções de condimentos."
-                price="R$20,00"
-                img="Panqueca.jpeg"
-                path="cardapioITA" 
-              /> 
-            </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
