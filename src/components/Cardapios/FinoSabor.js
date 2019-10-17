@@ -131,7 +131,7 @@ export default function CustomizedExpansionPanels() {
                 title="Presunto e Queijo"
                 desc=""
                 price="R$15,00"
-                img="semImagem.jpg"
+                img="TapiocaSalgada.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -140,7 +140,7 @@ export default function CustomizedExpansionPanels() {
                 title="Frango Cremoso com Queijo"
                 desc=""
                 price="R$15,00"
-                img="semImagem.jpg"
+                img="TapiocaSalgada.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -149,7 +149,7 @@ export default function CustomizedExpansionPanels() {
                 title="Carne Seca Cremosa com Queijo"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="TapiocaSalgada.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -158,7 +158,7 @@ export default function CustomizedExpansionPanels() {
                 title="Calabresa com Tomate e Queijo"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="TapiocaSalgada.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -167,7 +167,7 @@ export default function CustomizedExpansionPanels() {
                 title="Vegana: Palmito com molho de Tomate"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="TapiocaSalgada.jpg"
                 path="cardapioFS" 
               />   
             </Paper>
@@ -176,7 +176,7 @@ export default function CustomizedExpansionPanels() {
                 title="Fit: Peito de Peru com Queijo Branco"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="TapiocaSalgada.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -185,7 +185,7 @@ export default function CustomizedExpansionPanels() {
                 title="Rúcula com Tomate Seco e Queijo Branco"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="TapiocaSalgada.jpg"
                 path="cardapioFS" 
               />  
             </Paper>           
@@ -204,7 +204,7 @@ export default function CustomizedExpansionPanels() {
                 title="Romeu e Julieta"
                 desc=""
                 price="R$15,00"
-                img="semImagem.jpg"
+                img="TapiocaDoce.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -213,7 +213,7 @@ export default function CustomizedExpansionPanels() {
                 title="Coco com Leite Condensado"
                 desc=""
                 price="R$15,00"
-                img="semImagem.jpg"
+                img="TapiocaDoce.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -222,7 +222,7 @@ export default function CustomizedExpansionPanels() {
                 title="Coco com Doce de Leite"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="TapiocaDoce.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -231,7 +231,7 @@ export default function CustomizedExpansionPanels() {
                 title="Nutella com Morango"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="TapiocaDoce.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -240,7 +240,7 @@ export default function CustomizedExpansionPanels() {
                 title="Nutella com Banana"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="TapiocaDoce.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -249,7 +249,7 @@ export default function CustomizedExpansionPanels() {
                 title="Fit: Pasta de Amendoim com Banana"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="TapiocaDoce.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -321,7 +321,7 @@ export default function CustomizedExpansionPanels() {
                 title="Presunto e Queijo"
                 desc=""
                 price="R$8,00"
-                img="semImagem.jpg"
+                img="Crepe.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -330,7 +330,7 @@ export default function CustomizedExpansionPanels() {
                 title="Chocolate"
                 desc=""
                 price="R$8,00"
-                img="semImagem.jpg"
+                img="Crepe.jpg"
                 path="cardapioFS" 
               />  
             </Paper>

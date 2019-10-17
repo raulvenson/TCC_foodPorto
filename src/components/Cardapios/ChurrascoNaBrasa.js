@@ -104,7 +104,7 @@ export default function CustomizedExpansionPanels() {
                 title="Espetinho de Carne (Fraldinha)"
                 desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
                 price="Simples R$10,00 - Completo R$18,00"
-                img="semImagem.jpg"
+                img="Carne.jpeg"
                 path="cardapioCnB"              
                 /> 
             </Paper>
@@ -122,7 +122,7 @@ export default function CustomizedExpansionPanels() {
                 title="Espetinho de Frango com Bacon"
                 desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
                 price="Simples R$10,00 - Completo R$18,00"
-                img="semImagem.jpg"
+                img="FrangoBacon.jpeg"
                 path="cardapioCnB"             
                 /> 
             </Paper>
@@ -131,7 +131,7 @@ export default function CustomizedExpansionPanels() {
                 title="Espetinho de Cupim Mexicano"
                 desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
                 price="Simples R$10,00 - Completo R$18,00"
-                img="semImagem.jpg"
+                img="CupimMexicano.jpeg"
                 path="cardapioCnB"                
                 /> 
             </Paper>
@@ -140,7 +140,7 @@ export default function CustomizedExpansionPanels() {
                 title="Espetinho de Picanha"
                 desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
                 price="Simples R$20,00 - Completo R$28,00"
-                img="semImagem.jpg"
+                img="Picanha.jpeg"
                 path="cardapioCnB"                
                 /> 
             </Paper>

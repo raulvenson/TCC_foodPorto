@@ -105,7 +105,7 @@ export default function CustomizedExpansionPanels() {
                 title="Carne de Panela"
                 desc="Carne de Panela Desfiada, Fina Massa Mexicana de Trigo, Tomate Seco e Rúcula, Frijoles, Queijo mozzarella e Molho Guadalajara. (SEM PICÂNCIA)/ 400g/ Acompanha Guacamole e Barbecue Artesanal."
                 price="R$26,00"
-                img="semImagem.jpg"
+                img="Burritos.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>
@@ -114,7 +114,7 @@ export default function CustomizedExpansionPanels() {
                 title="Frango"
                 desc="Frango Mex, Fina Massa Mexicana de Trigo, Tomate, Queijo mozzarella, Frijoles, Cheddar e Azeitonas. (SEM PICÂNCIA)/ 400g/ Acompanha Guacamole e Barbecue Artesanal."
                 price="R$23,00"
-                img="semImagem.jpg"
+                img="Burritos.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>
@@ -123,7 +123,7 @@ export default function CustomizedExpansionPanels() {
                 title="Pernil Suíno"
                 desc="Pernil suíno desfiado, Fina Massa Mexicana de Trigo, Tomate, Frijoles, Queijo mozzarella e Barbecue Artesanal. (SEM PICÂNCIA)/ 400g/ Acompanha Guacamole e Barbecue Artesanal."
                 price="R$25,00"
-                img="semImagem.jpg"
+                img="Burritos.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>
@@ -132,7 +132,7 @@ export default function CustomizedExpansionPanels() {
                 title="Alcatra"
                 desc="Alcatra em Cubos, Fina Massa Mexicana de Trigo, Tomate, Frijoles, Molho Texano e Queijo Mozzarella. (SEM PICÂNCIA)/ 400g/ Acompanha Guacamole e Barbecue Artesanal."
                 price="R$28,00"
-                img="semImagem.jpg"
+                img="Burritos.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>
@@ -141,7 +141,7 @@ export default function CustomizedExpansionPanels() {
                 title="Surf and Turf"
                 desc="Deliciosa Combinação de Pernil Suíno e Camarão, Fina Massa Mexicana de Trigo, Molho Teriyaki de Laranja, Frijoles, Tomate e Queijo Mozzarella. (SEM PICÂNCIA)/ 400g/ Acompanha Guacamole e Barbecue Artesanal."
                 price="R$28,00"
-                img="semImagem.jpg"
+                img="Burritos.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>
@@ -159,7 +159,7 @@ export default function CustomizedExpansionPanels() {
                 title="Filé Mignon"
                 desc="Filé Mignon em Cubos ao Barbecue Artesanal, Fina Massa Mexicana de Trigo, Queijo Mozzarella e Frijoles. (SEM PICÂNCIA)/ 360g/ Acompanha Guacamole e Barbecue Artesanal."
                 price="R$26,00"
-                img="semImagem.jpg"
+                img="Quesadilla.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>
@@ -168,7 +168,7 @@ export default function CustomizedExpansionPanels() {
                 title="Frango"
                 desc="Frango Mex, Fina Massa Mexicana de Trigo, Frijoles, Cebola Roxa, Cheddar e Queijo Mozzarela.(SEM PICÂNCIA)/ 360g/ Acompanha Guacamole e Barbecue Artesanal."
                 price="R$22,00"
-                img="semImagem.jpg"
+                img="Quesadilla.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>
@@ -177,7 +177,7 @@ export default function CustomizedExpansionPanels() {
                 title="Pernil Suíno"
                 desc="Pernil Suíno Desfiado, Fina Massa Mexicana de Trigo, Frijoles, Molho Agridoce de Abacaxi com Gengibre e Queijo Mozzarela. (SEM PICÂNCIA)/ 360g/ Acompanha Guacamole e Barbecue Artesanal."
                 price="R$22,00"
-                img="semImagem.jpg"
+                img="Quesadilla.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>
@@ -186,7 +186,7 @@ export default function CustomizedExpansionPanels() {
                 title="Mix de Queijos"
                 desc="Mozzarela, Prato, Cream Cheese e Fina Massa Mexicana de Trigo. (SEM PICÂNCIA)/ 360g/ Acompanha Guacamole e Barbecue Artesanal."
                 price="R$24,00"
-                img="semImagem.jpg"
+                img="Quesadilla.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>
@@ -195,7 +195,7 @@ export default function CustomizedExpansionPanels() {
                 title="Tomate Seco e Rúcula (Vegetariana)"
                 desc="Tomate Seco e Rúcula, Frijoles, Queijo Mozzarela e Fina Massa Mexicana de Trigo. (SEM PICÂNCIA)/ 340g/ Acompanha Guacamole e Barbecue Artesanal."
                 price="R$20,00"
-                img="semImagem.jpg"
+                img="Quesadilla.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>
@@ -214,7 +214,7 @@ export default function CustomizedExpansionPanels() {
                 title="Bacon BBQ"
                 desc="Chips de Milho Crocante (Original-Importado do México), Chilli com Carne, Barbecue Artesanal, Bacon, Queijo Mozzarela e Prato, Azeitonas e Cebolinha. (LEVE PICÂNCIA)/ Acompanha Guacamole e Sour Cream."
                 price="R$28,00" 
-                img="semImagem.jpg"
+                img="NachosBacon.jpeg"
                 path="cardapioGM" 
                 /> 
             </Paper>
@@ -223,7 +223,7 @@ export default function CustomizedExpansionPanels() {
                 title="Super Nachos"
                 desc="Queridinho em Todos os Restaurantes e Bares de Temática Mexicana, Esse Clássico Leva em Sua Composição, Chips de Milho Crocante (Original-Importado do México), Chilli com Carne,Queijo Mozzarela e Prato, Cheddar, Azeitonas, Pimentão Amarelo e Vermelho em Cubos, Rodelas de Pimenta Jalapeño em Conserva e Cebolinha. (LEVE PICÂNCIA)"
                 price="R$42,00" 
-                img="semImagem.jpg"
+                img="NachosSuper.jpeg"
                 path="cardapioGM" 
                 /> 
             </Paper>
@@ -241,7 +241,7 @@ export default function CustomizedExpansionPanels() {
                 title="Pork Ribs & Batata Rústica (Uma Pessoa)"
                 desc="Costela Suína com Barbecue Artesanal (400g). Acompanha Batata Rústica (250g) e Cinnamon Apple (80g)."
                 price="R$32,00" 
-                img="semImagem.jpg"
+                img="PorkRibs.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>
@@ -250,7 +250,7 @@ export default function CustomizedExpansionPanels() {
                 title="Pork Ribs & Batata Rústica (Duas Pessoa)"
                 desc="Costela Suína com Barbecue Artesanal (400g). Acompanha Batata Rústica (250g) e Cinnamon Apple (80g)."
                 price="R$58,00" 
-                img="semImagem.jpg"
+                img="PorkRibs.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>
@@ -286,7 +286,7 @@ export default function CustomizedExpansionPanels() {
                 title="Chips & Salsa"
                 desc="Cesto com Tortillas (Chips) de Milho Crocante (Original-Importado do México) 140g. Ideal para servir como entrada ou para acompanhar cerveja/chopp. Acompanha os molhos, Guacamole, Sour Cream, Barbecue e Salsa Roja. (Todos os Molhos Artesanais)"
                 price="R$24,00" 
-                img="semImagem.jpg"
+                img="ChipsSalsa.jpeg"
                 path="cardapioGM" 
               /> 
             </Paper>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import MuiExpansionPanel from '@material-ui/core/ExpansionPanel';
-import MuiExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+// import MuiExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import MuiExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
@@ -14,7 +14,11 @@ import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
 
-import ItalianLogo from './../../assets/cardapioITA/ItalianLogo.png'
+import ItalianLogo from './../../assets/cardapioLeBruto/semImagem.jpg'
+import Porcoes from './../../assets/cardapioPdP/Porcoes.jpeg'
+import Complementos from './../../assets/cardapioPdP/Complementos.jpeg'
+import Cevicht from './../../assets/cardapioPdP/Cevicht.jpeg'
+import Caldo from './../../assets/cardapioPdP/Caldo.jpeg'
 
 
 import Grid from '@material-ui/core/Grid';
@@ -44,23 +48,23 @@ const ExpansionPanel = withStyles({
   expanded: {},
 })(MuiExpansionPanel);
 
-const ExpansionPanelSummary = withStyles({
-  root: {
-    backgroundColor: 'rgba(0, 0, 0, .03)',
-    borderBottom: '1px solid rgba(0, 0, 0, .125)',
-    marginBottom: -1,
-    minHeight: 56,
-    '&$expanded': {
-      minHeight: 56,
-    },
-  },
-  content: {
-    '&$expanded': {
-      margin: '12px 0',
-    },
-  },
-  expanded: {},
-})(MuiExpansionPanelSummary);
+// const ExpansionPanelSummary = withStyles({
+//   root: {
+//     backgroundColor: 'rgba(0, 0, 0, .03)',
+//     borderBottom: '1px solid rgba(0, 0, 0, .125)',
+//     marginBottom: -1,
+//     minHeight: 56,
+//     '&$expanded': {
+//       minHeight: 56,
+//     },
+//   },
+//   content: {
+//     '&$expanded': {
+//       margin: '12px 0',
+//     },
+//   },
+//   expanded: {},
+// })(MuiExpansionPanelSummary);
 
 const ExpansionPanelDetails = withStyles(theme => ({
   root: {
@@ -95,20 +99,27 @@ export default function CustomizedExpansionPanels() {
       </div>
       <div className="content">
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
+        {/* <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
           <div className="font-topic">Pratos</div>
-        </ExpansionPanelSummary>
+        </ExpansionPanelSummary> */}
         
         <ExpansionPanelDetails className="details">
           <Typography>
             <Paper className={classes.root}>            
-              <Modal 
-                title="Macarrão"
-                desc="Monte você mesmo com mais de 30 opções de condimentos."
-                price="R$20,00"
-                img="Macarrao.jpeg"
-                path="cardapioITA" 
-              /> 
+              <h1>Porções</h1>
+              <img className="img-parque" alt="Porções" src={Porcoes}/>
+            </Paper>
+            <Paper className={classes.root}>            
+              <h1>Complementos</h1>
+              <img className="img-parque" alt="Complementos" src={Complementos}/>
+            </Paper>
+            <Paper className={classes.root}>            
+              <h1>Cevicht</h1>
+              <img className="img-parque" alt="Cevicht" src={Cevicht}/>
+            </Paper>
+            <Paper className={classes.root}>            
+              <h1>Caldo</h1>
+              <img className="img-parque" alt="Caldo" src={Caldo}/>
             </Paper>
             <Paper className={classes.root}>            
               <Modal 

@@ -104,8 +104,8 @@ export default function CustomizedExpansionPanels() {
                 title="Pilsen"
                 desc=""
                 price="300ml R$7,00 / 500ml R$10,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Chopp2.png"
+                path="cardapioBC"              
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -113,8 +113,8 @@ export default function CustomizedExpansionPanels() {
                 title="HopLager"
                 desc=""
                 price="300ml R$8,00 / 500ml R$12,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Chopp2.png"
+                path="cardapioBC"              
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -122,8 +122,8 @@ export default function CustomizedExpansionPanels() {
                 title="Vienna"
                 desc=""
                 price="300ml R$8,00 / 500ml R$12,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Chopp2.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -131,8 +131,8 @@ export default function CustomizedExpansionPanels() {
                 title="Weiss"
                 desc=""
                 price="300ml R$8,00 / 500ml R$12,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Chopp2.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -140,8 +140,8 @@ export default function CustomizedExpansionPanels() {
                 title="WitBier"
                 desc=""
                 price="300ml R$8,00 / 500ml R$12,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Chopp2.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -149,8 +149,8 @@ export default function CustomizedExpansionPanels() {
                 title="GermanPilsner"
                 desc=""
                 price="300ml R$8,00 / 500ml R$12,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Chopp2.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -158,8 +158,8 @@ export default function CustomizedExpansionPanels() {
                 title="Apa"
                 desc=""
                 price="300ml R$9,00 / 500ml R$13,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="Chopp2.png"
+                path="cardapioBC"              
               /> 
             </Paper>
           </Typography>

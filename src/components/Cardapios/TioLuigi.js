@@ -132,8 +132,8 @@ export default function CustomizedExpansionPanels() {
                 title="Portuguesa"
                 desc="Molho de Tomate, Muçarela, Presunto, Ovo, Tomate, Cebola, Palmito, Azeitona e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -141,8 +141,8 @@ export default function CustomizedExpansionPanels() {
                 title="Strogonoff de Carne"
                 desc="Molho de Tomate, Muçarela, Strogonoff, Azeitona, Orégano e Batata Palha."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -150,8 +150,8 @@ export default function CustomizedExpansionPanels() {
                 title="Picanha"
                 desc="Molho de Tomate, Muçarela, Picanha, Cebola, Azeitona e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -159,8 +159,8 @@ export default function CustomizedExpansionPanels() {
                 title="Nordestina"
                 desc="Molho de Tomate, Muçarela, Carne de Sol, Azeitona, Orégano e Abacaxi."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -168,8 +168,8 @@ export default function CustomizedExpansionPanels() {
                 title="Calabresa"
                 desc="Molho de Tomate, Muçarela, Calabresa, Cebola, Azeitona e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -177,8 +177,8 @@ export default function CustomizedExpansionPanels() {
                 title="Frango com Catupiry"
                 desc="Molho de Tomate, Muçarela, Frango Desfiado, Catupiri, Azeitona e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -186,8 +186,8 @@ export default function CustomizedExpansionPanels() {
                 title="Parmegiana de Carne"
                 desc="Molho de Tomate, Muçarela, Filé de Carne, Tomate, Creme de Leite, Azeitona e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -195,8 +195,8 @@ export default function CustomizedExpansionPanels() {
                 title="Marguerita"
                 desc="Molho de Tomate, Muçarela, Tomate, Manjericão e Azeitona."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -204,8 +204,8 @@ export default function CustomizedExpansionPanels() {
                 title="Rúcula com Tomate Seco"
                 desc="Molho de Tomate, Muçarela, Rúcula, Tomate Seco e Azeitona."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -213,8 +213,8 @@ export default function CustomizedExpansionPanels() {
                 title="A Moda da Casa"
                 desc="Molho de Tomate, Muçarela, Frango, Bacon, Champignon, Calabresa, Presunto, Milho, Tomate, Creme de Leite, Azeitona e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -222,8 +222,8 @@ export default function CustomizedExpansionPanels() {
                 title="Moda do Chefe"
                 desc="Molho de Tomate, Muçarela, Milho, Bacon, Calabresa, Cebola, Azeitona e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -231,8 +231,8 @@ export default function CustomizedExpansionPanels() {
                 title="Atum"
                 desc="Molho de Tomate, Muçarela, Atum, Cebola, Azeitona e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -240,8 +240,8 @@ export default function CustomizedExpansionPanels() {
                 title="Atum com Rúcula e Tomate Seco"
                 desc="Molho de Tomate, Muçarela, Atum, Rúcula, Tomate Seco, Cebola, Azeitona e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -249,8 +249,8 @@ export default function CustomizedExpansionPanels() {
                 title="Tio Luigi"
                 desc="Molho de Tomate, Muçarela, Presunto, Ovos, Milho, Tomate, Palmito e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -258,8 +258,8 @@ export default function CustomizedExpansionPanels() {
                 title="4 Queijos"
                 desc="Molho de Tomate, Muçarela, Catupiry, Provolone, Gorgonzola, Azeitona e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -267,8 +267,8 @@ export default function CustomizedExpansionPanels() {
                 title="3 Queijos"
                 desc="Molho de Tomate, Muçarela, Parmesão, Gorgonzola, Azeitona e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -276,8 +276,8 @@ export default function CustomizedExpansionPanels() {
                 title="Mexicana"
                 desc="Molho de Tomate, Muçarela, Frango, Tomate, Calabresa, Pimenta Calabresa e Orégano."
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="Pizza.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
           </Typography>
@@ -294,8 +294,8 @@ export default function CustomizedExpansionPanels() {
                 title="Banana com Canela"
                 desc=""
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="PizzaDoce.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -303,8 +303,8 @@ export default function CustomizedExpansionPanels() {
                 title="Prestígio"
                 desc=""
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="PizzaDoce.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -312,8 +312,8 @@ export default function CustomizedExpansionPanels() {
                 title="Chocolate"
                 desc=""
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="PizzaDoce.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             </Typography>
@@ -325,11 +325,11 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
-            <Paper className={classes.root}>            
-              <Modal 
+            <Paper className={classes.root}>
+              <Modal
                 title="Catupiry"
                 desc=""
-                price="" 
+                price=""
                 img="semImagem.jpg"
                 path="cardapioGM" 
               /> 
