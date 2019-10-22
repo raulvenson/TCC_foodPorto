@@ -104,7 +104,7 @@ export default function CustomizedExpansionPanels() {
             <Paper className={classes.root}>            
               <Modal 
                 title="Macarrão"
-                desc="Monte você mesmo com mais de 30 opções de condimentos."
+                desc="Monte você mesmo com mais de 40 opções de condimentos."
                 price="R$20,00"
                 img="Macarrao.jpeg"
                 path="cardapioITA" 
@@ -113,13 +113,31 @@ export default function CustomizedExpansionPanels() {
             <Paper className={classes.root}>            
               <Modal 
                 title="Panqueca"
-                desc="Monte você mesmo com mais de 30 opções de condimentos."
+                desc="Acompanha uma porção de Arroz. Monte você mesmo com mais de 40 opções de condimentos."
                 price="R$20,00"
                 img="Panqueca.jpeg"
                 path="cardapioITA" 
               /> 
             </Paper>
           </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+        <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
+          <div className="font-topic">Opções de Ingredientes</div>
+        </ExpansionPanelSummary>
+        
+        <ExpansionPanelDetails className="details">
+          <h1> Alcaparras, Alho, Alho Poró, Azeite, Azeitona Preta, Azeitona Verde, Bacon, Brócolis, Calabresa, Camarão, Carne Moída,Carne Seca, Cebola, Cebolinha, Cenoura, Champignon, Coentro, Couve Flor, Ervilha, Frango, Manjericão, Manteiga, Milho, Orégano, Palmito, Passas, Pimenta Calabresa, Pimenta de Cheiro, Pimentão Verde, Pimentão Vermelho, Presunto, Queijo, Rúcula, Salsinha, Salsicha, Tomate e Tomate Seco </h1>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
+          <div className="font-topic">Molhos</div>
+        </ExpansionPanelSummary>
+        
+        <ExpansionPanelDetails className="details">
+          <h1>Branco, 4 queijos, Rosé e Barbecue </h1>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       </div>

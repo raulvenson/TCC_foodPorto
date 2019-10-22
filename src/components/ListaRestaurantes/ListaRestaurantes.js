@@ -18,7 +18,7 @@ import ParqueAlegria from './../../assets/parqueAlegria/ParqueAlegriaLogo.png'
 import AkioJapaLogo from './../../assets/cardapioAJ/AkioJapaLogo.png'
 import ItalianLogo from './../../assets/cardapioITA/ItalianLogo.png'
 import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.png'
-import semImagem from './../../assets/cardapioLeBruto/semImagem.jpg'
+import PortalDoPeixeLogo from './../../assets/cardapioPdP/PortalDoPeixeLogo.jpeg'
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
@@ -119,7 +119,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioPdP" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={semImagem}  className="img" alt=" The Dog Father icon"/>
+          <img src={PortalDoPeixeLogo}  className="img" alt=" The Dog Father icon"/>
           Portal do Peixe
         </div>
       </Paper>

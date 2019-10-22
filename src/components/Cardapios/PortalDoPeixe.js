@@ -9,12 +9,12 @@ import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
 import Whats_qld from '../../assets/whats_.png';
 import { TiArrowBackOutline } from 'react-icons/ti';
-import Modal from '../Modal/Modal'
+// import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
 
-import ItalianLogo from './../../assets/cardapioLeBruto/semImagem.jpg'
+import PortalDoPeixeLogo from './../../assets/cardapioPdP/PortalDoPeixeLogo.jpeg'
 import Porcoes from './../../assets/cardapioPdP/Porcoes.jpeg'
 import Complementos from './../../assets/cardapioPdP/Complementos.jpeg'
 import Cevicht from './../../assets/cardapioPdP/Cevicht.jpeg'
@@ -86,7 +86,7 @@ export default function CustomizedExpansionPanels() {
       <div className="header">
       <Paper className={classes.root}>
         <div className="font-lista cabecalho">
-          <img src={ItalianLogo}  className="img-header" alt="General Mex logo"/>
+          <img src={PortalDoPeixeLogo}  className="img-header" alt="General Mex logo"/>
           Portal do Peixe
         </div>    
         <div className="cabecalho icones">
