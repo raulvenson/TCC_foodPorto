@@ -104,7 +104,7 @@ export default function CustomizedExpansionPanels() {
                 title="Porção Média 500g"
                 desc="Acompanhamento: polenta ou batata frita - molho barbecue e molho de alho"
                 price="R$30,00"
-                img="semImagem.jpg"
+                img="FrangoFrito.jpg"
                 path="cardapioFS" 
               /> 
             </Paper>
@@ -113,7 +113,7 @@ export default function CustomizedExpansionPanels() {
                 title="Porção Média 1kg"
                 desc="Acompanhamento: polenta ou batata frita - molho barbecue e molho de alho"
                 price="R$45,00"
-                img="semImagem.jpg"
+                img="FrangoFrito.jpg"
                 path="cardapioFS" 
               /> 
             </Paper>
@@ -179,16 +179,7 @@ export default function CustomizedExpansionPanels() {
                 img="TapiocaSalgada.jpg"
                 path="cardapioFS" 
               />  
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="Rúcula com Tomate Seco e Queijo Branco"
-                desc=""
-                price="R$16,00"
-                img="TapiocaSalgada.jpg"
-                path="cardapioFS" 
-              />  
-            </Paper>           
+            </Paper>          
             </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -204,7 +195,7 @@ export default function CustomizedExpansionPanels() {
                 title="Romeu e Julieta"
                 desc=""
                 price="R$15,00"
-                img="TapiocaDoce.jpg"
+                img="semImagem.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -213,7 +204,7 @@ export default function CustomizedExpansionPanels() {
                 title="Coco com Leite Condensado"
                 desc=""
                 price="R$15,00"
-                img="TapiocaDoce.jpg"
+                img="semImagem.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -222,7 +213,7 @@ export default function CustomizedExpansionPanels() {
                 title="Coco com Doce de Leite"
                 desc=""
                 price="R$16,00"
-                img="TapiocaDoce.jpg"
+                img="semImagem.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -240,24 +231,34 @@ export default function CustomizedExpansionPanels() {
                 title="Nutella com Banana"
                 desc=""
                 price="R$16,00"
-                img="TapiocaDoce.jpg"
+                img="semImagem.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+        </ExpansionPanel>
+        <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+        <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
+        <div className="font-topic">Pastel UN</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
             <Paper className={classes.root}>            
               <Modal 
-                title="Fit: Pasta de Amendoim com Banana"
+                title="Queijo, Carne, Frango, Presunto e Queijo"
                 desc=""
-                price="R$16,00"
-                img="TapiocaDoce.jpg"
+                price="R$8,00"
+                img="Pastel.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-        <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
+      
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
         <div className="font-topic">Caldo</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
@@ -267,7 +268,7 @@ export default function CustomizedExpansionPanels() {
                 title="Escaldado de Frango, com ou sem Ovos"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="Caldos.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -276,7 +277,7 @@ export default function CustomizedExpansionPanels() {
                 title="Caldo Verde - Batata, Calabresa e Couve"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="Caldos.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -285,7 +286,7 @@ export default function CustomizedExpansionPanels() {
                 title="Caldo de Feijão"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="Caldos.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -294,7 +295,7 @@ export default function CustomizedExpansionPanels() {
                 title="Caldo de Cabotiá e Carne Seca"
                 desc=""
                 price="R$16,00"
-                img="semImagem.jpg"
+                img="Caldos.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
@@ -303,15 +304,15 @@ export default function CustomizedExpansionPanels() {
                 title="Dobradinha"
                 desc=""
                 price="R$25,00"
-                img="semImagem.jpg"
+                img="Dobradinha.jpg"
                 path="cardapioFS" 
               />  
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+        <ExpansionPanelSummary aria-controls="panel6d-content" id="panel6d-header">
         <div className="font-topic">Crepe no Palito</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
@@ -337,8 +338,53 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
-        <ExpansionPanelSummary aria-controls="panel6d-content" id="panel6d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+        <ExpansionPanelSummary aria-controls="panel7d-content" id="panel7d-header">
+        <div className="font-topic">Porções</div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Pastelzinho"
+                desc="15 unidades"
+                price="R$30,00"
+                img="Pastelzinho.jpg"
+                path="cardapioFS" 
+              />  
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Batata Frita"
+                desc="400g"
+                price="R$25,00"
+                img="batata.jpg"
+                path="cardapioFS" 
+              />  
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Mandioca Frita"
+                desc="400g"
+                price="R$25,00"
+                img="MandiocaFrita.jpg"
+                path="cardapioFS" 
+              />  
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Polenta Frita"
+                desc="400g"
+                price="R$25,00"
+                img="PolentaFrita.png"
+                path="cardapioFS" 
+              />  
+            </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
+        <ExpansionPanelSummary aria-controls="panel8d-content" id="panel8d-header">
         <div className="font-topic">Bebidas</div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
