@@ -146,6 +146,15 @@ export default function CustomizedExpansionPanels() {
                 path="cardapioIR" 
               /> 
             </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Taça de Salada de Frutas"
+                desc="Kiwi, Banana, Morango, Manga, Chantilly com Leite Ninho e Petit Suisse"
+                price="R$14,00"
+                img="TacaFrutas.jpeg"
+                path="cardapioIR" 
+              /> 
+            </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>

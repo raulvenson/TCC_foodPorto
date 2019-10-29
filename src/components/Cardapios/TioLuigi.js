@@ -330,8 +330,8 @@ export default function CustomizedExpansionPanels() {
                 title="Catupiry"
                 desc=""
                 price=""
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="BordaCatupiry.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -339,8 +339,8 @@ export default function CustomizedExpansionPanels() {
                 title="Cheddar"
                 desc=""
                 price="" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="BordaCheddar.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -348,8 +348,8 @@ export default function CustomizedExpansionPanels() {
                 title="Chocolate"
                 desc=""
                 price="" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
+                img="BordaChocolate.jpg"
+                path="cardapioTL" 
               /> 
             </Paper>
             <Paper className={classes.root}>            

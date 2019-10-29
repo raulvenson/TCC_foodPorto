@@ -39,7 +39,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioBC" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={Bar}  className="img" alt=" The Dog Father icon"/>
+          <img src={Bar}  className="img" alt="  O Convés Bar icon"/>
           O Convés Bar
         </div>
       </Paper>
@@ -63,7 +63,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioIR" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={IceRozo}  className="img" alt=" The Dog Father icon"/>
+          <img src={IceRozo}  className="img" alt=" Ice Rozo icon"/>
           Ice Rozo
         </div>
       </Paper>
@@ -71,7 +71,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioCnB" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div variant="h5" component="h3" className="font-lista">
-        <img src={CnBlogo}  className="img" alt=" The Dog Father icon"/>
+        <img src={CnBlogo}  className="img" alt=" Churrasco na Brasa icon"/>
         Churrasco na Brasa
       </div>
     </Paper>
@@ -79,7 +79,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioGM" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={GeneralMexLogo}  className="img" alt=" The Dog Father icon"/>
+          <img src={GeneralMexLogo}  className="img" alt=" General Mex icon"/>
           General Mex
         </div>
       </Paper>
@@ -87,7 +87,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioFS" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={FinoSaborLogo}  className="img" alt=" The Dog Father icon"/>
+          <img src={FinoSaborLogo}  className="img" alt=" Fino Sabor icon"/>
           Fino Sabor
         </div>
       </Paper>
@@ -95,7 +95,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioTL" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={TioLuigiLogo}  className="img" alt=" The Dog Father icon"/>
+          <img src={TioLuigiLogo}  className="img" alt=" Tio Luigi  icon"/>
           Tio Luigi 
         </div>
       </Paper>
@@ -119,15 +119,23 @@ export default function ImgMediaCard() {
     <Link to="/cardapioPdP" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={PortalDoPeixeLogo}  className="img" alt=" The Dog Father icon"/>
+          <img src={PortalDoPeixeLogo}  className="img" alt=" Portal do Peixe icon"/>
           Portal do Peixe
+        </div>
+      </Paper>
+    </Link>
+    <Link to="/cardapioTG" style={{ textDecoration: 'none' }}>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={PortalDoPeixeLogo}  className="img" alt=" Ting Gourmet icon"/>
+          Ting Gourmet
         </div>
       </Paper>
     </Link>
     <Link to="/parqueAlegria" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={ParqueAlegria}  className="img" alt=" The Dog Father icon"/>
+          <img src={ParqueAlegria}  className="img" alt=" Parque da Alegria icon"/>
           Parque da Alegria
         </div>
       </Paper>

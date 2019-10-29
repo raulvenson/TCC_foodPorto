@@ -212,7 +212,7 @@ export default function CustomizedExpansionPanels() {
                 title="Porção de Mandioca Frita (450g)"
                 desc=""
                 price="R$15,00"
-                img="semImagem.jpg"
+                img="MandiocaFrita.jpg"
                 path="cardapioCnB" 
               /> 
             </Paper>
