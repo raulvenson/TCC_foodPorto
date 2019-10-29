@@ -241,7 +241,7 @@ export default function CustomizedExpansionPanels() {
                 desc=""
                 price="R$4,00"
                 img="Refrigerantes.png"
-                path="cardapioCnB" 
+                path="generic" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -250,7 +250,7 @@ export default function CustomizedExpansionPanels() {
                 desc=""
                 price="R$4,00"
                 img="agua.png"
-                path="cardapioCnB" 
+                path="generic" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -259,7 +259,7 @@ export default function CustomizedExpansionPanels() {
                 desc=""
                 price="R$4,00"
                 img="agua.png"
-                path="cardapioCnB" 
+                path="generic" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -277,7 +277,7 @@ export default function CustomizedExpansionPanels() {
                 desc=""
                 price="R$5,00"
                 img="AquariusFresh.png"
-                path="cardapioCnB" 
+                path="generic" 
               /> 
             </Paper>
           </Typography>

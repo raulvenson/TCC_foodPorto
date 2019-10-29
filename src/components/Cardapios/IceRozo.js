@@ -14,7 +14,7 @@ import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
 
-import IceRozoLogo from './../../assets/iceRozo.png'
+import IceRozoLogo from './../../assets/cardapioIR/iceRozo.png'
 
 
 import Grid from '@material-ui/core/Grid';

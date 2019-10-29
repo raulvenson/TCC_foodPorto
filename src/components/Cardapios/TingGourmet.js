@@ -14,7 +14,7 @@ import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
 
-import ItalianLogo from './../../assets/cardapioITA/ItalianLogo.png'
+import ItalianLogo from './../../assets/generic/semImagem.jpg'
 
 
 import Grid from '@material-ui/core/Grid';
@@ -212,8 +212,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+        <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
           <div className="font-topic">Chapa Quente</div>
         </ExpansionPanelSummary>    
         <ExpansionPanelDetails className="details">
@@ -230,7 +230,7 @@ export default function CustomizedExpansionPanels() {
             <Paper className={classes.root}>            
               <Modal 
                 title="13 - Grelhados"
-                desc="De Carne (Contra Filé), Peito de Frango, Coração de Frango, Calabresa, Cebola, Pimentão e Farofa"
+                desc="De Carne (Contra Filé), Peito de Frango, Coração de Frango, Calabresa, Cebola, Pimentão e Farofa. (2 pessoas)"
                 price="R$54,90"
                 img="semImagem.jpg"
                 path="cardapioTDF" 
@@ -239,8 +239,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+        <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
           <div className="font-topic">Pastéis</div>
         </ExpansionPanelSummary>    
         <ExpansionPanelDetails className="details">
@@ -250,8 +250,8 @@ export default function CustomizedExpansionPanels() {
                 title="29 - Carne"
                 desc=""
                 price="R$10,00"
-                img="semImagem.jpg"
-                path="cardapioTDF" 
+                img="Pastel.jpg"
+                path="cardapioFS" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -259,8 +259,8 @@ export default function CustomizedExpansionPanels() {
                 title="30 - Pizza"
                 desc=""
                 price="R$10,00"
-                img="semImagem.jpg"
-                path="cardapioTDF" 
+                img="Pastel.jpg"
+                path="cardapioFS" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -268,15 +268,15 @@ export default function CustomizedExpansionPanels() {
                 title="30 - Frango com Catupiry"
                 desc=""
                 price="R$10,00"
-                img="semImagem.jpg"
-                path="cardapioTDF" 
+                img="Pastel.jpg"
+                path="cardapioFS" 
               /> 
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+        <ExpansionPanelSummary aria-controls="panel6d-content" id="panel6d-header">
           <div className="font-topic">Porções</div>
         </ExpansionPanelSummary>    
         <ExpansionPanelDetails className="details">
@@ -286,8 +286,8 @@ export default function CustomizedExpansionPanels() {
                 title="01 - Batata Frita"
                 desc=""
                 price="R$20,00"
-                img="semImagem.jpg"
-                path="cardapioTDF" 
+                img="batata.jpg"
+                path="cardapioFS" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -311,8 +311,8 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+        <ExpansionPanelSummary aria-controls="panel7d-content" id="panel7d-header">
           <div className="font-topic">Bebidas</div>
         </ExpansionPanelSummary>    
         <ExpansionPanelDetails className="details">
@@ -322,8 +322,8 @@ export default function CustomizedExpansionPanels() {
                 title="15 - Refrigerantes (310ml)"
                 desc="Coca-Cola, Fanta, Sprit e Kuat"
                 price="R$4,00"
-                img="refri.png"
-                path="cardapioTDF" 
+                img="Refrigerantes.png"
+                path="generic" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -331,8 +331,8 @@ export default function CustomizedExpansionPanels() {
                 title="15 - Refrigerantes (500ml)"
                 desc="Coca-Cola e Fanta"
                 price="R$5,00"
-                img="refri.png"
-                path="cardapioTDF" 
+                img="Refrigerantes.png"
+                path="generic" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -341,7 +341,7 @@ export default function CustomizedExpansionPanels() {
                 desc=""
                 price="R$4,00"
                 img="agua.png"
-                path="cardapioTDF" 
+                path="generic" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -359,7 +359,7 @@ export default function CustomizedExpansionPanels() {
                 desc=""
                 price="R$5,00"
                 img="AquariusFresh.png"
-                path="cardapioBC" 
+                path="generic" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -368,7 +368,7 @@ export default function CustomizedExpansionPanels() {
                 desc=""
                 price="R$5,00"
                 img="Scheweppes.jpg"
-                path="cardapioBC" 
+                path="generic" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -376,8 +376,8 @@ export default function CustomizedExpansionPanels() {
                 title="15 - Refrigerantes (1,5L)"
                 desc="Coca-Cola e Fanta"
                 price="R$8,00"
-                img="refri.png"
-                path="cardapioTDF" 
+                img="Refrigerantes.png"
+                path="generic" 
               /> 
             </Paper>
           </Typography>

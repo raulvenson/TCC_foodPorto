@@ -13,7 +13,7 @@ import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
-import TDFicon from './../../assets/thedog.png'
+import TDFicon from './../../assets/cardapioTDF/thedog.png'
 
 import Grid from '@material-ui/core/Grid';
 
@@ -297,7 +297,7 @@ export default function CustomizedExpansionPanels() {
                   desc="500 ml."
                   price="R$4,00" 
                   img="agua.png"
-                  path="cardapioTDF" 
+                  path="generic" 
                   /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -305,8 +305,8 @@ export default function CustomizedExpansionPanels() {
                   title="Refrigerantes "
                   desc="Lata (350 ml) - Coca-cola, Coca-cola Zero, Fanta Guaraná, Fanta Laranja, Fanta Uva, Sprite."
                   price="R$4,00" 
-                  img="refri.png"
-                  path="cardapioTDF" 
+                  img="Refrigerantes.png"
+                  path="generic" 
                   /> 
               </Paper>
               <Paper className={classes.root}>            

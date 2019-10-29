@@ -13,10 +13,10 @@ import Modal from '../Modal/Modal'
 import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
-import LeBrutoicon from './../../assets/lebruto.png'
+import LeBrutoicon from './../../assets/cardapioLeBruto/lebruto.png'
 
 import Grid from '@material-ui/core/Grid';
-
+  
 const useStyles = makeStyles(theme => ({
   root: {
     padding: theme.spacing(1.5 , 1),
@@ -185,7 +185,7 @@ export default function CustomizedExpansionPanels() {
                 desc="Coca-cola, Coca-cola Sem Açucar, Fanta Uva, Schweppes Citrus, Guaraná Antarctica."
                 price="R$4,00" 
                 img="Refrigerantes.png"
-                path="cardapioLeBruto" 
+                path="generic" 
                 /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -194,7 +194,7 @@ export default function CustomizedExpansionPanels() {
                 desc="Garrafa de 350 ml"
                 price="R$4,00" 
                 img="agua.png"
-                path="cardapioLeBruto" 
+                path="generic" 
                 /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -203,7 +203,7 @@ export default function CustomizedExpansionPanels() {
                 desc="Garrafa de 350 ml"
                 price="R$3,00" 
                 img="agua.png"
-                path="cardapioLeBruto" 
+                path="generic" 
                 /> 
             </Paper>
           </Typography>

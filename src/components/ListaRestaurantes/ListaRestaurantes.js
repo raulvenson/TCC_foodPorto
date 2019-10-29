@@ -6,10 +6,10 @@ import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom'
 
 
-import LeBrutoImg from './../../assets/lebruto.png' 
-import TheDogFatherImg from './../../assets/thedog.png'
+import LeBrutoImg from './../../assets/cardapioLeBruto/lebruto.png' 
+import TheDogFatherImg from './../../assets/cardapioTDF/thedog.png'
 
-import IceRozo from './../../assets/iceRozo.png'
+import IceRozo from './../../assets/cardapioIR/iceRozo.png'
 import GeneralMexLogo from './../../assets/cardapioGM/GeneralMexLogo.png'
 import Bar from './../../assets/cardapioBC/bar.png'
 import CnBlogo from './../../assets/cardapioCnB/NaBrasaLogo.png'
@@ -19,6 +19,7 @@ import AkioJapaLogo from './../../assets/cardapioAJ/AkioJapaLogo.png'
 import ItalianLogo from './../../assets/cardapioITA/ItalianLogo.png'
 import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.png'
 import PortalDoPeixeLogo from './../../assets/cardapioPdP/PortalDoPeixeLogo.jpeg'
+import SemImagem from './../../assets/generic/semImagem.jpg'
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
@@ -127,7 +128,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioTG" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={PortalDoPeixeLogo}  className="img" alt=" Ting Gourmet icon"/>
+          <img src={SemImagem}  className="img" alt=" Ting Gourmet icon"/>
           Ting Gourmet
         </div>
       </Paper>
