@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 import Whats_qld from '../../assets/whats_.png';
 import { TiArrowBackOutline } from 'react-icons/ti';
 import Modal from '../Modal/Modal'
-import AvaliacaoModal from '../Modal/AvaliacaoModal'
+
 
 import './TheDogFather.css'
 import AkioJapaLogo from './../../assets/cardapioAJ/AkioJapaLogo.png'
@@ -86,9 +86,7 @@ export default function CustomizedExpansionPanels() {
         <div className="cabecalho icones">
           <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><TiArrowBackOutline className="back-icon"/></Link>
         </div>
-        <div className="cabecalho icones">
-          <AvaliacaoModal className="avaliacao" />
-        </div>
+        
       </Paper>
       </div>
       <div className="content">
@@ -905,7 +903,7 @@ export default function CustomizedExpansionPanels() {
                 desc="Coca-cola, Coca-cola zero, Fanta, Kuat ou Sprite."
                 price="A partir de R$4,00"
                 img="Refrigerantes.png"
-                path="cardapioBC"          
+                path="generic"          
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -914,7 +912,7 @@ export default function CustomizedExpansionPanels() {
                 desc="Coca-cola ks."
                 price="A partir de R$4,00"
                 img="Refrigerantes.png"
-                path="cardapioBC"     
+                path="generic"     
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -923,7 +921,7 @@ export default function CustomizedExpansionPanels() {
                 desc="Coca-cola, Coca-cola Zero, Fanta, Sprite."
                 price="A partir de R$4,00"
                 img="Refrigerantes.png"
-                path="cardapioBC"  
+                path="generic"  
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -932,7 +930,7 @@ export default function CustomizedExpansionPanels() {
                 desc="Água mineral."
                 price="A partir de R$4,00"
                 img="agua.png"
-                path="cardapioTDF"           
+                path="generic"           
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -941,7 +939,7 @@ export default function CustomizedExpansionPanels() {
                 desc="Água mineral."
                 price="A partir de R$4,00"
                 img="agua.png"
-                path="cardapioTDF"        
+                path="generic"        
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -950,7 +948,7 @@ export default function CustomizedExpansionPanels() {
                 desc="Schweppes CItrus lata."
                 price="A partir de R$5,00"
                 img="Scheweppes.jpg"
-                path="cardapioBC"          
+                path="generic"          
               /> 
             </Paper>
             <Paper className={classes.root}>            

@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 import Whats_qld from '../../assets/whats_.png';
 import { TiArrowBackOutline } from 'react-icons/ti';
 // import Modal from '../Modal/Modal'
-import AvaliacaoModal from '../Modal/AvaliacaoModal'
+// import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
 
@@ -92,9 +92,9 @@ export default function CustomizedExpansionPanels() {
         <div className="cabecalho icones">
           <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><TiArrowBackOutline className="back-icon"/></Link>
         </div>
-        <div className="cabecalho icones">
+        {/* <div className="cabecalho icones">
           <AvaliacaoModal className="avaliacao" />
-        </div>
+        </div> */}
       </Paper>
       </div>
       <div className="content">

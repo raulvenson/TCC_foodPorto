@@ -376,7 +376,7 @@ export default function CustomizedExpansionPanels() {
                 desc=""
                 price="" 
                 img="agua.png"
-                path="cardapioTDF" 
+                path="generic" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -385,7 +385,7 @@ export default function CustomizedExpansionPanels() {
                 desc=""
                 price="" 
                 img="agua.png"
-                path="cardapioTDF" 
+                path="generic" 
               /> 
             </Paper>
             <Paper className={classes.root}>            
@@ -394,7 +394,7 @@ export default function CustomizedExpansionPanels() {
                 desc=""
                 price="" 
                 img="Refrigerantes.png"
-                path="cardapioBC" 
+                path="generic" 
               /> 
             </Paper>          
             <Paper className={classes.root}>            
