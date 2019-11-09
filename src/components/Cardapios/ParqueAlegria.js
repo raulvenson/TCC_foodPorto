@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 // import Whats_qld from '../../assets/whats_qld.png';
 import { TiArrowBackOutline } from 'react-icons/ti';
 // import Modal from '../Modal/Modal'
-import AvaliacaoModal from '../Modal/AvaliacaoModal'
+// import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
 
@@ -94,9 +94,9 @@ export default function CustomizedExpansionPanels() {
         <div className="cabecalho icones">
           <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><TiArrowBackOutline className="back-icon"/></Link>
         </div>
-        <div className="cabecalho icones">
+        {/* <div className="cabecalho icones">
           <AvaliacaoModal className="avaliacao" />
-        </div>
+        </div> */}
       </Paper>
       </div>
       <div className="content">
@@ -107,10 +107,12 @@ export default function CustomizedExpansionPanels() {
         
         <ExpansionPanelDetails className="details">
           <Typography>
-            <Paper className={classes.root}>            
-              <h1>Playground e Espaço de Festas</h1>
-              <h2>Informações para reserva do Espaço de Festas - WhatsApp (65)99939-0805</h2>
-            </Paper>
+            <a style={{ textDecoration: 'none' }} href="https://api.whatsapp.com/send?phone=5565999390805&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Parque!" >           
+              <Paper className={classes.root}>
+                <h1>Playground e Espaço de Festas</h1>
+                <h2>Clique aqui para informações sobre reserva do Espaço de Festas</h2>
+              </Paper>
+            </a> 
             <Paper className={classes.root}>            
               <img className="img-parque" alt="img01" src={Img01}/>
             </Paper>
