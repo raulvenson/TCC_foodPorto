@@ -49,10 +49,12 @@
           projectId: "foodportotcc",
           storageBucket: "foodportotcc.appspot.com",
           messagingSenderId: "518604574406",
-          appId: "1:518604574406:web:ce292dbedfac5eed"
+          appId: "1:518604574406:web:ce292dbedfac5eed",
+          measurementId: "G-4J2SDR4DKN"
         };
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
         const db = firebase.firestore();
         db.settings({ timestampInSnapshots: true });
       </script>
