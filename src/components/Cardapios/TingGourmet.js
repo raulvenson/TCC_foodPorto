@@ -14,7 +14,7 @@ import Modal from '../Modal/Modal'
 
 import './TheDogFather.css'
 
-import ItalianLogo from './../../assets/generic/semImagem.jpg'
+import TingGourmetLogo from './../../assets/cardapioTG/TING_GOURMET.png'
 
 
 import Grid from '@material-ui/core/Grid';
@@ -82,7 +82,7 @@ export default function CustomizedExpansionPanels() {
       <div className="header">
       <Paper className={classes.root}>
         <div className="font-lista cabecalho">
-          <img src={ItalianLogo}  className="img-header" alt="General Mex logo"/>
+          <img src={TingGourmetLogo}  className="img-header" alt="Ting Gourmet logo"/>
           Ting Gourmet
         </div>    
         <div className="cabecalho icones">

@@ -19,7 +19,7 @@ import AkioJapaLogo from './../../assets/cardapioAJ/AkioJapaLogo.png'
 import ItalianLogo from './../../assets/cardapioITA/ItalianLogo.png'
 import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.png'
 import PortalDoPeixeLogo from './../../assets/cardapioPdP/PortalDoPeixeLogo.jpeg'
-import SemImagem from './../../assets/generic/semImagem.jpg'
+import TingGourmetLogo from './../../assets/cardapioTG/TING_GOURMET.png'
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
@@ -38,7 +38,7 @@ export default function ImgMediaCard() {
     
 
     <Link to="/cardapioBC" style={{ textDecoration: 'none' }}>
-      <Paper className="paper">
+      <Paper className="paper" onClick="gtag('event','Visualizar', {'event_category':'ShowRestaurant','event_label':'ConvesBar'});">
         <div variant="h5" component="h3" className="font-lista">
           <img src={Bar}  className="img" alt="  O Convés Bar icon"/>
           O Convés Bar
@@ -128,7 +128,7 @@ export default function ImgMediaCard() {
     <Link to="/cardapioTG" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
-          <img src={SemImagem}  className="img" alt=" Ting Gourmet icon"/>
+          <img src={TingGourmetLogo}  className="img" alt=" Ting Gourmet icon"/>
           Ting Gourmet
         </div>
       </Paper>
