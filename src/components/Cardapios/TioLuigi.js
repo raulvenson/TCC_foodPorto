@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 import Whats_qld from '../../assets/whats_.png';
 import { TiArrowBackOutline } from 'react-icons/ti';
 import Modal from '../Modal/Modal'
-import AvaliacaoModal from '../Modal/AvaliacaoModal'
+// import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
 import './TheDogFather.css'
 import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.png'
@@ -86,9 +86,9 @@ export default function CustomizedExpansionPanels() {
         <div className="cabecalho icones">
           <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><TiArrowBackOutline className="back-icon"/></Link>
         </div>
-        <div className="cabecalho icones">
+        {/* <div className="cabecalho icones">
           <AvaliacaoModal className="avaliacao" />
-        </div>
+        </div> */}
       </Paper>
       </div>
       <div className="content">
@@ -325,41 +325,25 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="details">
           <Typography>
-            <Paper className={classes.root}>
-              <Modal
-                title="Catupiry"
-                desc=""
-                price=""
-                img="BordaCatupiry.jpg"
-                path="cardapioTL" 
-              /> 
+            <Paper className={classes.root}>            
+              <div className="font-modal">Catupiry</div>
+              <h2>P - R$2,00 &nbsp; &nbsp; M - R$4,00</h2>
+              <h2>G - R$6,00 &nbsp; &nbsp; GG - R$10,00</h2>
             </Paper>
             <Paper className={classes.root}>            
-              <Modal 
-                title="Cheddar"
-                desc=""
-                price="" 
-                img="BordaCheddar.jpg"
-                path="cardapioTL" 
-              /> 
+              <div className="font-modal">Cheddar</div>
+              <h2>P - R$2,00 &nbsp; &nbsp; M - R$4,00</h2>
+              <h2>G - R$6,00 &nbsp; &nbsp; GG - R$10,00</h2>
             </Paper>
             <Paper className={classes.root}>            
-              <Modal 
-                title="Chocolate"
-                desc=""
-                price="" 
-                img="BordaChocolate.jpg"
-                path="cardapioTL" 
-              /> 
+              <div className="font-modal">Chocolate</div>
+              <h2>P - R$2,00 &nbsp; &nbsp; M - R$4,00</h2>
+              <h2>G - R$6,00 &nbsp; &nbsp; GG - R$10,00</h2>
             </Paper>
             <Paper className={classes.root}>            
-              <Modal 
-                title="Philadelphia"
-                desc=""
-                price="" 
-                img="semImagem.jpg"
-                path="cardapioGM" 
-              /> 
+              <div className="font-modal">Philadelphia</div>
+              <h2>P - R$2,00 &nbsp; &nbsp; M - R$4,00</h2>
+              <h2>G - R$6,00 &nbsp; &nbsp; GG - R$10,00</h2>
             </Paper>
           </Typography>
         </ExpansionPanelDetails>

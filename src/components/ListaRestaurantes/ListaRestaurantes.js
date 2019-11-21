@@ -24,6 +24,12 @@ import TingGourmetLogo from './../../assets/cardapioTG/TING_GOURMET.png'
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
 
+import Grid from '@material-ui/core/Grid';
+
+import { FaFacebook } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaGlobe } from 'react-icons/fa';
+
 
 
 export default function ImgMediaCard() {
@@ -141,7 +147,17 @@ export default function ImgMediaCard() {
         </div>
       </Paper>
     </Link>
-    
+    <Grid container justify={"space-around"} className="">
+      <a href="https://www.facebook.com/cardapio.onmenu/" target="_blank" rel="noopener noreferrer">
+        <FaFacebook style={{ color: 'white', height: '35px', width: '35px' }}/>
+      </a>
+      <a href="https://www.onmenu.com.br/" target="_blank" rel="noopener noreferrer">
+        <FaGlobe style={{ color: 'white', height: '35px', width: '35px'}}/>
+      </a>
+      <a href="https://www.instagram.com/menu.on/?hl=pt-br" target="_blank" rel="noopener noreferrer">
+        <FaInstagram style={{ color: 'white', height: '35px', width: '35px'}}/>
+      </a>
+    </Grid>
     </div>
   );
 }

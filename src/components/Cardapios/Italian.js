@@ -128,7 +128,9 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelSummary>
         
         <ExpansionPanelDetails className="details">
-          <h1> Alcaparras, Alho, Alho Poró, Azeite, Azeitona Preta, Azeitona Verde, Bacon, Brócolis, Calabresa, Camarão, Carne Moída,Carne Seca, Cebola, Cebolinha, Cenoura, Champignon, Coentro, Couve Flor, Ervilha, Frango, Manjericão, Manteiga, Milho, Orégano, Palmito, Passas, Pimenta Calabresa, Pimenta de Cheiro, Pimentão Verde, Pimentão Vermelho, Presunto, Queijo, Rúcula, Salsinha, Salsicha, Tomate e Tomate Seco </h1>
+          <Paper className={classes.root}>
+            <h1> Alcaparras, Alho, Alho Poró, Azeite, Azeitona Preta, Azeitona Verde, Bacon, Brócolis, Calabresa, Camarão, Carne Moída,Carne Seca, Cebola, Cebolinha, Cenoura, Champignon, Coentro, Couve Flor, Ervilha, Frango, Manjericão, Manteiga, Milho, Orégano, Palmito, Passas, Pimenta Calabresa, Pimenta de Cheiro, Pimentão Verde, Pimentão Vermelho, Presunto, Queijo, Rúcula, Salsinha, Salsicha, Tomate e Tomate Seco </h1>
+          </Paper>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
@@ -137,7 +139,9 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelSummary>
         
         <ExpansionPanelDetails className="details">
-          <h1>Branco, 4 queijos, Rosé e Barbecue </h1>
+          <Paper className={classes.root}>
+            <h1>Branco, 4 queijos, Rosé e Barbecue </h1>
+          </Paper>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       </div>
