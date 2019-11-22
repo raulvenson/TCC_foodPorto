@@ -140,7 +140,7 @@ export default function CustomizedExpansionPanels() {
         
         <ExpansionPanelDetails className="details">
           <Paper className={classes.root}>
-            <h1>Branco, 4 queijos, Rosé e Barbecue </h1>
+            <h1>Branco, 4 queijos, Rosé, Barbecue e ao Sugo</h1>
           </Paper>
         </ExpansionPanelDetails>
       </ExpansionPanel>
