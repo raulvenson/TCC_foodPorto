@@ -14,7 +14,7 @@ import BarChoperia from './components/Cardapios/BarChoperia';
 import Italian from './components/Cardapios/Italian';
 import PortalDoPeixe from './components/Cardapios/PortalDoPeixe';
 import ParqueAlegria from './components/Cardapios/ParqueAlegria';
-import TingGourmet from './components/Cardapios/TingGourmet';
+
 
 export default props =>
     <Switch>
@@ -30,7 +30,7 @@ export default props =>
         <Route path="/cardapioBC" component={BarChoperia} />
         <Route path="/cardapioITA" component={Italian} />
         <Route path="/cardapioPdP" component={PortalDoPeixe} />
-        <Route path="/cardapioTG" component={TingGourmet} />
+      
         <Route path="/parqueAlegria" component={ParqueAlegria} />
         <Redirect from='*' to="/" />
     </Switch>

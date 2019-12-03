@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
-import Whats_qld from '../../assets/whats_.png';
+// import Whats_qld from '../../assets/whats_.png';
 import { TiArrowBackOutline } from 'react-icons/ti';
 import Modal from '../Modal/Modal'
 // import AvaliacaoModal from '../Modal/AvaliacaoModal'
@@ -15,7 +15,7 @@ import Modal from '../Modal/Modal'
 import './TheDogFather.css'
 import CnBlogo from './../../assets/cardapioCnB/NaBrasaLogo.png'
 
-import Grid from '@material-ui/core/Grid';
+// import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -101,7 +101,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Espetinho de Carne (Fraldinha)"
                 desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
-                price="Simples R$10,00 - Completo R$18,00"
+                price="Simples R$15,00 - Completo R$23,00"
                 img="Carne.jpeg"
                 path="cardapioCnB"              
                 /> 
@@ -110,7 +110,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Espetinho de Frango"
                 desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
-                price="Simples R$10,00 - Completo R$18,00"
+                price="Simples R$12,00 - Completo R$20,00"
                 img="semImagem.jpg"
                 path="cardapioCnB"                
                 /> 
@@ -119,7 +119,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Espetinho de Frango com Bacon"
                 desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
-                price="Simples R$10,00 - Completo R$18,00"
+                price="Simples R$12,00 - Completo R$20,00"
                 img="FrangoBacon.jpeg"
                 path="cardapioCnB"             
                 /> 
@@ -128,7 +128,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Espetinho de Cupim Mexicano"
                 desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
-                price="Simples R$10,00 - Completo R$18,00"
+                price="Simples R$15,00 - Completo R$23,00"
                 img="CupimMexicano.jpeg"
                 path="cardapioCnB"                
                 /> 
@@ -137,7 +137,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Espetinho de Picanha"
                 desc="Completo acompanha arroz, vinagrete (tomate e repolho), feijão tropeiro e mandioca cozida."
-                price="Simples R$20,00 - Completo R$28,00"
+                price="Simples R$25,00 - Completo R$33,00"
                 img="Picanha.jpeg"
                 path="cardapioCnB"                
                 /> 
@@ -182,7 +182,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Porção de Picanha (450g)"
                 desc="Picanha acebolado com mandioca cozida."
-                price="R$55,00"
+                price="R$70,00"
                 img="semImagem.jpg"
                 path="cardapioCnB" 
               /> 
@@ -191,7 +191,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Porção de Filé Mignon (450g)"
                 desc="Filé Mignon acebolado com mandioca cozida."
-                price="R$55,00"
+                price="R$70,00"
                 img="semImagem.jpg"
                 path="cardapioCnB" 
               /> 
@@ -200,7 +200,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Porção de Alcatra (450g)"
                 desc="Alcatra acebolado com mandioca cozida."
-                price="R$40,00"
+                price="R$55,00"
                 img="semImagem.jpg"
                 path="cardapioCnB" 
               /> 
@@ -219,6 +219,15 @@ export default function CustomizedExpansionPanels() {
                 title="Porção de Calabresa (450g)"
                 desc="Calabresa acebolada"
                 price="R$25,00"
+                img="semImagem.jpg"
+                path="cardapioCnB" 
+              /> 
+            </Paper>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Porção de Batata Frita (400g)"
+                desc=""
+                price="R$15,00"
                 img="semImagem.jpg"
                 path="cardapioCnB" 
               /> 
@@ -282,11 +291,11 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelDetails>
       </ExpansionPanel>
       </div>
-      <Grid container justify={"center"} className="footer">
+      {/* <Grid container justify={"center"} className="footer">
         <a href="https://api.whatsapp.com/send?phone=5565999271048&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!" >
           <img className="wpp" src={Whats_qld} alt="link para chat WhatsApp"/>
         </a> 
-      </Grid>
+      </Grid> */}
     
     </div>
   );

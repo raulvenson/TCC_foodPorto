@@ -19,7 +19,7 @@ import AkioJapaLogo from './../../assets/cardapioAJ/AkioJapaLogo.png'
 import ItalianLogo from './../../assets/cardapioITA/ItalianLogo.png'
 import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.png'
 import PortalDoPeixeLogo from './../../assets/cardapioPdP/PortalDoPeixeLogo.jpeg'
-// import TingGourmetLogo from './../../assets/cardapioTG/TING_GOURMET.png'
+
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
@@ -131,14 +131,6 @@ export default function ImgMediaCard() {
         </div>
       </Paper>
     </Link>
-    {/* <Link to="/cardapioTG" style={{ textDecoration: 'none' }}>
-      <Paper className="paper">
-        <div variant="h5" component="h3" className="font-lista">
-          <img src={TingGourmetLogo}  className="img" alt=" Ting Gourmet icon"/>
-          Ting Gourmet
-        </div>
-      </Paper>
-    </Link> */}
     <Link to="/parqueAlegria" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
