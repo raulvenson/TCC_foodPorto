@@ -16,6 +16,8 @@ import './TheDogFather.css'
 import LeBrutoicon from './../../assets/cardapioLeBruto/lebruto.png'
 
 // import Grid from '@material-ui/core/Grid';
+
+import EnviarMensagem from '../enviarMensagemWPP/EnviarMensagem'
   
 const useStyles = makeStyles(theme => ({
   root: {
@@ -100,10 +102,10 @@ export default function CustomizedExpansionPanels() {
           <Typography>
             <Paper className={classes.root}>            
             <Modal 
-              title="9 Horas"
-              desc="O básico delicioso, versão kids!/Hambúrguer de blend especial de carne bovina, preparado na brasa, como churrasco, pão branco da casa, molho clássico Le Bruto, molho de tomate estilo ketchup e queijo mozarela. Acompanha batata frita."
+              title="Prefácio"
+              desc="Hambúrguer de blend especial de 130g de carne bovina (preparado na brasa, como churrasco) pão branco crocante Le Bruto, maionese rosê clássico da casa, queijo mozarela, tomate e alface americana."
               price="A partir de R$17,00"
-              img="semImagem.jpg"
+              img="Prefácio.jpg"
               path="cardapioLeBruto"         
               /> 
             </Paper>  
@@ -210,11 +212,8 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelDetails>
       </ExpansionPanel>
       </div>
-      {/* <Grid container justify={"center"} className="footer">
-        <a href="https://api.whatsapp.com/send?phone=5565999271048&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!" >
-          <img className="wpp" src={Whats_qld} alt="link para chat WhatsApp"/>
-        </a> 
-      </Grid> */}
+      
+      <EnviarMensagem numero="5565996214624" />
     
     </div>
   );

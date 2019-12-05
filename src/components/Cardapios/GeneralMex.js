@@ -19,6 +19,8 @@ import GeneralMexCardapio from './../../assets/cardapioGM/cardapio_general.png'
 
 // import Grid from '@material-ui/core/Grid';
 
+import EnviarMensagem from '../enviarMensagemWPP/EnviarMensagem'
+
 const useStyles = makeStyles(theme => ({
   root: {
     padding: theme.spacing(1.5 , 1),
@@ -107,11 +109,8 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       
       </div>
-      {/* <Grid container justify={"center"} className="footer">
-        <a href="https://api.whatsapp.com/send?phone=5565999271048&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!" >
-          <img className="wpp" src={Whats_qld} alt="link para chat WhatsApp"/>
-        </a> 
-      </Grid> */}
+      
+      <EnviarMensagem numero="556598023257" />
     
     </div>
   );
