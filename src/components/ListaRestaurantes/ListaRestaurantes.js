@@ -41,9 +41,7 @@ export default function ImgMediaCard() {
     
       <Header/>
     
-    
-
-    <Link to="/cardapioBC" style={{ textDecoration: 'none' }} onClick="gtag('event','viewRestaurant', {'event_category':'VisualizarRestaurante','event_label':'ConvesBar'})">
+    <Link to="/cardapioBC" style={{ textDecoration: 'none' }} >
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
           <img src={Bar}  className="img" alt="  O Convés Bar icon"/>

@@ -14,5 +14,6 @@
 	width: 320px !important;
 	display: block;
 	margin-left: auto;
-	margin-right: auto;
+    margin-right: auto;
+    background-color: black !important;
 } 
