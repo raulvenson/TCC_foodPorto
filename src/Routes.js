@@ -14,7 +14,7 @@ import BarChoperia from './components/Cardapios/BarChoperia';
 import Italian from './components/Cardapios/Italian';
 import PortalDoPeixe from './components/Cardapios/PortalDoPeixe';
 import ParqueAlegria from './components/Cardapios/ParqueAlegria';
-// import Login from './components/Admin/Login/Index';
+
 
 
 export default props =>
@@ -33,7 +33,7 @@ export default props =>
         <Route path="/cardapioPdP" component={PortalDoPeixe} />
         <Route path="/parqueAlegria" component={ParqueAlegria} />
 
-        {/* <Route path="/login" component={Login} /> */}
+        
 
         <Redirect from='*' to="/" />
     </Switch>
