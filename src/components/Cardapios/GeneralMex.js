@@ -101,7 +101,7 @@ export default function CustomizedExpansionPanels() {
         
         <ExpansionPanelDetails className="details">
           <Typography>
-          <Paper className={classes.root}>            
+            <Paper className={classes.root}>            
              <img src={GeneralMexCardapio} alt="cardapio completo general mex" className="img-parque"/>
             </Paper>
           </Typography>
