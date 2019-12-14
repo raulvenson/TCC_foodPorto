@@ -17,7 +17,7 @@ import LeBrutoicon from './../../assets/cardapioLeBruto/lebruto.png'
 
 // import Grid from '@material-ui/core/Grid';
 
-import EnviarMensagem from '../enviarMensagemWPP/EnviarMensagem'
+// import EnviarMensagem from '../enviarMensagemWPP/EnviarMensagem'
 
 import LeBrutoMenu from '../../assets/cardapioLeBruto/LeBrutoMenu.png'
   
@@ -91,7 +91,7 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       </div>
       
-      <EnviarMensagem numero="5565996214624" />
+      {/* <EnviarMensagem numero="5565996214624" /> */}
     
     </div>
   );
