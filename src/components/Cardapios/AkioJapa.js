@@ -102,7 +102,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="01 - Sunomono"
                 desc="Salada de pepino japonês com gergilin."
-                price="R$7,90"
+                price="R$9,90"
                 img="semImagem.jpg"
                 path="cardapioGM"               
               /> 
@@ -111,7 +111,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="02 - Bolinho de peixe (8 un)"
                 desc=""
-                price="R$18,90"
+                price="R$20,90"
                 img="semImagem.jpg"
                 path="cardapioGM" 
               /> 
@@ -120,7 +120,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="03 - Ceviche"
                 desc="Salmão, Peixe branco."
-                price="R$21,90"
+                price="R$33,90"
                 img="semImagem.jpg"
                 path="cardapioGM" 
               /> 
@@ -129,7 +129,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="04 - Ceviche Camarão"
                 desc="Salmão, Peixe branco e Camarão."
-                price="R$25,90"
+                price="R$39,90"
                 img="semImagem.jpg"
                 path="cardapioGM" 
               /> 
@@ -138,7 +138,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="05 - Ceviche Especial"
                 desc="Frutos do mar, 10 lâminas de peixe branco, 10 lâminas de salmão ao molho especial."
-                price="R$59,00"
+                price="R$69,00"
                 img="semImagem.jpg"
                 path="cardapioGM" 
               /> 
@@ -147,7 +147,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="06 - Shimeji na Manteiga"
                 desc="Shimeji puxado na manteiga com toque de saquê, shoyu e gergilin."
-                price="R$18,90"
+                price="R$22,90"
                 img="semImagem.jpg"
                 path="cardapioGM" 
               /> 
@@ -219,7 +219,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="12 – Seleção Joe Especiais"
                 desc="Par de crispy, par de gambei, par de crispy doce e par de doritos."
-                price="A partir de R$21,90"
+                price="A partir de R$32,00"
                 img="joe.jpg"
                 path="cardapioAJ"  
               /> 
@@ -228,7 +228,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="13 – Gambei"
                 desc="Arroz, salmão, cream cheese e couve frita."
-                price="A partir de R$21,90"
+                price="A partir de R$27,90"
                 img="joe.jpg"
                 path="cardapioAJ"    
               /> 
@@ -237,25 +237,16 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="14 – Crispy"
                 desc="Salmão, arroz, cream cheese e couve frita."
-                price="A partir de R$21,90"
+                price="A partir de R$27,90"
                 img="joe.jpg"
                 path="cardapioAJ"     
               /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="15 – Goiabada"
-                desc="Goiabada, cream cheese, morango e chocolate."
-                price="A partir de R$19,90"
-                img="joe.jpg"
-                path="cardapioAJ"
-              /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
                 title="16 – Akiojapa (flambado)"
                 desc="Salmão, arroz e tataki de salmão flambado."
-                price="A partir de R$24,90"
+                price="A partir de R$27,90"
                 img="joe.jpg"
                 path="cardapioAJ"     
               /> 
@@ -264,7 +255,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="17 – Camarão"
                 desc="Salmão, arroz, cream cheese e camarão."
-                price="A partir de R$28,90"
+                price="A partir de R$36,90"
                 img="joe.jpg"
                 path="cardapioAJ"     
               /> 
@@ -280,18 +271,9 @@ export default function CustomizedExpansionPanels() {
           <Typography>
             <Paper className={classes.root}>            
               <Modal 
-                title="18 – Hossomaki Skin"
-                desc="Enrolado de arroz com alga e recheado com a pele de salmão grelhado."
-                price="A partir de R$14,90"
-                img="Hossomaki.jpg"
-                path="cardapioAJ"       
-              /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
                 title="19 – Salmão"
                 desc="Enrolado de arroz com alga recheado com salmão."
-                price="A partir de R$15,90"
+                price="A partir de R$23,90"
                 img="Hossomaki.jpg"
                 path="cardapioAJ"        
               /> 
@@ -300,7 +282,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="20 – Kani"
                 desc="Enrolado de arroz com alga recheado com kani."
-                price="A partir de R$14,00"
+                price="A partir de R$17,90"
                 img="Hossomaki.jpg"
                 path="cardapioAJ"      
               /> 
@@ -309,7 +291,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="21 – Pepino "
                 desc="Enrolado de arroz com alga e recheado com pepino."
-                price="A partir de R$14,00"
+                price="A partir de R$16,00"
                 img="Hossomaki.jpg"
                 path="cardapioAJ"        
               /> 
@@ -318,7 +300,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="22 – Camarão"
                 desc="Enrolado de arroz com alga e recheado com camarão na manteiga."
-                price="A partir de R$17,90"
+                price="A partir de R$19,90"
                 img="Hossomaki.jpg"
                 path="cardapioAJ"        
               /> 
@@ -336,7 +318,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="23 – Califórnia"
                 desc="Enrolado de arroz por fora com recheio de manga, pepino e kani."
-                price="A partir de R$14,90"
+                price="A partir de R$18,90"
                 img="Urumaki.jpg"
                 path="cardapioAJ"    
               /> 
@@ -345,7 +327,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="24 – Filadélfia "
                 desc="Enrolado de arroz por fora com recheio de salmão, cream cheese e cebolinha."
-                price="A partir de R$15,90"
+                price="A partir de R$24,90"
                 img="Urumaki.jpg"
                 path="cardapioAJ"       
               /> 
@@ -354,7 +336,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="25 – Ebi"
                 desc="Enrolado de arroz por fora com camarão, cream cheese, cebolinha e com a capa de salmão."
-                price="A partir de R$23,90"
+                price="A partir de R$25,90"
                 img="Urumaki.jpg"
                 path="cardapioAJ"      
               /> 
@@ -363,7 +345,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="26 – Kani "
                 desc="Enrolado de arroz por fora com cream cheese e kani."
-                price="A partir de R$16,90"
+                price="A partir de R$19,90"
                 img="Urumaki.jpg"
                 path="cardapioAJ"       
               /> 
@@ -372,7 +354,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="27 – Alcapone"
                 desc="Enrolado de arroz por fora com recheio de rúcula, tomate seco e cream cheese."
-                price="A partir de R$13,90"
+                price="A partir de R$17,90"
                 img="Urumaki.jpg"
                 path="cardapioAJ"      
               /> 
@@ -381,25 +363,16 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="28 – Furai "
                 desc="Enrolado de arroz por fora com recheio de salmão empanado frito e cream cheese."
-                price="A partir de R$16,90"
+                price="A partir de R$18,90"
                 img="Urumaki.jpg"
                 path="cardapioAJ"         
               /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="29 – Romeu e Julieta"
-                desc="Enrolado de arroz por fora com recheio de goiabada, morango e cream cheese."
-                price="A partir de R$17,90"
-                img="Urumaki.jpg"
-                path="cardapioAJ"     
-              /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
                 title="30 – Urakami Especial"
                 desc="Enrolado de arroz por fora com recheio de salmão, cream cheese, cebolinha e com a capa de salmão."
-                price="A partir de R$20,90"
+                price="A partir de R$27,90"
                 img="Urumaki.jpg"
                 path="cardapioAJ"   
               /> 
@@ -408,7 +381,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="31 – Camarão"
                 desc="Enrolado de arroz por fora com recheio de camarão empanado e cream cheese."
-                price="A partir de R$21,90"
+                price="A partir de R$28,00"
                 img="Urumaki.jpg"
                 path="cardapioAJ" 
               /> 
@@ -417,7 +390,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="32 – Skin"
                 desc="Enrolado de arroz por fora com recheio de cream cheese e pele de salmão grelhado."
-                price="A partir de R$16,90"
+                price="A partir de R$17,90"
                 img="Urumaki.jpg"
                 path="cardapioAJ"
               /> 
@@ -435,25 +408,25 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="33 – Filadélfia"
                 desc="Sushi em formato de cone, com recheio de salmão, cream cheese e cebolinha."
-                price="A partir de R$18,90"
+                price="A partir de R$22,90"
                 img="Temaki.jpg"
                 path="cardapioAJ"   
               /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="34 – Salmão"
+                title="34 – Salmão com Arroz"
                 desc="Sushi em formato de cone, recheado com arroz e salmão."
-                price="A partir de R$12,90"
+                price="A partir de R$20,90"
                 img="Temaki.jpg"
                 path="cardapioAJ"   
               /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="35 – Furai"
-                desc="Sushi em formato de cone, alga, arroz e cream cheese."
-                price="A partir de R$18,50"
+                title="35 – Temaki sem Arroz"
+                desc="Sushi em formato de cone, alga e cream cheese."
+                price="A partir de R$24,50"
                 img="Temaki.jpg"
                 path="cardapioAJ"   
               /> 
@@ -462,7 +435,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="36 – Hot"
                 desc="Sushi em formato de cone, recheado de salmão empanado e frito."
-                price="A partir de R$22,90"
+                price="A partir de R$23,90"
                 img="Temaki.jpg"
                 path="cardapioAJ"   
               /> 
@@ -471,7 +444,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="37 – Skin"
                 desc="Sushi em formato de cone, skin empanado, tarê, cream cheese, cebolinha e gergelim."
-                price="A partir de R$17,90"
+                price="A partir de R$18,90"
                 img="Temaki.jpg"
                 path="cardapioAJ"   
               /> 
@@ -480,7 +453,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="38 – Alaska"
                 desc="Sushi em formato de cone, recheado de arroz, cream cheese, pepino e salmão."
-                price="A partir de R$18,90"
+                price="A partir de R$19,90"
                 img="Temaki.jpg"
                 path="cardapioAJ"   
               /> 
@@ -498,7 +471,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="39 – Hot Roll"
                 desc="Enrolado de arroz com alga empanada com farinha panko e frito, recheio de salmão."
-                price="A partir de R$17,90"
+                price="A partir de R$22,90"
                 img="HotRoll.jpg"
                 path="cardapioAJ"   
               /> 
@@ -507,43 +480,27 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="40 – Hot Roll Filadélfia"
                 desc="Enrolado de arroz com alga empanada com farinha panko e frito, recheio de salmão, cream cheese e cebolinha."
-                price="A partir de R$18,90"
+                price="A partir de R$24,90"
                 img="HotRoll.jpg"
                 path="cardapioAJ"   
               /> 
             </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="41 – Hot Morango"
-                desc="Enrolado de arroz com alga empanada com farinha panko e frito, recheio de morango cream chesese e chocolate."
-                price="A partir de R$20,90"
-                img="HotRoll.jpg"
-                path="cardapioAJ"   
-              /> 
-            </Paper>
+            
             <Paper className={classes.root}>            
               <Modal 
                 title="42 – Hot Banana"
                 desc="Enrolado de arroz com alga empanada com farinha panko e frito, recheio de banana com doce de leite, calda de chocolate e leite condensado"
-                price="A partir de R$17,90"
-                img="HotRoll.jpg"
-                path="cardapioAJ"   
-              /> 
-            </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="43 – Hot Nutella"
-                desc="Enrolado de arroz com alga empanada com farinha panko e frito, morango e nutella."
                 price="A partir de R$20,90"
                 img="HotRoll.jpg"
                 path="cardapioAJ"   
               /> 
             </Paper>
+          
             <Paper className={classes.root}>            
               <Modal 
-                title="44 – Hot Nani"
+                title="44 – Hot Kani"
                 desc="Enrolado de arroz com alga empanada com farinha panko e frito, recheio de kani, cream chesse, cebolinha e gergilim."
-                price="A partir de R$17,90"
+                price="A partir de R$20,90"
                 img="HotRoll.jpg"
                 path="cardapioAJ"   
               /> 
@@ -552,7 +509,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="45 – Hot Camarão"
                 desc="Enrolado de arroz com alga empanada com farinha panko e frito, recheio de camarão, cream cheese, cebolinha e gergilim."
-                price="A partir de R$23,90"
+                price="A partir de R$28,00"
                 img="HotRoll.jpg"
                 path="cardapioAJ"   
               /> 
@@ -570,16 +527,16 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="46 – Nigiri grelhado"
                 desc="Bolinho de arroz envolto de salmão grelhado."
-                price="A partir de R$6,90"
+                price="A partir de R$8,90"
                 img="Nigiri.jpg"
                 path="cardapioAJ"   
               /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="47 – Nigiri"
+                title="47 – Nigiri Vegetariano"
                 desc="Bolinho de arroz , rúcula e tomate seco."
-                price="A partir de R$6,00"  
+                price="A partir de R$7,50"  
                 img="Nigiri.jpg"
                 path="cardapioAJ"   
               /> 
@@ -588,7 +545,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="48 – Nigiri de salmão"
                 desc="Bolinho de arroz e capa de salmão."
-                price="A partir de R$4,50"
+                price="A partir de R$7,50"
                 img="Nigiri.jpg"
                 path="cardapioAJ"     
               /> 
@@ -597,7 +554,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="49 – Nigiri peixe branco"
                 desc="Bolinho de arroz e capa de peixe branco."
-                price="A partir de R$4,00"
+                price="A partir de R$6,50"
                 img="Nigiri.jpg"
                 path="cardapioAJ"      
               /> 
@@ -606,7 +563,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="50 – Nigiri kani"
                 desc="Bolinho de arroz e kani."
-                price="A partir de R$4,00"
+                price="A partir de R$5,50"
                 img="Nigiri.jpg"
                 path="cardapioAJ" 
               /> 
@@ -615,7 +572,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="51 – Nigiri skin"
                 desc="Bolinho de arroz e pele de salmão grelhado."
-                price="A partir de R$4,00"
+                price="A partir de R$5,00"
                 img="Nigiri.jpg"
                 path="cardapioAJ"     
               /> 
@@ -633,7 +590,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="52 – Yakissoba de carne"
                 desc="Macarrão com legumes ao shoyu, com carne."
-                price="A partir de R$24,90"
+                price="A partir de R$27,90"
                 img="Yakisoba.jpg"
                 path="cardapioAJ"     
               /> 
@@ -651,7 +608,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="54 – Yakissoba misto"
                 desc="Macarrão com legumes ao shoyu, frango e carne."
-                price="A partir de R$26,90"
+                price="A partir de R$27,90"
                 img="Yakisoba.jpg"
                 path="cardapioAJ"       
               /> 
@@ -660,25 +617,17 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="55 – Yakissoba de camarão"
                 desc="Macarrão com legumes ao shoyu, com camarão."
-                price="A partir de R$26,90"
+                price="A partir de R$37,90"
                 img="Yakisoba.jpg"
                 path="cardapioAJ"         
               /> 
             </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="56 – Yakissoba frutos do mar"
-                desc="Macarrão com legumes ao shoyu com frutos do mar.."
-                price="A partir de R$28,90"
-                img="Yakisoba.jpg"
-                path="cardapioAJ"   
-              /> 
-            </Paper>
+            
             <Paper className={classes.root}>            
               <Modal 
                 title="57 – Yakissoba vegetariano"
                 desc="Macarrão com legumes ao shoyu."
-                price="A partir de R$21,90"
+                price="A partir de R$23,90"
                 img="Yakisoba.jpg"
                 path="cardapioAJ"        
               /> 
@@ -696,38 +645,22 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="58 – Legumes"
                 desc="Legumes e empanado frito."
-                price="A partir de R$19,90"
+                price="A partir de R$21,90"
                 img="semImagem.jpg"
                 path="cardapioGM"       
               /> 
             </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="59 – Sorvete"
-                desc="Sorvete de creme, massa doce e empanado frito."
-                price="A partir de R$24,90"
-                img="semImagem.jpg"
-                path="cardapioGM"      
-              /> 
-            </Paper>
+            
             <Paper className={classes.root}>            
               <Modal 
                 title="60 – Camarão"
                 desc="Legumes, empanado frito e camarão."
-                price="A partir de R$25,90"
+                price="A partir de R$28,90"
                 img="semImagem.jpg"
                 path="cardapioGM"        
               /> 
             </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="61 – Sobá"
-                desc="Macarrão ao shoyu, ovos e carne."
-                price="A partir de R$27,90"
-                img="semImagem.jpg"
-                path="cardapioGM"      
-              /> 
-            </Paper>
+            
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -739,22 +672,14 @@ export default function CustomizedExpansionPanels() {
           <Typography>
             <Paper className={classes.root}>            
               <Modal 
-                title="62 - Carne"
-                desc=" Legumes ao shoyu com arroz de sushi (Gohan) carne."
-                price="A partir de R$16,90"
+                title="62 - Carne / Salmão"
+                desc=" Legumes ao shoyu com arroz de sushi (Gohan)."
+                price="A partir de R$35,90"
                 img="semImagem.jpg"
                 path="cardapioGM" 
               /> 
             </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="62 - Salmão "
-                desc="Legumes ao shoyu com arroz de sushi (Gohan) salmão."
-                price="A partir de R$16,90"
-                img="semImagem.jpg"
-                path="cardapioGM"         
-              /> 
-            </Paper>
+            
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -768,7 +693,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="63 – Mini Salmão (12 peças)"
                 desc="5 sashimis, 3 urakamis Filadélfia, 2 hossomakis e 2 nigiris."
-                price="A partir de R$30,00"
+                price="A partir de R$35,00"
                 img="semImagem.jpg"
                 path="cardapioGM"        
               /> 
@@ -777,7 +702,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="64 – Combo 1 pessoa (22 peças) "
                 desc="6 sashimis de salmão, 6 sashimis de peixe branco, 2 nigiris de peixe branco, 4 nigiris de salmão, 4 joe de salmão."
-                price="A partir de R$49,00"
+                price="A partir de R$72,90"
                 img="semImagem.jpg"
                 path="cardapioGM"      
               /> 
@@ -786,7 +711,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="65 – Combo 2 pessoas (40 peças)"
                 desc="10 sashimis de salmão, 5 sashimis de polvo, 4 niguiris de salmão, 4 niguiris skin, 4 niguiris kani, 4 joe salmão, 2 uramakis Filadéldia e hot roll Filadélfia."
-                price="A partir de R$95,00"
+                price="A partir de R$140,90"
                 img="semImagem.jpg"
                 path="cardapioGM" 
               /> 
@@ -795,7 +720,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="66 - Combo 3 pessoas (78 peças)"
                 desc="16 sashimis variados, 8 niguiris variados, 8 joe variados, 8 urakamis Filadélfia, 8 hosomakis de salmão, 10 hot roll variados, 10 urakamis skin e 10 urakamis salmão grelhado"
-                price="A partir de R$180,00"
+                price="A partir de R$198,90"
                 img="semImagem.jpg"
                 path="cardapioGM"            
               /> 
@@ -804,7 +729,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="67 – Combo Família (100 peças)"
                 desc="16 sashimis variados, 12 niguiris variados, 20 urakamis Filadélfia, 15 joe de salmão, 10 hosomakis de salmão, 15 hot roll variados e  10 urakamis skin."
-                price="A partir de R$235,00"
+                price="A partir de R$245,00"
                 img="semImagem.jpg"
                 path="cardapioGM"     
               /> 
@@ -822,27 +747,27 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="68 – Salmão"
                 desc="10 unidades."
-                price="A partir de R$28,00"
+                price="A partir de R$42,00"
                 img="Sashimi.jpg"
                 path="cardapioAJ"          
               /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="69 – Peixe branco "
-                desc="10 unidades (tilápia)."
-                price="A partir de R$24,90"
+                title="69 – Salmão "
+                desc="5 unidades."
+                price="A partir de R$25,00"
                 img="Sashimi.jpg"
                 path="cardapioAJ"     
               /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="70 – Seleção Sashimi (24 cortes)"
-                desc="12 salmões, 6 peixes branco e 6 polvos."
-                price="A partir de R$150,00"
+                title="70 – Peixe branco "
+                desc="10 unidades (tilápia)."
+                price="A partir de R$29,00"
                 img="Sashimi.jpg"
-                path="cardapioAJ"   
+                path="cardapioAJ"    
               /> 
             </Paper>
           </Typography>
@@ -858,7 +783,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="71 – Salmão tostado (10 unidades)"
                 desc="Salmão tostado no maçarico, azeite de oliva, pimenta tailandesa, terê e cebolinha."
-                price="A partir de R$22,00"
+                price="A partir de R$45,00"
                 img="Sashimi.jpg"
                 path="cardapioAJ"           
               /> 
@@ -867,7 +792,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="72 – Salmão trufado (22 unidades)"
                 desc="Finas fatias de salmão com raspas de limão siciliano, molho especial, azeite trufado e molho ponzu (molho ponzu é uma mistura de suco de laranja, limão e shoyu)."
-                price="A partir de R$45,00"
+                price="A partir de R$69,00"
                 img="Sashimi.jpg"
                 path="cardapioAJ"        
               /> 
@@ -876,20 +801,12 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="73 – Salmão passion (10 unidades)"
                 desc="Salmão tostado no maçarico, tarê, calda de maracujá e raspa de limão taiti."
-                price="A partir de R$34,50"
+                price="A partir de R$49,00"
                 img="Sashimi.jpg"
                 path="cardapioAJ"          
               /> 
             </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="74 – Salmão crispy (16 unidades)"
-                desc="Salmão com crispy de batata doce e molho da casa."
-                price="A partir de R$34,50"
-                img="Sashimi.jpg"
-                path="cardapioAJ"           
-              /> 
-            </Paper>
+            
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -920,30 +837,22 @@ export default function CustomizedExpansionPanels() {
             <Paper className={classes.root}>            
               <Modal 
                 title="Refrigerante pet (500ml)"
-                desc="Coca-cola, Coca-cola Zero, Fanta, Sprite."
-                price="A partir de R$4,00"
+                desc="Coca-cola, Coca-cola Zero e Fanta."
+                price="A partir de R$5,50"
                 img="Refrigerantes.png"
                 path="generic"  
               /> 
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="Água mineral com gás"
+                title="Água mineral com/sem gás"
                 desc="Água mineral."
                 price="A partir de R$4,00"
                 img="agua.png"
                 path="generic"           
               /> 
             </Paper>
-            <Paper className={classes.root}>            
-              <Modal 
-                title="Água mineral sem gás"
-                desc="Água mineral."
-                price="A partir de R$4,00"
-                img="agua.png"
-                path="generic"        
-              /> 
-            </Paper>
+           
             <Paper className={classes.root}>            
               <Modal 
                 title="Schweppes Citrus (310ml)"
@@ -955,13 +864,14 @@ export default function CustomizedExpansionPanels() {
             </Paper>
             <Paper className={classes.root}>            
               <Modal 
-                title="Suco Del Valle (200ml)"
-                desc="Del Valle Nutri Uva."
-                price="A partir de R$5,00"
-                img="DelValle.jpg"
-                path="cardapioCnB"           
+                title="Aquarius Fresh (500ml)"
+                desc="Aquarius Fresh."
+                price="A partir de R$5,50"
+                img="AquariusFresh.png"
+                path="generic"          
               /> 
             </Paper>
+            
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
