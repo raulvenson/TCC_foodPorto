@@ -426,7 +426,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="35 – Temaki sem Arroz"
                 desc="Sushi em formato de cone, alga e cream cheese."
-                price="A partir de R$24,50"
+                price="A partir de R$24,90"
                 img="Temaki.jpg"
                 path="cardapioAJ"   
               /> 
