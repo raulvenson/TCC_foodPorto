@@ -105,7 +105,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Macarrão"
                 desc="Monte você mesmo com mais de 40 opções de condimentos."
-                price="R$20,00"
+                price="R$25,00"
                 img="Macarrao.jpeg"
                 path="cardapioITA" 
               /> 
@@ -114,7 +114,7 @@ export default function CustomizedExpansionPanels() {
               <Modal 
                 title="Panqueca"
                 desc="Acompanha uma porção de Arroz. Monte você mesmo com mais de 40 opções de condimentos."
-                price="R$20,00"
+                price="R$25,00"
                 img="Panqueca.jpeg"
                 path="cardapioITA" 
               /> 
