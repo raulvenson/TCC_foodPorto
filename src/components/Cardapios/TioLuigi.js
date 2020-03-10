@@ -107,17 +107,17 @@ export default function CustomizedExpansionPanels() {
             <Paper className={classes.root}>            
               <div className="font-modal">Média (M)</div>
               <h2>8 Pedaços e 2 Sabores</h2>
-              <div className="preco">R$38,00</div>
+              <div className="preco">R$40,00</div>
             </Paper>
             <Paper className={classes.root}>            
               <div className="font-modal">Grande (G)</div>
               <h2>12 Pedaços e 3 Sabores</h2>
-              <div className="preco">R$45,00</div>
+              <div className="preco">R$50,00</div>
             </Paper>
             <Paper className={classes.root}>            
               <div className="font-modal">Extra Grande (GG)</div>
               <h2>26 Pedaços e 4 Sabores</h2>
-              <div className="preco">R$60,00</div>
+              <div className="preco">R$70,00</div>
             </Paper>
           </Typography>
         </ExpansionPanelDetails>
