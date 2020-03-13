@@ -6,14 +6,14 @@ import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom'
 
 
-import LeBrutoImg from './../../assets/cardapioLeBruto/lebruto.png' 
+// import LeBrutoImg from './../../assets/cardapioLeBruto/lebruto.png' 
 import TheDogFatherImg from './../../assets/cardapioTDF/thedog.png'
 
 import IceRozo from './../../assets/cardapioIR/iceRozo.png'
-import GeneralMexLogo from './../../assets/cardapioGM/GeneralMexLogo.png'
+// import GeneralMexLogo from './../../assets/cardapioGM/GeneralMexLogo.png'
 import Bar from './../../assets/cardapioBC/bar.png'
 import CnBlogo from './../../assets/cardapioCnB/NaBrasaLogo.png'
-import FinoSaborLogo from './../../assets/cardapioFS/finoSaborLogo.png'
+// import FinoSaborLogo from './../../assets/cardapioFS/finoSaborLogo.png'
 import ParqueAlegria from './../../assets/parqueAlegria/ParqueAlegriaLogo.png'
 import AkioJapaLogo from './../../assets/cardapioAJ/AkioJapaLogo.png'
 import ItalianLogo from './../../assets/cardapioITA/ItalianLogo.png'
@@ -57,14 +57,14 @@ export default function ImgMediaCard() {
       </div>
     </Paper>
     </Link>
-    <Link to="/cardapioLB" style={{ textDecoration: 'none' }}>
+    {/* <Link to="/cardapioLB" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
       <div className="font-lista">
         <img src={LeBrutoImg}   className="img img-lebruto" alt=" Le Bruto icon"/>
         Le Bruto
       </div>
     </Paper>
-    </Link>
+    </Link> */}
     <Link to="/cardapioIR" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
@@ -81,22 +81,22 @@ export default function ImgMediaCard() {
       </div>
     </Paper>
     </Link>
-    <Link to="/cardapioGM" style={{ textDecoration: 'none' }}>
+    {/* <Link to="/cardapioGM" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
           <img src={GeneralMexLogo}  className="img" alt=" General Mex icon"/>
           General Mex
         </div>
       </Paper>
-    </Link>
-    <Link to="/cardapioFS" style={{ textDecoration: 'none' }}>
+    </Link> */}
+    {/* <Link to="/cardapioFS" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
           <img src={FinoSaborLogo}  className="img" alt=" Fino Sabor icon"/>
           Fino Sabor
         </div>
       </Paper>
-    </Link>
+    </Link> */}
     <Link to="/cardapioTL" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
