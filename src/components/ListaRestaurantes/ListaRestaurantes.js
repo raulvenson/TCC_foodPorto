@@ -16,7 +16,7 @@ import CnBlogo from './../../assets/cardapioCnB/NaBrasaLogo.png'
 // import FinoSaborLogo from './../../assets/cardapioFS/finoSaborLogo.png'
 import ParqueAlegria from './../../assets/parqueAlegria/ParqueAlegriaLogo.png'
 import AkioJapaLogo from './../../assets/cardapioAJ/AkioJapaLogo.png'
-import ItalianLogo from './../../assets/cardapioITA/ItalianLogo.png'
+import ItalianLogo from './../../assets/cardapioITA/ItalianLogoSF.png'
 import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.png'
 import PortalDoPeixeLogo from './../../assets/cardapioPdP/PortalDoPeixeLogo.jpeg'
 
