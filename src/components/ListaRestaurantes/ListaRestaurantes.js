@@ -19,6 +19,7 @@ import AkioJapaLogo from './../../assets/cardapioAJ/AkioJapaLogo.png'
 import ItalianLogo from './../../assets/cardapioITA/ItalianLogoSF.png'
 import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.png'
 import PortalDoPeixeLogo from './../../assets/cardapioPdP/PortalDoPeixeLogo.jpeg'
+import AmboniBurguerLogo from './../../assets/cardapioAB/AmboniBurguerLogo.png'
 
 
 import './listaRestaurantes.css'
@@ -126,6 +127,14 @@ export default function ImgMediaCard() {
         <div variant="h5" component="h3" className="font-lista">
           <img src={PortalDoPeixeLogo}  className="img" alt=" Portal do Peixe icon"/>
           Portal do Peixe
+        </div>
+      </Paper>
+    </Link>
+    <Link to="/cardapioAB" style={{ textDecoration: 'none' }}>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={AmboniBurguerLogo}  className="img" alt=" Amboni Burguer icon"/>
+          Amboni Burguer
         </div>
       </Paper>
     </Link>

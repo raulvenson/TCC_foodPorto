@@ -14,6 +14,7 @@ import BarChoperia from './components/Cardapios/BarChoperia';
 import Italian from './components/Cardapios/Italian';
 import PortalDoPeixe from './components/Cardapios/PortalDoPeixe';
 import ParqueAlegria from './components/Cardapios/ParqueAlegria';
+import AmboniBurguer from './components/Cardapios/AmboniBurguer';
 
 
 
@@ -31,8 +32,8 @@ export default props =>
         <Route path="/cardapioBC" component={BarChoperia} />
         <Route path="/cardapioITA" component={Italian} />
         <Route path="/cardapioPdP" component={PortalDoPeixe} />
+        <Route path="/cardapioAB" component={AmboniBurguer} />
         <Route path="/parqueAlegria" component={ParqueAlegria} />
-
         
 
         <Redirect from='*' to="/" />
