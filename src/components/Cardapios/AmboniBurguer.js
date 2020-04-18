@@ -327,7 +327,7 @@ export default function CustomizedExpansionPanels() {
                   desc=""
                   price="R$5,00" 
                   img="sucos.png"
-                  path="cardapioTDF" 
+                  path="generic" 
                 /> 
               </Paper>
               <Paper className={classes.root}>            
