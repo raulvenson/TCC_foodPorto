@@ -106,8 +106,8 @@ export default function CustomizedExpansionPanels() {
                 title="X Burguer"
                 desc="Presunto, mussarela, tomate e hamburguer."
                 price="R$10,00"
-                img="semImagem.jpg"
-                path="generic"                 
+                img="x-burguer.png"
+                path="cardapioAB"                 
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -115,8 +115,8 @@ export default function CustomizedExpansionPanels() {
                   title="X Salada"
                   desc="Presunto, mussarela, tomate, alface, milho e hamburguer."
                   price="R$12,00"
-                  img="semImagem.jpg"
-                  path="generic"  
+                  img="x-salada.png"
+                  path="cardapioAB"  
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -124,8 +124,8 @@ export default function CustomizedExpansionPanels() {
                   title="X Natural"
                   desc="Pão baguete, peito de peru, mussarela, cenoura ralada, tomate, alface e molho à escolha."
                   price="R$12,00"
-                  img="semImagem.jpg"
-                  path="generic"  
+                  img="x-natural.jpg"
+                  path="cardapioAB"  
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -133,8 +133,8 @@ export default function CustomizedExpansionPanels() {
                   title="X Egg"
                   desc="Presunto, mussarela, tomate, alface, milho, ovo e hamburguer."
                   price="R$13,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="X-Egg.jpg"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -142,8 +142,8 @@ export default function CustomizedExpansionPanels() {
                   title="X Burguer Duplo"
                   desc="Presunto, mussarela, tomate, alface, milho e dois hamburguer."
                   price="R$14,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="x-burguer-duplo.png"
+                  path="cardapioAB"
                 /> 
               </Paper>            
               <Paper className={classes.root}>            
@@ -151,8 +151,8 @@ export default function CustomizedExpansionPanels() {
                   title="X Calabresa"
                   desc="Presunto, mussarela, tomate, alface, milho, calabresa e hamburguer."
                   price="R$15,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="x-calabresa.png"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -160,8 +160,8 @@ export default function CustomizedExpansionPanels() {
                   title="X Bacon"
                   desc="Presunto, mussarela, tomate, alface, milho, bacon e hamburguer."
                   price="R$16,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="x-bacon.png"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -169,8 +169,8 @@ export default function CustomizedExpansionPanels() {
                   title="X Turbinado"
                   desc="Presunto, mussarela, tomate, alface, milho, bacon, ovo, calabresa, ovo salsicha e hamburguer."
                   price="R$18,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="x-turbinado.jpg"
+                  path="cardapioAB"
                 /> 
               </Paper>
             </Typography>
@@ -187,8 +187,8 @@ export default function CustomizedExpansionPanels() {
                   title="Flash Burguer Kids"
                   desc="Pão, hambúrguer de carne, mussarela e molho à escolha"
                   price="R$15,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="flash-burguer-kids.jpg"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -196,8 +196,8 @@ export default function CustomizedExpansionPanels() {
                   title="Coringa Burguer"
                   desc="Pão, hambúrguer de carne, mussarela, tomate, alface e molho à escolha"
                   price="R$17,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="coringa-burguer.jpg"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -205,8 +205,8 @@ export default function CustomizedExpansionPanels() {
                   title="Thanos Gourmet"
                   desc="Pão, filé de frango, catupiry, mussarela, tomate, alface e molho à escolha"
                   price="R$18,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="thanos-gourmet.jpg"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -214,8 +214,8 @@ export default function CustomizedExpansionPanels() {
                   title="Robin Burguer"
                   desc="Pão, hambúrguer de carne, ovo, mussarela, tomate, alface e molho à escolha"
                   price="R$18,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="robin-burguer.png"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -223,8 +223,8 @@ export default function CustomizedExpansionPanels() {
                   title="Thor Onion Gourmet"
                   desc="Pão, hambúrguer de carne, anéis de cebola crocantes, mussarela, tomate e molho à escolha"
                   price="R$20,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="thor-onion.png"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -232,8 +232,8 @@ export default function CustomizedExpansionPanels() {
                   title="Ultron Bacon"
                   desc="Pão, hambúrguer de carne, bacon em tiras, mussarela, tomate, alface e molho à escolha"
                   price="R$22,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="ultron-bacon.jpg"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -241,8 +241,8 @@ export default function CustomizedExpansionPanels() {
                   title="Yoda Gourmet"
                   desc="Pão, hambúrguer de carne, fatias de banana, mussarela, tomate, alface e molho à escolha"
                   price="R$22,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="yoda-gormet.png"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -250,8 +250,8 @@ export default function CustomizedExpansionPanels() {
                   title="Te Fiti Gourmet"
                   desc="Pão, hambúrguer de carne, rodelas de abacaxi, bacon em tirass, mussarela e molho à escolha"
                   price="R$23,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="te-fiti-gourmet.jpg"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -259,8 +259,8 @@ export default function CustomizedExpansionPanels() {
                   title="Superman Double"
                   desc="Pão, dois hambúrgueres de carne, mussarela, queijo cheddar, tomate, alface e molho à escolha"
                   price="R$25,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="superman-double.png"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            
@@ -268,8 +268,8 @@ export default function CustomizedExpansionPanels() {
                   title="Espectro Gourmet"
                   desc="Pão, hambúrgueres de carne, bacon em tiras, rodelas de cebola crocantes, queijo cheddar e molho à escolha"
                   price="R$27,00"
-                  img="semImagem.jpg"
-                  path="generic"
+                  img="espectro-gormet.png"
+                  path="cardapioAB"
                 /> 
               </Paper>
               <Paper className={classes.root}>            

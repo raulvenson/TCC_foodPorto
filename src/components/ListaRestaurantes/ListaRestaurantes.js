@@ -42,6 +42,14 @@ export default function ImgMediaCard() {
     
       <Header/>
     
+    <Link to="/cardapioAB" style={{ textDecoration: 'none' }}>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={AmboniBurguerLogo}  className="img" alt=" Amboni Burguer icon"/>
+          Amboni Burguer
+        </div>
+      </Paper>
+    </Link>
     <Link to="/cardapioBC" style={{ textDecoration: 'none' }} >
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
@@ -57,6 +65,22 @@ export default function ImgMediaCard() {
         The DogFather       
       </div>
     </Paper>
+    </Link>
+    <Link to="/cardapioAJ" style={{ textDecoration: 'none' }}>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={AkioJapaLogo}  className="img" alt="AkioJapaLogo"/>
+          Akio Japa
+        </div>
+      </Paper>
+    </Link>
+    <Link to="/cardapioITA" style={{ textDecoration: 'none' }}>
+      <Paper className="paper">
+        <div variant="h5" component="h3" className="font-lista">
+          <img src={ItalianLogo}  className="img" alt="Italian icon"/>
+          Italian
+        </div>
+      </Paper>
     </Link>
     {/* <Link to="/cardapioLB" style={{ textDecoration: 'none' }}>
     <Paper className="paper">
@@ -106,22 +130,7 @@ export default function ImgMediaCard() {
         </div>
       </Paper>
     </Link>
-    <Link to="/cardapioAJ" style={{ textDecoration: 'none' }}>
-      <Paper className="paper">
-        <div variant="h5" component="h3" className="font-lista">
-          <img src={AkioJapaLogo}  className="img" alt="AkioJapaLogo"/>
-          Akio Japa
-        </div>
-      </Paper>
-    </Link>
-    <Link to="/cardapioITA" style={{ textDecoration: 'none' }}>
-      <Paper className="paper">
-        <div variant="h5" component="h3" className="font-lista">
-          <img src={ItalianLogo}  className="img" alt="Italian icon"/>
-          Italian
-        </div>
-      </Paper>
-    </Link>
+      
     <Link to="/cardapioPdP" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">
@@ -130,14 +139,7 @@ export default function ImgMediaCard() {
         </div>
       </Paper>
     </Link>
-    <Link to="/cardapioAB" style={{ textDecoration: 'none' }}>
-      <Paper className="paper">
-        <div variant="h5" component="h3" className="font-lista">
-          <img src={AmboniBurguerLogo}  className="img" alt=" Amboni Burguer icon"/>
-          Amboni Burguer
-        </div>
-      </Paper>
-    </Link>
+    
     <Link to="/parqueAlegria" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">

@@ -17,6 +17,8 @@ import Bar from './../../assets/cardapioBC/bar.png'
 
 // import Grid from '@material-ui/core/Grid';
 
+import EnviarMensagem from '../enviarMensagemWPP/EnviarMensagem';
+
 const useStyles = makeStyles(theme => ({
   root: {
     padding: theme.spacing(1.5 , 1),
@@ -182,7 +184,7 @@ export default function CustomizedExpansionPanels() {
                 title="Heineken Long"
                 desc=""
                 price="R$8,00"
-                img="Heineken.PNG"
+                img="Heineken.png"
                 path="cardapioBC"              
               /> 
             </Paper>
@@ -200,7 +202,7 @@ export default function CustomizedExpansionPanels() {
                 title="Budweiser Long"
                 desc=""
                 price="R$7,00"
-                img="budweiser.jpg"
+                img="budweiser.png"
                 path="cardapioBC"              
               /> 
             </Paper>
@@ -209,8 +211,8 @@ export default function CustomizedExpansionPanels() {
                 title="Skol Long"
                 desc=""
                 price="R$6,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="skol-long.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -218,8 +220,8 @@ export default function CustomizedExpansionPanels() {
                 title="Bhrama Zero Long"
                 desc=""
                 price="R$6,00"
-                img="semImagem.jpg"
-                path="cardapioCnB"              
+                img="brahma-long.png"
+                path="cardapioBC"              
               /> 
             </Paper>
 						<Paper className={classes.root}>            
@@ -363,7 +365,7 @@ export default function CustomizedExpansionPanels() {
                 title="Água de Côco 1L"
                 desc=""
                 price="R$10,00"
-                img="AguaCoco.jpg"
+                img="AguaCoco.png"
                 path="cardapioBC"              
               /> 
             </Paper>
@@ -407,12 +409,7 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelDetails>
       </ExpansionPanel>
       </div>
-      {/* <Grid container justify={"center"} className="footer">
-        <a href="https://api.whatsapp.com/send?phone=5565999271048&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!" >
-          <img className="wpp" src={Whats_qld} alt="link para chat WhatsApp"/>
-        </a> 
-      </Grid>
-     */}
+      <EnviarMensagem numero="556599466277"/>
     </div>
   );
 }

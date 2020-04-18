@@ -17,7 +17,7 @@ import AkioJapaLogo from './../../assets/cardapioAJ/AkioJapaLogo.png'
 
 // import Grid from '@material-ui/core/Grid';
 
-// import EnviarMensagem from '../enviarMensagemWPP/EnviarMensagem'
+import EnviarMensagem from '../enviarMensagemWPP/EnviarMensagem'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -877,7 +877,7 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       </div>
 
-      {/* <EnviarMensagem numero="556598002526"/> */}
+      <EnviarMensagem numero="556598002526"/>
     
     </div>
   );
