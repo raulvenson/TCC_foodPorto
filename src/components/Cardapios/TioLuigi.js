@@ -1,30 +1,33 @@
-import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
+import React, { Component } from 'react';
 import MuiExpansionPanel from '@material-ui/core/ExpansionPanel';
 import MuiExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import MuiExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
 import { TiArrowBackOutline } from 'react-icons/ti';
 import Modal from '../Modal/Modal'
-// import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
+// Css
 import './TheDogFather.css'
+
+// Logo
 import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.png'
 
-// import Grid from '@material-ui/core/Grid';
-
+// Envia Mensagem WhatsApp
 // import EnviarMensagem from '../enviarMensagemWPP/EnviarMensagem'
 
-const useStyles = makeStyles(theme => ({
+// Importa o Analytics
+import { analytics } from '../../firebase';
+
+const styles = (theme) => ({
   root: {
     padding: theme.spacing(1.5 , 1),
     marginBottom: 6,
     backgroundColor: '#ffc025',
   },
-}));
+});
 
 const ExpansionPanel = withStyles({
   root: {
@@ -67,33 +70,59 @@ const ExpansionPanelDetails = withStyles(theme => ({
   },
 }))(MuiExpansionPanelDetails);
 
-export default function CustomizedExpansionPanels() {
-  const classes = useStyles();
-
-  const [expanded, setExpanded] = React.useState('  ');
-
-  const handleChange = panel => (event, newExpanded) => {
-    setExpanded(newExpanded ? panel : false);
+class TioLuigi extends Component {
+  state = {
+    expanded: false,
+    timeoutId: null
   };
+
+  componentDidMount() {
+    // Espera o component ser montado
+    const timeoutId = setTimeout(() => {
+      analytics.logEvent('restaurante_view', {
+        clickDiario: `TioLuigi - ${new Date().toLocaleDateString()}`,
+        clickMensal: `TioLuigi - ${String(new Date().getMonth() + 1).padStart(2, '0')}/${new Date().getFullYear()}`
+      });
+    }, 5000 /* tempo in ms */ );
+    this.setState({ timeoutId });
+  }
+
+  componentWillUnmount() {
+    // Antes do componente ser desmontado
+    const { timeoutId } = this.state;
+    // cancela o tempo de 5s
+    clearTimeout(timeoutId);
+  }
+
+  handleChange = (panel) => (event, newExpanded) => {
+    this.setExpanded(newExpanded ? panel : false);
+  };
+
+  setExpanded = (value) => {
+    this.setState({
+      expanded: value
+    })
+  };
+
+  render() {
+    const { classes } = this.props;
+    const { expanded } = this.state;
 
   return (
     <div className="cardapio">
       <div className="header">
       <Paper className={classes.root}>
         <div className="font-lista cabecalho">
-          <img src={TioLuigiLogo}  className="img-header" alt="General Mex logo"/>
+          <img src={TioLuigiLogo}  className="img-header" alt="Tio Luigi logo"/>
           Tio Luigi
         </div>    
         <div className="cabecalho icones">
           <Link to="/listaRestaurantes" style={{ textDecoration: 'none' }}><TiArrowBackOutline className="back-icon"/></Link>
         </div>
-        {/* <div className="cabecalho icones">
-          <AvaliacaoModal className="avaliacao" />
-        </div> */}
       </Paper>
       </div>
       <div className="content">
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={this.handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
           <div className="font-topic">Tamanhos</div>
         </ExpansionPanelSummary>
@@ -122,7 +151,7 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel2'} onChange={this.handleChange('panel2')}>
         <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
           <div className="font-topic">Pizzas</div>
         </ExpansionPanelSummary>
@@ -284,7 +313,7 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={this.handleChange('panel3')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
           <div className="font-topic">Pizzas Doces</div>
         </ExpansionPanelSummary>
@@ -320,7 +349,7 @@ export default function CustomizedExpansionPanels() {
             </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={this.handleChange('panel4')}>
         <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
           <div className="font-topic">Bordas Recheadas</div>
         </ExpansionPanelSummary>
@@ -349,7 +378,7 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={this.handleChange('panel5')}>
         <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
         <div className="font-topic">Bebidas</div>
         </ExpansionPanelSummary>
@@ -407,4 +436,7 @@ export default function CustomizedExpansionPanels() {
       {/* <EnviarMensagem numero="5565998526577" /> */}
     </div>
   );
-}
+};
+};
+
+export default withStyles(styles)(TioLuigi);

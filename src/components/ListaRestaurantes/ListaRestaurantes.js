@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 
 import Paper from '@material-ui/core/Paper';
@@ -32,13 +32,11 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaGlobe } from 'react-icons/fa';
 
 
-
-export default function ImgMediaCard() {
-
-  
-
-  return (
-    <div className="restaurante">
+export default class listaRestaurantess extends Component {
+  render() {
+   
+    return (
+      <div className="restaurante">
     
       <Header/>
     
@@ -160,5 +158,16 @@ export default function ImgMediaCard() {
       </a>
     </Grid>
     </div>
-  );
+    );
+  }
 }
+
+
+// export default function ImgMediaCard() {
+
+  
+
+//   return (
+    
+//   );
+// }

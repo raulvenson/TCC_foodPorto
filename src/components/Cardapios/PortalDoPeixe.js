@@ -1,35 +1,39 @@
-import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
+import React, { Component } from 'react';
 import MuiExpansionPanel from '@material-ui/core/ExpansionPanel';
 // import MuiExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import MuiExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
-// import Whats_qld from '../../assets/whats_.png';
 import { TiArrowBackOutline } from 'react-icons/ti';
 // import Modal from '../Modal/Modal'
-// import AvaliacaoModal from '../Modal/AvaliacaoModal'
 
+// Css
 import './TheDogFather.css'
 
+// Logo
 import PortalDoPeixeLogo from './../../assets/cardapioPdP/PortalDoPeixeLogo.jpeg'
+
+// Envia Mensagem WhatsApp
+// import EnviarMensagem from '../enviarMensagemWPP/EnviarMensagem'
+
+// Importa o Analytics
+import { analytics } from '../../firebase';
+
+//Imagens
 import Porcoes from './../../assets/cardapioPdP/Porcoes.jpeg'
 import Complementos from './../../assets/cardapioPdP/Complementos.jpeg'
 import Cevicht from './../../assets/cardapioPdP/Cevicht.jpeg'
 import Caldo from './../../assets/cardapioPdP/Caldo.jpeg'
 
-
-// import Grid from '@material-ui/core/Grid';
-
-const useStyles = makeStyles(theme => ({
+const styles = (theme) => ({
   root: {
     padding: theme.spacing(1.5 , 1),
     marginBottom: 6,
     backgroundColor: '#ffc025',
   },
-}));
+});
 
 const ExpansionPanel = withStyles({
   root: {
@@ -72,21 +76,50 @@ const ExpansionPanelDetails = withStyles(theme => ({
   },
 }))(MuiExpansionPanelDetails);
 
-export default function CustomizedExpansionPanels() {
-  const classes = useStyles();
-
-  const [expanded, setExpanded] = React.useState('  ');
-
-  const handleChange = panel => (event, newExpanded) => {
-    setExpanded(newExpanded ? panel : false);
+class PortalDoPeixe extends Component {
+  state = {
+    expanded: false,
+    timeoutId: null
   };
+
+  componentDidMount() {
+    // Espera o component ser montado
+    const timeoutId = setTimeout(() => {
+      analytics.logEvent('restaurante_view', {
+        clickDiario: `PortalDoPeixe - ${new Date().toLocaleDateString()}`,
+        clickMensal: `PortalDoPeixe - ${String(new Date().getMonth() + 1).padStart(2, '0')}/${new Date().getFullYear()}`
+      });
+    }, 5000 /* tempo in ms */ );
+    this.setState({ timeoutId });
+  }
+
+  componentWillUnmount() {
+    // Antes do componente ser desmontado
+    const { timeoutId } = this.state;
+    // cancela o tempo de 5s
+    clearTimeout(timeoutId);
+  }
+
+  handleChange = (panel) => (event, newExpanded) => {
+    this.setExpanded(newExpanded ? panel : false);
+  };
+
+  setExpanded = (value) => {
+    this.setState({
+      expanded: value
+    })
+  };
+
+  render() {
+    const { classes } = this.props;
+    const { expanded } = this.state;
 
   return (
     <div className="cardapio">
       <div className="header">
       <Paper className={classes.root}>
         <div className="font-lista cabecalho">
-          <img src={PortalDoPeixeLogo}  className="img-header" alt="General Mex logo"/>
+          <img src={PortalDoPeixeLogo}  className="img-header" alt="Portal do Peixe logo"/>
           Portal do Peixe
         </div>    
         <div className="cabecalho icones">
@@ -98,7 +131,7 @@ export default function CustomizedExpansionPanels() {
       </Paper>
       </div>
       <div className="content">
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={this.handleChange('panel1')}>
         {/* <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
           <div className="font-topic">Pratos</div>
         </ExpansionPanelSummary> */}
@@ -124,13 +157,10 @@ export default function CustomizedExpansionPanels() {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      </div>
-      {/* <Grid container justify={"center"} className="footer">
-        <a href="https://api.whatsapp.com/send?phone=5565999271048&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido!" >
-          <img className="wpp" src={Whats_qld} alt="link para chat WhatsApp"/>
-        </a> 
-      </Grid> */}
-    
+      </div>    
     </div>
   );
 }
+};
+
+export default withStyles(styles)(PortalDoPeixe);
