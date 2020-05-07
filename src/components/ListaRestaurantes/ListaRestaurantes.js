@@ -5,7 +5,7 @@ import Paper from '@material-ui/core/Paper';
 
 import {Link} from 'react-router-dom'
 
-
+//IMPORT DOS RESTAURANTES
 // import LeBrutoImg from './../../assets/cardapioLeBruto/lebruto.png' 
 import TheDogFatherImg from './../../assets/cardapioTDF/thedog.png'
 
@@ -20,7 +20,10 @@ import ItalianLogo from './../../assets/cardapioITA/ItalianLogoSF.png'
 import TioLuigiLogo from './../../assets/cardapioTL/TioLuigiLogo.png'
 import PortalDoPeixeLogo from './../../assets/cardapioPdP/PortalDoPeixeLogo.jpeg'
 import AmboniBurguerLogo from './../../assets/cardapioAB/AmboniBurguerLogo.png'
+/*--------------------------------------------------------------------------------*/
 
+//Import Carousel
+import SectionCarousel from '../Carousel/SectionCarousel';
 
 import './listaRestaurantes.css'
 import Header from '../Header/Header';
@@ -39,7 +42,8 @@ export default class listaRestaurantess extends Component {
       <div className="restaurante">
     
       <Header/>
-    
+      <SectionCarousel />
+
     <Link to="/cardapioAB" style={{ textDecoration: 'none' }}>
       <Paper className="paper">
         <div variant="h5" component="h3" className="font-lista">

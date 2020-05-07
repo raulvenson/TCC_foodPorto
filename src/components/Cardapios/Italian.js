@@ -123,6 +123,25 @@ class Italian extends Component {
       <div className="content">
       <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={this.handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
+          <div className="font-topic">Promoções</div>
+        </ExpansionPanelSummary>
+        
+        <ExpansionPanelDetails className="details">
+          <Typography>
+            <Paper className={classes.root}>            
+              <Modal 
+                title="Macarrão + Suco"
+                desc="Promoção válida para todas as Quartas-Feiras"
+                price="R$30,00"
+                img="Italian.jpeg"
+                path="carousel" 
+              /> 
+            </Paper>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel2'} onChange={this.handleChange('panel2')}>
+        <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
           <div className="font-topic">Pratos</div>
         </ExpansionPanelSummary>
         
@@ -149,8 +168,8 @@ class Italian extends Component {
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel2'} onChange={this.handleChange('panel2')}>
-        <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={this.handleChange('panel3')}>
+        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
           <div className="font-topic">Opções de Ingredientes</div>
         </ExpansionPanelSummary>
         
@@ -160,8 +179,8 @@ class Italian extends Component {
           </Paper>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel3'} onChange={this.handleChange('panel3')}>
-        <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
+      <ExpansionPanel className="paper-root" square expanded={expanded === 'panel4'} onChange={this.handleChange('panel4')}>
+        <ExpansionPanelSummary aria-controls="panel4d-content" id="panel4d-header">
           <div className="font-topic">Molhos</div>
         </ExpansionPanelSummary>
         

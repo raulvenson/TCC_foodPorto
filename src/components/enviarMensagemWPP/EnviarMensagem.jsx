@@ -9,14 +9,6 @@ import '../Cardapios/TheDogFather.css'
 import {analytics} from '../../firebase'
 
 class EnviarMensagem extends Component {
-
-	componentDidMount() {
-		const { nome } = this.props;
-		analytics.logEvent('whatsApp_Click', {
-			clickDiario: `${nome} - ${new Date().toLocaleDateString()}`,
-			clickMensal: `${nome} - ${String(new Date().getMonth() + 1).padStart(2, '0')}/${new Date().getFullYear()}`
-		});
-	  }
 	
 	enviarMensagem = () => {
 		var celular = this.props.numero;
@@ -25,10 +17,14 @@ class EnviarMensagem extends Component {
 		texto = window.encodeURIComponent(texto);
 		
 		window.open("https://api.whatsapp.com/send?phone=" + celular + "&text=" + texto, "_blank");
+		
+		const { nome } = this.props;
+		analytics.logEvent('WhatsApp', {
+			clickDiario: `${nome} - ${new Date().toLocaleDateString()}`,
+			clickMensal: `${nome} - ${String(new Date().getMonth() + 1).padStart(2, '0')}/${new Date().getFullYear()}`
+		});	
 	}
 	render(){
-
-	
 
 		return(
 			<Grid container justify={"center"} className="footer">  

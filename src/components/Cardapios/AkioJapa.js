@@ -122,6 +122,24 @@ class AkioJapa extends Component {
           </Paper>
         </div>
         <div className="content">
+        <ExpansionPanel className="paper-root" square expanded={expanded === 'panel16'} onChange={this.handleChange('panel16')}>
+            <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
+            <div className="font-topic">Promoção!</div>
+          </ExpansionPanelSummary>
+          <ExpansionPanelDetails className="details">
+            <Typography>
+              <Paper className={classes.root}>            
+                <Modal 
+                  title="Em compras acima de R$60,00 ganhe 01 Hot Roll nº 39!"
+                  desc="Promoção válida apenas Terça, Quarta e Quinta-Feira!"
+                  price=""
+                  img="HotRoll.jpeg"
+                  path="carousel"               
+                /> 
+              </Paper>
+            </Typography>
+          </ExpansionPanelDetails>
+        </ExpansionPanel>
           <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={this.handleChange('panel1')}>
             <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
             <div className="font-topic">Entradas</div>
