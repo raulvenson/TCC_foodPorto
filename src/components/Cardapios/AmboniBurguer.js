@@ -125,6 +125,25 @@ class AmboniBurguer extends Component {
         </Paper>
       </div>
       <div className="content">
+      {/* <ExpansionPanel className="paper-root" square expanded={expanded === 'panel5'} onChange={this.handleChange('panel5')}>
+          <ExpansionPanelSummary aria-controls="panel5d-content" id="panel5d-header">
+            <div className="font-topic">Promoções!</div>
+          </ExpansionPanelSummary>
+          
+          <ExpansionPanelDetails className="details">
+            <Typography>
+              <Paper className={classes.root}>            
+              <Modal 
+                title="2 Flash Kids + 2 Mini Refrigerantes + Porção de Fritas!"
+                desc="Promoção válida até domingo! (10/05/2020)"
+                price="R$26,50"
+                img="amboni_Kids.jpeg"
+                path="carousel"                 
+                /> 
+              </Paper>
+            </Typography>
+          </ExpansionPanelDetails>
+        </ExpansionPanel> */}
         <ExpansionPanel className="paper-root" square expanded={expanded === 'panel1'} onChange={this.handleChange('panel1')}>
           <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
             <div className="font-topic">Fast Foods</div>

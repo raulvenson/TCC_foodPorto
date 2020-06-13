@@ -22,7 +22,7 @@ import PortalDoPeixeLogo from './../../assets/cardapioPdP/PortalDoPeixeLogo.jpeg
 import { analytics } from '../../firebase';
 
 //Imagens
-import Porcoes from './../../assets/cardapioPdP/Porcoes.jpeg'
+import Porcoes from './../../assets/cardapioPdP/Porcao.jpeg'
 import Complementos from './../../assets/cardapioPdP/Complementos.jpeg'
 import Cevicht from './../../assets/cardapioPdP/Cevicht.jpeg'
 import Caldo from './../../assets/cardapioPdP/Caldo.jpeg'

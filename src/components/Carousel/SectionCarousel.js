@@ -10,7 +10,7 @@ import './index.css'
 //Imagens
 import imageOne from '../../assets/carousel/Italian.jpeg'
 import imageTwo from '../../assets/carousel/NaBrasa.jpg'
-import imageThree from '../../assets/carousel/HotRoll.jpeg'
+import imageThree from '../../assets/carousel/ajBolinhoSalmao.jpeg'
 import imageFour from '../../assets/carousel/AmboniBurguer.jpg'
 import imageFive from '../../assets/cardapioIR/TacaFrutas.jpeg'
 

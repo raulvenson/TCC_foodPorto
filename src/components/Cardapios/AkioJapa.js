@@ -130,10 +130,10 @@ class AkioJapa extends Component {
             <Typography>
               <Paper className={classes.root}>            
                 <Modal 
-                  title="Em compras acima de R$60,00 ganhe 01 Hot Roll nº 39!"
+                  title="Compre R$60,00 em sushi e ganhe uma porção de bolinho de Salmão!"
                   desc="Promoção válida apenas Terça, Quarta e Quinta-Feira!"
                   price=""
-                  img="HotRoll.jpeg"
+                  img="ajBolinhoSalmao.jpeg"
                   path="carousel"               
                 /> 
               </Paper>
